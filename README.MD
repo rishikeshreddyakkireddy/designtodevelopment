@@ -1,6 +1,6 @@
 # DesignToDevelopment D2D
 
-This Will Be Fun :)!.
+This Will Be Fun :).
 I will provide you the design and you can contribute by building it.
 
 ## Contribute through HacktoberFest
