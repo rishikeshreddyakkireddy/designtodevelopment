@@ -1,6 +1,6 @@
 # DesignToDevelopment D2D
 
-This Will Be Fun :)!.
+This Will Be Fun :).
 I will provide you the design and you can contribute by building it.
 
 ## Contribute through HacktoberFest
@@ -13,18 +13,16 @@ People who are very new in the Open source Community star_struck and who are eag
 
 **step1 :** Select An issue from  [issue's](https://github.com/rishikeshreddyakkireddy/designtodevelopment/issues) section
 
-**step2 :** Clone It
+**step2 :** Fork It
+
+**step3 :** Clone It
 
 ```bash
     git clone https://github.com/rishikeshreddyakkireddy/designtodevelopment.git
 ```
 
-**step3 :** Fork It
-
-**step4 :** Start Developing the project by creating a new folder and name the folder with your name 
+**step4 :** Start Developing the project by creating a new folder and name the folder with your name
 
 **step5 :** And make a PR ;)
-
-
 
 **If you had fun in contributing to our project than please make sure to star our repository**
