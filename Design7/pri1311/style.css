@@ -1,0 +1,158 @@
+:root {
+	--primary: #02def3;
+	--secondary: #ffcd01;
+	--primary-text: #ffffff;
+	--secondary-text: #262d3b;
+}
+
+body {
+	background-color: var(--primary);
+	padding: 0 5em;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+body::before {
+	content: "";
+	position: absolute;
+	left: 55%;
+	bottom: -20%;
+	height: 150vh;
+	width: 100%;
+	background-color: var(--secondary);
+	border-radius: 200vh;
+}
+
+button {
+	border-radius: 15px;
+	padding: 5px 20px;
+	margin: 50px 10px;
+	font-size: 0.75rem;
+	border: none;
+	outline: none;
+	font-weight: bold;
+}
+
+.shadow {
+	-webkit-box-shadow: 0 2px 1px -1px var(--secondary-text);
+	-moz-box-shadow: 0 2px 1px -1px var(--secondary-text);
+	box-shadow: 0 2px 1px -1px var(--secondary-text);
+}
+
+.landing-page,
+.navbar {
+	padding: 0 5em;
+}
+
+.navbar {
+	margin-bottom: 1em;
+	align-items: center;
+}
+
+.navbar a {
+	padding: 0;
+	margin-top: 1em;
+	align-self: center;
+}
+
+.language-opt a {
+	font-weight: bold;
+}
+
+.language-active a {
+	color: var(--secondary-text);
+}
+
+.f-logo {
+	border-radius: 50%;
+	background-color: var(--secondary-text);
+	color: var(--primary-text);
+	padding: 0.25em;
+	height: 2.5em;
+	width: 2.5em;
+	align-items: center;
+	justify-content: center;
+	margin-left: 2em;
+}
+
+.f-logo h1 {
+	font-size: 1.75em;
+	text-align: center;
+}
+
+.home-logo {
+	height: 3.5em;
+}
+
+.home-name {
+	color: var(--secondary-text);
+	font-weight: bolder;
+	font-size: 3.5em;
+}
+
+.home-tag {
+	color: var(--primary-text);
+	writing-mode: vertical-lr;
+	transform: rotate(180deg);
+	margin: 0;
+	font-size: 1.7em;
+}
+
+.landing-page-image img {
+	height: 30em;
+	z-index: 10;
+	/* margin: 0 10em 0 15em; */
+}
+
+.button-concept {
+	background-color: var(--secondary);
+	color: var(--primary-text);
+}
+
+.button-contact {
+	color: var(--secondary-text);
+}
+
+.landing-page-slogan h1 {
+	color: var(--primary-text);
+	font-weight: bold;
+	line-height: 0.8;
+	letter-spacing: 3px;
+}
+
+.nav-link {
+	margin-bottom: 10px;
+	color: var(--primary-text);
+}
+
+.navbar-brand img {
+	height: 1.5em;
+}
+
+.navbar-brand {
+	font-weight: bold;
+	margin-top: 0.5em;
+}
+
+@media screen and (max-width: 1000px) {
+	body {
+		overflow: scroll;
+		padding: 0;
+	}
+
+	.landing-page {
+		padding: 1em;
+	}
+
+	body::before {
+		content: "";
+		position: absolute;
+		left: 55%;
+		bottom: -20%;
+		height: 0;
+		width: 0;
+		background-color: var(--secondary);
+		border-radius: 200vh;
+	}
+}
