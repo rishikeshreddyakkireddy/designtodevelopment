@@ -24,26 +24,17 @@ body::before {
 	border-radius: 200vh;
 }
 
-.landing-page-button {
-	border-radius: 15px;
-	padding: 5px 20px;
-	margin: 50px 10px;
-	font-size: 0.75rem;
-	border: none;
+a:hover {
+	color: var(--secondary-text);
+}
+
+button:active,
+button:hover {
 	outline: none;
-	font-weight: bold;
+	border: none;
 }
 
-.shadow {
-	-webkit-box-shadow: 0 2px 1px -1px var(--secondary-text);
-	-moz-box-shadow: 0 2px 1px -1px var(--secondary-text);
-	box-shadow: 0 2px 1px -1px var(--secondary-text);
-}
-
-.landing-page,
-.navbar {
-	padding: 0 5em;
-}
+/* NavBar */
 
 .navbar {
 	margin-bottom: 1em;
@@ -79,6 +70,47 @@ body::before {
 .f-logo h1 {
 	font-size: 1.75em;
 	text-align: center;
+}
+
+.nav-link {
+	margin-bottom: 10px;
+	color: var(--primary-text);
+}
+
+.navbar-brand img {
+	height: 1.5em;
+}
+
+.navbar-brand {
+	font-weight: bold;
+	margin-top: 0.5em;
+}
+
+.navbar-toggler {
+	background-color: var(--secondary);
+}
+
+/* Main Page */
+
+.landing-page-button {
+	border-radius: 15px;
+	padding: 5px 20px;
+	margin: 50px 10px;
+	font-size: 0.75rem;
+	border: none;
+	outline: none;
+	font-weight: bold;
+}
+
+.shadow {
+	-webkit-box-shadow: 0 2px 1px -1px var(--secondary-text);
+	-moz-box-shadow: 0 2px 1px -1px var(--secondary-text);
+	box-shadow: 0 2px 1px -1px var(--secondary-text);
+}
+
+.landing-page,
+.navbar {
+	padding: 0 5em;
 }
 
 .home-logo {
@@ -121,32 +153,15 @@ body::before {
 	letter-spacing: 3px;
 }
 
-.nav-link {
-	margin-bottom: 10px;
-	color: var(--primary-text);
-}
-
-.navbar-brand img {
-	height: 1.5em;
-}
-
-.navbar-brand {
-	font-weight: bold;
-	margin-top: 0.5em;
-}
-
-.navbar-toggler {
-	background-color: var(--secondary);
-}
+/* Media Queries */
 
 @media screen and (max-width: 1024px) {
 	body {
-		overflow: scroll;
 		padding: 0;
 	}
 
 	.navbar {
-		padding: 2em;
+		padding: 0 2em;
 	}
 
 	.navbar-toggler {
@@ -156,7 +171,12 @@ body::before {
 	.landing-page {
 		padding: 1em;
 	}
+}
 
+@media screen and (max-width: 765px) {
+	body {
+		overflow: scroll;
+	}
 	body::before {
 		content: "";
 		position: absolute;
