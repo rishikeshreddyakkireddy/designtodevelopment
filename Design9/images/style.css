@@ -1,0 +1,11 @@
+body{
+    background-color: black;
+}
+.logo{
+    position: relative;
+    height: 50px;
+    width: 50px;
+}
+.front_img{
+    width: 700px;
+}
