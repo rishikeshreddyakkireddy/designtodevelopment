@@ -28,6 +28,10 @@ a:hover {
 	color: var(--secondary-text);
 }
 
+span {
+	text-align: center;
+}
+
 button:active,
 button:hover {
 	outline: none;
@@ -95,7 +99,7 @@ button:hover {
 .landing-page-button {
 	border-radius: 15px;
 	padding: 5px 20px;
-	margin: 50px 10px;
+	margin: 50px 40px 50px 25px;
 	font-size: 0.75rem;
 	border: none;
 	outline: none;
@@ -134,7 +138,6 @@ button:hover {
 .landing-page-image img {
 	height: 30em;
 	z-index: 10;
-	/* margin: 0 10em 0 15em; */
 }
 
 .button-concept {
