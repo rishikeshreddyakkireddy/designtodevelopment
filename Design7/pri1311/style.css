@@ -16,15 +16,15 @@ body {
 body::before {
 	content: "";
 	position: absolute;
-	left: 55%;
-	bottom: -20%;
+	left: 58%;
+	bottom: -30%;
 	height: 150vh;
 	width: 100%;
 	background-color: var(--secondary);
 	border-radius: 200vh;
 }
 
-button {
+.landing-page-button {
 	border-radius: 15px;
 	padding: 5px 20px;
 	margin: 50px 10px;
@@ -135,10 +135,22 @@ button {
 	margin-top: 0.5em;
 }
 
-@media screen and (max-width: 1000px) {
+.navbar-toggler {
+	background-color: var(--secondary);
+}
+
+@media screen and (max-width: 1024px) {
 	body {
 		overflow: scroll;
 		padding: 0;
+	}
+
+	.navbar {
+		padding: 2em;
+	}
+
+	.navbar-toggler {
+		margin: 1em;
 	}
 
 	.landing-page {
