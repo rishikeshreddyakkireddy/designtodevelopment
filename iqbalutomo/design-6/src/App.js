@@ -53,18 +53,18 @@ l-22 -23 22 -23 c18 -20 19 -26 8 -35 -11 -9 -21 -4 -47 23 l-34 35 34 35 c26
       </nav>
 
       <div className="flex p-5 px-28 items-top justify-center mt-10">
-        <div className="flex-1 mt-10">
-          <p className="font-mono lg:text-6xl 2xl:text-8xl font-bold text-left mb-7">
+        <div className="flex-1 mt-10 lg:-ml-10 xl:mt-20 xl:ml-20 lgLaptop:ml-10 lgLaptop:mt-20 lgLaptop:ml-20 xlLaptop:mt-20 xlLaptop:ml-20">
+          <p className="font-mono font-bold text-left mb-7 lg:text-4xl lg:pl-20 miniLaptop:text-5xl laptop:text-6xl lgLaptop:text-6xl xlLaptop:text-7xl xl:text-6xl 2xl:text-8xl">
             Get help with <br />
             coding from <br /> engineers.
           </p>
-          <p className="text-left lg:text-lg text-2xl">
+          <p className="text-left lg:text-xs text-2xl lg:pl-20 laptop:text-lg lgLaptop:text-lg xlLaptop:text-lg xl:text-lg 2xl:text-3xl">
             Learn how to code efficiently and create <br /> apps and games that work. Consult with <br />
             best experts to apply skills in action.
           </p>
-          <div className="text-left mt-10">
-            <button className="btn-header text-lg md:text-sm text-background px-8 py-5">Start learning</button>
-            <button className="text-sm text-lg md:text-sm px-4 py-2">
+          <div className="text-left mt-10 lg:pl-20">
+            <button className="btn-header text-background px-8 py-5 lg:text-xs lg:px-4 lg:py-4 laptop:text-sm lgLaptop:text-sm xlLaptop:text-sm xl:text-sm 2xl:text-lg 2xl:px-8 2xl:py-6">Start learning</button>
+            <button className="text-sm lg:text-xs laptop:text-sm lgLaptop:text-sm xlLaptop:text-sm xl:text-sm 2xl:text-lg px-4 py-2">
               <svg className="w-6 h-6 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
