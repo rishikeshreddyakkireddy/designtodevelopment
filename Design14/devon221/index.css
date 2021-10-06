@@ -1,0 +1,176 @@
+.body{
+    position: absolute;
+    width: 100%;
+    height : 100% ;
+
+background: linear-gradient(89.96deg, #151313 25.92%, rgba(105, 14, 14, 0.99) 105.16%, rgba(64, 42, 43, 0.990249) 105.16%);
+}
+.col{
+    width : 50%;
+}
+.content-box{
+    position: absolute;
+width: 1400px;
+height: 766px;
+left: 0px;
+top: 0px;
+}
+
+.text-box{
+    top : 300px;
+    left : 400px;
+    width : 1300px ;
+    position : fixed;
+}
+.image-box{
+    position: absolute;
+width: 598px;
+height: 766px;
+left: 768px;
+top: 0px;
+}
+.fab{
+    color : white ;
+    font-size: 22px;
+}
+
+.fab:hover{
+    cursor: pointer;
+    color :rgba(105, 14, 14, 0.99) ;
+    transition: 0.3s;
+}
+
+
+.circ-bg {
+  
+background: linear-gradient(180deg, #CC3538 0%, rgba(204, 53, 56, 0) 100%);
+    border-radius: 50%;
+    width: 573px;
+height: 542px;
+left: 768px;
+top: 96px;
+    margin-top: 116px;
+  }
+
+ .navbar-box{
+     position: fixed ;
+     width : 100%;
+     height: 30px;
+     top : 0px;
+ }
+
+ .nav-list li{
+     padding : 3px ;
+     margin : 50 80 ;
+     display: inline-block;
+     list-style: none;
+     color : white;
+     font-size : 22px ;
+ }
+
+ .nav-list li:hover{
+     border-bottom: white solid 3px;
+     cursor: pointer;
+     transition: 0.2s;
+ }
+
+img{
+    top : 20px;
+  position: absolute;
+    width : 598px;
+    height : 766px;
+    object-fit: cover;
+  
+}
+
+.text-box{
+height: 191px;
+width: 536px;
+left: 147px;
+top: 192px;
+color : white ;
+
+}
+.title{
+    
+    font-size : 24px ;
+
+}
+.hide{
+    display: none;
+}
+.title:hover{
+    cursor:pointer;
+
+}
+
+.title-2{
+    
+    font-size : 64px;
+}
+#sm-1{
+    display: inline-block;
+    margin : 20px;
+    position: relative;
+    bottom : 25px;
+}
+
+#sm-1:hover{
+    border-bottom: white solid 3px;
+     cursor: pointer;
+     transition: 0.2s;
+     
+}
+
+.title-3{
+    padding : 40px 0px ;
+}
+
+.circ-btn{
+    width : 50px ;
+    height : 50px ; 
+    margin : 10px;
+    padding : 20px;
+    border-radius : 50%;
+    display: inline-block;
+    border : white 1px solid;
+   
+}
+
+.circ-btn:hover{
+    box-shadow :  0 0 0 15px #151313, 0 0 0 15.5px white ;
+    transition : 0.2s;
+    cursor: pointer;
+}
+
+.circ-bg-2{
+
+        position : absolute;
+        background: linear-gradient(180deg, #CC3538 0%, rgba(204, 53, 56, 0) 100%);
+            border-radius: 50%;
+            width: 200px;
+        height: 200px;
+        left: 400px;
+        top: 600px;
+            margin-top: 116px;
+          
+}
+
+
+.prg-box {
+    position: fixed;
+    bottom : 30px;
+    margin-left : 90px;
+    width: 20%;
+    height: 2px;
+    background: rgb(73, 48, 48);
+    color:#ccc;
+  }
+  
+  /* The progress bar (scroll indicator) */
+  .prog-bar {
+      
+    height: 2px;
+    background: rgb(221, 218, 218);
+    width: 20%;
+  }
