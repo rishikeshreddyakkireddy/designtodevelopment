@@ -1,0 +1,233 @@
+/* googleFonts Start*/
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@300&display=swap');
+/* googleFonts End*/
+body {
+    margin: auto;
+    background-color: #20061B;
+}
+
+.mainBackground{
+    margin-left: 30%;
+    padding: 5%;
+    position: relative;
+    display: inline-block;
+}
+
+/* ********************************************card start here */
+.card1{
+    background: linear-gradient(45deg,#FF1251,#DC9906);
+    width: 10vw;
+    height: 45vh;
+    box-shadow: 0 0 15px 0 #DC9906,1px 1px 15px 0 #FF1251;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 10%;
+    transition-property: all;
+    transition-duration: 0.9s;
+    transform: skewX(5deg);
+    position: absolute;
+    left: 5%;
+    text-align: left;
+    overflow: hidden;
+}
+.card1:hover{
+    background: linear-gradient(135deg,#FF1251,#DC9906);
+    width: 20vw;
+    height: 60vh;
+    transform: skewX(0deg);
+    box-shadow: -15px -15px 40px 0 #FF1251,15px 15px 40px 0 #DC9906;
+    border-radius: 15px;
+    z-index: 1000;
+    padding-left: 1%;
+    text-align: left;
+    text-shadow: 5px 5px 10px black;
+    padding-left: 2%;
+}
+
+.card1 h2{
+    color: black;
+    font-family: 'Abril Fatface', cursive;
+    font-size: xx-large;
+    margin: 0;
+    padding-left: 5%;
+    text-shadow: 0 5px 10px black;
+}
+.card2{
+    background: linear-gradient(45deg,#F70A62,#1686CE);
+    width: 10vw;
+    height: 45vh;
+    box-shadow: 0 0 15px 0 #1686CE,1px 1px 15px 0 #F70A62;
+
+    border-radius: 5px;
+
+    display: inline-block;
+    margin-right: 10%;
+    transition-property: all;
+    transition-duration: 0.9s;
+    transform: skewX(5deg);
+    position: absolute;
+    left: 25%;
+    text-align: left;
+    overflow: hidden;
+}
+.card2:hover{
+    background: linear-gradient(135deg,#F70A62,#1686CE);
+    width: 20vw;
+    height: 60vh;
+    transform: skewX(0deg);
+    box-shadow: -15px -15px 40px 0 #F70A62,15px 15px 40px 0 #1686CE;
+    border-radius: 15px;
+    z-index: 1000;
+    padding-left: 1%;
+    padding-top: 0%;
+    text-align: left;
+    text-shadow: 5px 5px 10px black;
+}
+.card2 h2{
+    color: black;
+    font-family: 'Abril Fatface', cursive;
+    font-size: xx-large;
+    margin: 0%;
+    padding-left: 5%;
+    text-shadow: 0 5px 10px black;
+}
+.card3{
+    background: linear-gradient(45deg,#0BD1F2,#3FD813);
+    width: 10vw;
+    height: 45vh;
+    box-shadow: 0 0 15px 0 #3FD813,1px 1px 15px 0 #0BD1F2;
+
+    border-radius: 5px;
+
+    display: inline-block;
+    transition-property: all;
+    transition-duration: 0.9s;
+    transform: skewX(5deg);
+    position: absolute;
+    left: 45%;
+    text-align: left;
+    overflow: hidden;
+}
+.card3:hover{
+    background: linear-gradient(135deg,#0BD1F2,#3FD813);
+    width: 20vw;
+    height: 60vh;
+    transform: skewX(0deg);
+    box-shadow: -15px -15px 40px 0 #0BD1F2,15px 15px 40px 0 #3FD813;
+    border-radius: 15px;
+    z-index: 1000;
+    padding-left: 1%;
+    text-align: left;   
+    text-shadow: 5px 5px 10px black;
+}
+.card3 h2{
+    color: black;
+    font-family: 'Abril Fatface', cursive;
+    font-size: xx-large;
+    margin: 0%;
+    padding-left: 5%;
+    text-shadow: 0 5px 10px black;
+
+}
+.info1 , .info2, .info3{
+    position: relative;
+    top: 40px;
+    color: #20061B;
+    font-family: 'KoHo', sans-serif;
+    font-weight: 550;
+    padding: 2%;
+    display: none;
+    z-index: 2000;
+}
+/* ********************************************card end here */
+
+/* ***************************************************************************************** */
+button {
+    position: absolute;
+    bottom: 8%;
+    right: 5%;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.144);
+    color: white;
+    cursor: pointer;
+    font-family: 'Exo', sans-serif;
+    display: none;
+    outline: none;
+    transition-duration: 1s;
+}
+button:hover{
+    background-color: transparent;
+    border: 0px solid black;
+    box-shadow:inset 1px 1px 1px 1px rgba(0, 0, 0, 0.295) , 1px 1px 2px 1px rgba(255, 255, 255, 0.212);
+    transition-duration: 1s;
+}
+/* ***************************************************************************************** */
+
+.mask1{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    opacity: 0.2;
+    z-index: 2000;
+    position: relative;
+    left: 5vw;
+    top: 7vh;
+    filter: blur(5  px);
+    animation-name: floating;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    visibility: hidden;
+}
+
+@keyframes floating {
+    0%{top:5vh;}
+    50%{top: 8vh;}
+    100%{top: 5vh;}
+}
+.mask2{
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    opacity: 0.2;
+    z-index: 2000;
+    position: absolute;
+    top : 80vh;
+    left: 5vw;
+    filter: blur(2px);
+    animation-name: floating1;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    visibility: hidden;  
+}
+@keyframes floating1 {
+    0%{top:70vh;}
+    50%{top: 80vh;}
+    100%{top: 70vh;}
+}
+.mask3 {
+    background-color: white;
+    width: 20vw;
+    height: 30vh;
+    border-radius: 10px;
+    opacity: 0.2;
+    z-index: 999;
+    position: absolute;
+    top: 47vh;
+    left: -2vw;
+    animation-name: floating2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    visibility: hidden; 
+}
+@keyframes floating2 {
+    0%{left:-5vw;}
+    50%{left: 10vw;}
+    100%{left: -5vw;}
+}
