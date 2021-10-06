@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: rgb(161, 148, 128);
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+    padding: 1rem;
+    font-size: 2rem;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+
+}
+.container2{
+    padding: 2rem;
+    display: flex;
+}
+li{
+    list-style: none;
+}
+.fa-user{
+    position: relative;
+    right: -2rem;
+}
+.fa-search{
+    position: relative;
+    right: -10rem;
+}
+.cart{
+    position: relative;
+    right: 5rem;
+}
+.nav{
+    position: relative;
+    right:-5rem;
+}
+.mc{
+    position: relative;
+    left: 1rem;
+}
+.img{
+height: 54rem;
+width:50rem
+}
+.con1{
+    
+    height: 55rem;
+    width:80rem;
+}
+.con2{
+    
+    padding: 8rem 2rem 2rem 4rem;
+    width: 110rem;
+}
+.kor{
+    font-size: 12rem;
+}
+.para{
+    font-size: 1.5rem;
+
+    
+}
+.dol{
+    font-size: 4rem;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+.bo{
+    border: 2px solid rgb(24, 22, 22);
+  font-size: 1.6rem;
+  padding:.8rem;
+  border-radius: 2rem;
+}
+.box1{
+    background-color: black;
+    color: white;
+}
+.box2{
+    background-color: white;
+    color: black;
+}
+.container2 .con2 .para{
+    width: 40rem;
+}
+.foot{
+    border-top: 2px solid black;
+    padding: .3rem .3rem .3rem 0;
+    font-size: 2rem;
+}
+.spec{
+    border-bottom: 2px solid black;
+}
+.a1{
+    position: relative;
+    left: 61rem;
+}
+.a2{
+    position: relative;
+    left: 54.5rem;
+}
