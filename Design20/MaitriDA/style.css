@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Montserrat:wght@800&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+	--primary: rgb(185,185,185);
+	--secondary:rgb(230,230,230);
+}
+
+body {
+    height: 100vh;
+    padding: 0;
+}
+.outerDiv{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: var(--primary);
+    background-image: linear-gradient(to bottom right,var(--secondary),var(--primary));
+}
+  
+.innerDiv{
+    background-color: white;
+    height: 90%;
+    width: 90%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* NAVBAR */
+.navBar{
+    height: 7vh;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: space-between;
+}
+
+.navBarLeft{
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navBarRight{
+    width: 23%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ul{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.menuItem{
+    padding:7px;
+}
+.menu{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.Signin{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding: 7px;
+}
+
+.Signup{
+    width: 90px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 8px;
+}
+
+.search{
+    padding: 7px;
+}
+
+/* Main */
+.main{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.content{
+    width: 40%;
+    
+}
+.contentTop{
+    height: 45%;
+}
+.heading{
+    margin-left: 90px;
+    margin-top: 60px;
+    width: fit-content;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px; 
+}
+
+.contentTop p{
+    margin-top: 20px;
+    margin-left: 90px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: black;
+    font-weight: 500;
+}
+.contentBottom{
+    display: flex;
+    flex-direction: row;
+}
+.enterprise{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.enterprise i{
+    font-size: 35px;
+    margin-left: -40px;
+}
+.enterprise div{
+    margin-left: 20px;
+}
+.enterprise div h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+.enterprise div p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+.image2 img{
+    height: 13em;
+    margin-left: 40px;
+}
+.image1{
+    width: 25%;
+}
+.signupForm{
+    width:35%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    box-shadow: 24px 24px 29px -13px rgba(161, 161, 161, 0.37);
+}
+.image1 img{
+    height: 30em;
+}
+.signupForm div img{
+    height: 40px;
+}
+.signupForm div h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px; 
+    font-weight: 600;
+    padding: 8px;
+    margin-left: 20px;
+}
+.getStarted{
+    display: flex;
+    flex-direction: row;
+}
+
+form p{
+    color: gray;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    margin-left: 60px;
+    margin-top: 5px;
+}
+input{
+    width: auto;
+    font-size: 15px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-left: 40px;
+  }
+.submit{
+    margin-top: 20px;
+    width: 75%;
+    margin-left: 50px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #18b842;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}
