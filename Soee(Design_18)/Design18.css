@@ -1,0 +1,58 @@
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@200&display=swap" rel="stylesheet">
+
+.navbar-brand{
+	font-size:25px;
+}
+.navbar-nav{
+	padding-left: 200px;
+}
+.nav-item{
+	padding-left:30px;
+	font-size:20px;
+}
+sup{
+	padding-left:10px;
+	font-size:20px;
+}
+.fa-search{
+	font-size:24px;
+}
+#sear{
+    padding-left: 150px;
+}
+.fa-user{
+	font-size:28px;
+}
+.fa-shopping-cart{
+	font-size: 28px;
+}
+#nd{
+  margin-top:80px;
+}
+img{
+	height:660px;
+	padding-left:20px;
+}
+h1{
+	margin-top:90px;
+	font-size:100px;
+	font-family: 'Heebo', sans-serif;
+}
+p{
+	margin-top:50px;
+}
+#price{
+	margin-top:30px;
+	font-size:30px;
+	font-family: 'Heebo', sans-serif;
+}
+.btn-dark{
+	border-radius:30px;
+	margin-top:40px;
+	font-size:25px;
+}
+.btn-outline-dark{
+	border-radius:30px;
+	margin-top:40px;
+	font-size:25px;
+}
