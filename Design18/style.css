@@ -9,6 +9,7 @@ html{
 body{
     background-color: rgb(161, 148, 128);
 }
+
 .head{
     display: flex;
     justify-content: space-between;
@@ -111,4 +112,140 @@ width:50rem
 .a2{
     position: relative;
     left: 54.5rem;
+}
+@media(max-width:498px){
+    body{
+        width: 99vw;
+    }
+    .container{
+        width: 99vw;
+    }
+    .container2{
+        display: flex;
+        flex-direction: column;
+        width: 98vw;
+        padding: 1rem;
+    }
+    .foot,.box{
+        width: 95vw;
+    }
+    .head{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav{
+        
+        text-align: left;
+        font-size: 1.8rem;
+        position: relative;
+        left: -1rem;
+        gap: 0.6rem;
+    }
+    .fa-search,.fa-user,.cart{
+        position: absolute;
+        top: 10%;
+    }
+    .fa-search{
+        position: absolute;
+        left: 10%;
+    }
+    .fa-user{
+        
+        position: absolute;
+        left: 30%;
+    }
+    .cart{
+        
+        position: absolute;
+        left: 50%;
+        top: 9%;
+    }
+    .con1{
+        width: 98vh;
+    }
+    .container2{
+        position: absolute;
+        top: 15%;
+    }
+    .img{
+        width: 97vw;
+    }
+    .logo{
+        text-align: center;
+    }
+    .kor{
+        font-size: 8rem;
+    }
+    .con2{
+        padding: 1rem;
+    }
+
+}
+@media(max-width:498px){
+    body{
+        width: 99vw;
+    }
+    .container{
+        width: 99vw;
+    }
+    .container2{
+        display: flex;
+        flex-direction: column;
+        width: 98vw;
+        padding: 1rem;
+    }
+    .foot,.box{
+        width: 95vw;
+    }
+    .head{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav{
+        
+        text-align: left;
+        font-size: 1.8rem;
+        position: relative;
+        left: -1rem;
+        gap: 0.6rem;
+    }
+    .fa-search,.fa-user,.cart{
+        position: absolute;
+        top: 10%;
+    }
+    .fa-search{
+        position: absolute;
+        left: 10%;
+    }
+    .fa-user{
+        
+        position: absolute;
+        left: 30%;
+    }
+    .cart{
+        
+        position: absolute;
+        left: 50%;
+        top: 9%;
+    }
+    .con1{
+        width: 98vh;
+    }
+    .container2{
+        position: absolute;
+        top: 15%;
+    }
+    .img{
+        width: 97vw;
+    }
+    .logo{
+        text-align: center;
+    }
+    .kor{
+        font-size: 8rem;
+    }
+    .con2{
+        padding: 1rem;
+    }
+
 }
