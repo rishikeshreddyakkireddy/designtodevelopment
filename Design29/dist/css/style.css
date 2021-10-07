@@ -14,6 +14,15 @@ a {
 ul {
   list-style: none; }
 
+@media (max-width: 1200px) {
+  .content {
+    display: block;
+    flex-direction: column; }
+    .content .large-text .rotate {
+      display: none; }
+    .content .info {
+      display: none; } }
+
 body {
   background: #fff;
   background: url(/Design29/assets/images/bg.jpg) no-repeat center center/cover;
@@ -114,3 +123,20 @@ footer {
     font-weight: 100; }
     footer .next:hover {
       background: #383b3a; }
+
+@media (max-width: 1000px) {
+  footer .footerNav li {
+    margin: 0 2rem; } }
+
+@media (max-width: 768px) {
+  header .container .light-bulb img {
+    width: 400px;
+    transform: translateY(-80px); }
+  footer .footerNav li {
+    margin: 0 1rem; } }
+
+@media (max-width: 600px) {
+  footer .footerNav {
+    display: block; }
+    footer .footerNav li {
+      margin: 0 1rem; } }

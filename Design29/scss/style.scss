@@ -1,6 +1,7 @@
 @import "variables";
 @import "global";
 @import "Mixins";
+@import "Responsive";
 
 body {
   background: #fff;
@@ -134,6 +135,47 @@ footer {
 
     &:hover {
       background: $dark-color;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  footer {
+    .footerNav {
+      li {
+        margin: 0 2rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    .container {
+      .light-bulb img {
+        width: 400px;
+        transform: translateY(-80px);
+      }
+    }
+  }
+
+  footer {
+    .footerNav {
+      li {
+        margin: 0 1rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  footer {
+    .footerNav {
+      display: block;
+
+      li {
+        margin: 0 1rem;
+      }
     }
   }
 }
