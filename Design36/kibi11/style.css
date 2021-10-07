@@ -138,13 +138,6 @@ body{
 
 
   @media only screen and (max-width: 1005px) {
-   
-    .rightContainer img {
-        width: 400px;
-    }
-  }
-
-  @media only screen and (max-width: 1005px) {
 
     
     
@@ -153,6 +146,9 @@ body{
         width: 100%;
         margin-top: 100px;
         object-fit: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .mainContent{
         flex-direction: column;
