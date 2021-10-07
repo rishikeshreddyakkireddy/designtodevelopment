@@ -60,5 +60,6 @@ People who are very new in the Open source Community star_struck and who are eag
 
 Please wait patiently until your PR get's reviewed :)
 
+## [RULES](https://github.com/rishikeshreddyakkireddy/designtodevelopment/blob/main/RULES.MD) For Merging A PR.
 
 **If you had fun in contributing to our project than please make sure to star our repository**
