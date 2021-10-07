@@ -1,0 +1,16 @@
+@media (max-width: 1200px) {
+  .content {
+    display: block;
+    flex-direction: column;
+
+    .large-text {
+      .rotate {
+        display: none;
+      }
+    }
+
+    .info {
+      display: none;
+    }
+  }
+}

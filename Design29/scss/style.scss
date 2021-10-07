@@ -1,0 +1,181 @@
+@import "variables";
+@import "global";
+@import "Mixins";
+@import "Responsive";
+
+body {
+  background: #fff;
+  background: url(/Design29/assets/images/bg.jpg) no-repeat center center/cover;
+  box-shadow: inset 10px 50px 500px 2px $secondary-color;
+  color: $light-color;
+  line-height: 1.4;
+  height: 100vh;
+  width: 100vw;
+  font-family: $fontstack-one;
+  @include layout;
+}
+
+// Top navigation
+header {
+  height: 80vh;
+
+  nav {
+    @include flex;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    height: 80%;
+
+    .light-bulb img {
+      width: 450px;
+      transform: translateY(-50px);
+    }
+
+    .content {
+      display: flex;
+      align-items: center;
+
+      .large-text {
+        display: inline;
+        transform: rotate(270deg) translateY(-40px);
+        color: $dark-color;
+        display: flex;
+        margin: 0.7rem;
+
+        .rotate {
+          font-size: $text-max;
+          margin: 0 0.4rem;
+          font-weight: $weight-max;
+        }
+      }
+
+      .info {
+        transform: translateX(-150px);
+        h1 {
+          color: $primary-color;
+          font-weight: $weight-max;
+          font-size: $text-max;
+          border-bottom: 2px solid $dark-color;
+          width: 150px;
+        }
+
+        h3 {
+          font-family: $fontstack-two;
+          font-weight: $weight-min;
+          font-size: $text-med;
+          padding: $spacing-large 0;
+        }
+
+        p {
+          font-weight: $weight-min;
+        }
+      }
+    }
+  }
+
+  .logo img {
+    width: 40px;
+    position: absolute;
+    top: 30px;
+    z-index: 100;
+  }
+
+  .menu {
+    @include flex;
+
+    h3 {
+      font-size: 0.95rem;
+      font-weight: $weight-med;
+    }
+
+    img {
+      width: 20px;
+      margin-right: $spacing-min;
+    }
+  }
+}
+
+// Bottom Navigation
+footer {
+  @include flex;
+  background: rgba(20, 20, 20, 0.5);
+  height: 70px;
+  padding: 0 0 0 2rem;
+
+  .footerNav {
+    display: flex;
+
+    li {
+      margin: 0 5rem;
+
+      a {
+        font-size: 0.9rem;
+        font-weight: $weight-med;
+
+        &:hover {
+          color: $dark-color;
+        }
+      }
+    }
+  }
+
+  .mail,
+  .footerNav li {
+    color: $primary-color;
+  }
+
+  .next {
+    background: $primary-color;
+    height: 100%;
+    padding: 1.3rem 1rem 1rem;
+    transition: $animate;
+    font-weight: 100;
+
+    &:hover {
+      background: $dark-color;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  footer {
+    .footerNav {
+      li {
+        margin: 0 2rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    .container {
+      .light-bulb img {
+        width: 400px;
+        transform: translateY(-80px);
+      }
+    }
+  }
+
+  footer {
+    .footerNav {
+      li {
+        margin: 0 1rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  footer {
+    .footerNav {
+      display: block;
+
+      li {
+        margin: 0 1rem;
+      }
+    }
+  }
+}
