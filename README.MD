@@ -36,17 +36,14 @@ People who are very new in the Open source Community star_struck and who are eag
 
 **7. Create A New Floder**
 
-!!! Note
-    *6.1* Create a floder with your name inside the design folder you are working on.
-    *6.2* Don't change the file names or add new files to the existing images folder
+    Create a floder with your name inside the design folder you are working on.
+    Don't change the file names or add new files to the existing images folder
 
 **8. Commit The Changes**
 
     git commit -m "implemented design23"
 
-!!! Note
-    For example if you are working on design23
-    commit message should be "implemented design23"
+    For example if you are working on design23 commit message should be "implemented design23"
 
 **9. Push Your Changes To Your Remote Repository**
 
@@ -54,7 +51,6 @@ People who are very new in the Open source Community star_struck and who are eag
 
 **10. Create A Pull Request**
 
-!!! Note
     Give relevant PR message and add a snapshot of your design implementation.
     Ex: If you are working on design 23 your message should be "added design23"
 
