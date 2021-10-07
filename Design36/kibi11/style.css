@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #1c1c1c;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 16vh;
+    padding-left: 10%;
+    font-family: 'Poppins', sans-serif;
+
+    
+
+}
+.navbar h1{
+    font-size: 3rem;
+}
+
+.navItems{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 50%;
+    
+
+}
+.navItems a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+/* main content  */
+
+.mainContent{
+    display: flex;
+    height: 84vh;
+ 
+
+}
+.leftContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 10%;
+
+}
+.leftContainer h1{
+    font-size: 5em;
+    font-style: normal;
+
+}
+
+
+.leftContainer h2{
+    font-size: 3rem;
+    text-align: center;
+
+}
+
+.leftContainer p{
+    font-size: 0.85rem;
+    width: 65%;
+    margin-top: 5%;
+
+}
+
+.buttonContainer{
+    margin: 10%;
+    margin-left: 0%;
+    width: 100%;
+
+}
+
+.buttonContainer button {
+    height: 40px;
+    width: 120px;
+    background-color: white;
+    border: none;
+    margin-right: 5%;
+    border-radius: 10px;
+    font-size: 0.7rem;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.buttonContainer button span {
+    font-size: 0.8rem;
+    margin-left: 5px;
+}
+#speciallyArrow{
+    margin-right: 0%;
+
+}
+
+
+#button1{
+    background-color: transparent;
+    border: white 1px solid;
+    color: white;
+}
+
+
+
+.rightContainer{
+    align-self: flex-end;
+    width: 50%;
+    object-fit: contain;
+}
+.rightContainer img {
+    width: 600px;
+}
+.arrow {
+    color: white;
+    background-color: white;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    
+    .rightContainer img {
+        width: 500px;
+    }
+  }
+
+
+  @media only screen and (max-width: 1005px) {
+   
+    .rightContainer img {
+        width: 400px;
+    }
+  }
+
+  @media only screen and (max-width: 1005px) {
+
+    
+    
+   
+    .rightContainer{
+        width: 100%;
+        margin-top: 100px;
+        object-fit: contain;
+    }
+    .mainContent{
+        flex-direction: column;
+        padding: 5%;
+        margin-top: 10%;
+        
+        
+    }
+    .leftContainer {
+        justify-content: center;
+        align-items: center;
+        padding-left: 0%;
+    }
+    .leftContainer h1{
+        font-size: 4rem;
+    }
+    .leftContainer h2{
+        font-size: 3    rem;
+    }
+    .leftContainer p{
+        font-size: 0.85rem;
+        
+        margin-top: 5%;
+    
+    }
+    .buttonContainer{
+        margin: 0%;
+        margin-left: 0%;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-top: 10%;
+    
+    }
+    .navbar{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .navItems{
+        width: 100%;
+        flex-wrap: wrap;
+        
+
+    }
+  }
