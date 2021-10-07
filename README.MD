@@ -43,7 +43,7 @@ People who are very new in the Open source Community star_struck and who are eag
 ```bash
 git commit -m "implemented design23"
 ```
-> Ex: For example if you are working on design23 commit message should be "implemented design23"
+> Example: If you are working on design23 commit message should be "implemented design23"
 
 **9. Push Your Changes To Your Remote Repository**
 
@@ -52,7 +52,8 @@ git commit -m "implemented design23"
 **10. Create A Pull Request**
 
 > Give relevant PR message and add a snapshot of your design implementation.
-> Ex: If you are working on design 23 your message should be "added design23"
+
+> Example: If you are working on design 23 your message should be "added design23"
 
 Please wait patiently until your PR get's reviewed :)
 
