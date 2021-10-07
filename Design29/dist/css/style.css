@@ -15,7 +15,9 @@ ul {
   list-style: none; }
 
 body {
-  background: #2F3334;
+  background: #fff;
+  background: url(/Design29/assets/images/bg.jpg) no-repeat center center/cover;
+  box-shadow: inset 10px 50px 500px 2px #242625;
   color: #d6d8d7;
   line-height: 1.4;
   height: 100vh;
@@ -36,9 +38,26 @@ header {
     display: flex;
     align-items: center;
     height: 65%; }
+    header .container .light-bulb img {
+      width: 450px;
+      transform: translateY(-10px); }
+    header .container .content {
+      display: flex;
+      align-items: center; }
+      header .container .content .large-text {
+        display: inline;
+        transform: rotate(270deg) translateY(-90px);
+        color: #383b3a;
+        display: flex;
+        margin: 0 0.7rem; }
+        header .container .content .large-text .rotate {
+          font-size: 5rem;
+          font-weight: 900; }
   header .logo img {
     width: 40px;
-    margin-top: 0.6rem; }
+    position: absolute;
+    top: 30px;
+    z-index: 100; }
   header .menu {
     display: flex;
     align-items: center;
@@ -56,7 +75,7 @@ footer {
   align-items: center;
   justify-content: space-between;
   padding: 1rem 1rem 1rem 2rem;
-  background: #242625;
+  background: rgba(20, 20, 20, 0.5);
   height: 70px;
   padding: 0 0 0 2rem; }
   footer .footerNav {
@@ -76,4 +95,4 @@ footer {
     transition: 0.4s ease-in-out;
     font-weight: 100; }
     footer .next:hover {
-      background: #2e3130; }
+      background: #383b3a; }

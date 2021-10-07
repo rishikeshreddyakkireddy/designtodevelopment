@@ -1,7 +1,7 @@
 // Colors
 $primary-color: #e2643b;
 $secondary-color: #242625;
-$dark-color: #2e3130;
+$dark-color: #383b3a;
 $light-color: #d6d8d7;
 
 // Font family
@@ -13,5 +13,10 @@ $weight-max: 900;
 $weight-med: 600;
 $weight-min: 300;
 
+//Font Size
+$text-max: 5rem;
+$text-med: 1rem;
+$text-min: 0.8rem;
+
 $spacing: 0.5rem;
-$animate: .4s ease-in-out;
+$animate: 0.4s ease-in-out;

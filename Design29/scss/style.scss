@@ -3,8 +3,9 @@
 @import "Mixins";
 
 body {
-//   background: linear-gradient(to right, $secondary-color, $dark-color);
-  background: #2F3334;
+  background: #fff;
+  background: url(/Design29/assets/images/bg.jpg) no-repeat center center/cover;
+  box-shadow: inset 10px 50px 500px 2px $secondary-color;
   color: $light-color;
   line-height: 1.4;
   height: 100vh;
@@ -15,28 +16,46 @@ body {
 
 // Top navigation
 header {
-   height: 80vh;
+  height: 80vh;
 
-   nav {
-      @include flex;
-   }
+  nav {
+    @include flex;
+  }
 
-   .container {
+  .container {
+    display: flex;
+    align-items: center;
+    height: 65%;
+
+    .light-bulb img {
+      width: 450px;
+      transform: translateY(-10px);
+    }
+
+    .content {
       display: flex;
       align-items: center;
-      height: 65%;
 
-      // .light-bulb img {
-      //    position: absolute;
-      //    top: -100px;
-      //    left: 100px;
-      //    width: 400px;
-      // }
-   }
+      .large-text {
+        display: inline;
+        transform: rotate(270deg) translateY(-90px);
+        color: $dark-color;
+        display: flex;
+        margin: 0 0.7rem;
+
+        .rotate {
+          font-size: $text-max;
+          font-weight: $weight-max;
+        }
+      }
+    }
+  }
 
   .logo img {
     width: 40px;
-    margin-top: 0.6rem;
+    position: absolute;
+    top: 30px;
+    z-index: 100;
   }
 
   .menu {
@@ -57,7 +76,7 @@ header {
 // Bottom Navigation
 footer {
   @include flex;
-  background: $secondary-color;
+  background: rgba(20, 20, 20, 0.5);
   height: 70px;
   padding: 0 0 0 2rem;
 
@@ -80,14 +99,14 @@ footer {
   }
 
   .next {
-     background: $primary-color;
-     height: 100%;
-     padding: 1.3rem 1rem 1rem;
+    background: $primary-color;
+    height: 100%;
+    padding: 1.3rem 1rem 1rem;
     transition: $animate;
     font-weight: 100;
 
-     &:hover {
-        background: $dark-color;
-     }
+    &:hover {
+      background: $dark-color;
+    }
   }
 }
