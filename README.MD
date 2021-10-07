@@ -1,7 +1,14 @@
 # DesignToDevelopment D2D
 
-This Will Be Fun :).
-I will provide you the design and you can contribute by building it.
+
+Welcome to my repository :)
+
+**I will provide you the design, Can you code?**
+
+Now a days building things on the internet has more value than ever.
+Web development is the most in-demand skill and I believe that the fastest way to acquire a skill is by building things.You can improve your development skill's by contributing to my repository.
+
+
 
 ## Contribute through HacktoberFest
 
@@ -11,18 +18,47 @@ People who are very new in the Open source Community star_struck and who are eag
 
 ## Contribution Guide Lines
 
-**step1 :** Select An issue from  [issue's](https://github.com/rishikeshreddyakkireddy/designtodevelopment/issues) section
+**1. Fork The Repository**
 
-**step2 :** Fork It
+**2. Go To [Issues](https://github.com/rishikeshreddyakkireddy/designtodevelopment/issues) Section**
 
-**step3 :** Clone It
+**3. Choose An Existing Issue**
 
-```bash
-    git clone https://github.com/rishikeshreddyakkireddy/designtodevelopment.git
-```
+**4. Get Assigned**
 
-**step4 :** Start Developing the project by creating a new folder and name the folder with your name
+**5. Clone Your Forked Repository**
 
-**step5 :** And make a PR ;)
+    git clone YOUR_FORKED_REPOSITORY_LINK
+
+**6. Create A New Branch**
+
+    git checkout -b BRANCH_NAME
+
+**7. Create A New Floder**
+
+!!! Note
+    *6.1* Create a floder with your name inside the design folder you are working on.
+    *6.2* Don't change the file names or add new files to the existing images folder
+
+**8. Commit The Changes**
+
+    git commit -m "implemented design23"
+
+!!! Note
+    For example if you are working on design23
+    commit message should be "implemented design23"
+
+**9. Push Your Changes To Your Remote Repository**
+
+    git push origin BRANCH_NAME
+
+**10. Create A Pull Request**
+
+!!! Note
+    Give relevant PR message and add a snapshot of your design implementation.
+    Ex: If you are working on design 23 your message should be "added design23"
+
+Please wait patiently until your PR get's reviewed :)
+
 
 **If you had fun in contributing to our project than please make sure to star our repository**
