@@ -37,22 +37,38 @@ header {
   header .container {
     display: flex;
     align-items: center;
-    height: 65%; }
+    height: 80%; }
     header .container .light-bulb img {
       width: 450px;
-      transform: translateY(-10px); }
+      transform: translateY(-50px); }
     header .container .content {
       display: flex;
       align-items: center; }
       header .container .content .large-text {
         display: inline;
-        transform: rotate(270deg) translateY(-90px);
+        transform: rotate(270deg) translateY(-40px);
         color: #383b3a;
         display: flex;
-        margin: 0 0.7rem; }
+        margin: 0.7rem; }
         header .container .content .large-text .rotate {
           font-size: 5rem;
+          margin: 0 0.4rem;
           font-weight: 900; }
+      header .container .content .info {
+        transform: translateX(-150px); }
+        header .container .content .info h1 {
+          color: #e2643b;
+          font-weight: 900;
+          font-size: 5rem;
+          border-bottom: 2px solid #383b3a;
+          width: 150px; }
+        header .container .content .info h3 {
+          font-family: "Mulish", "Segoe UI", Tahoma, Geneva, sans-serif;
+          font-weight: 300;
+          font-size: 3rem;
+          padding: 1rem 0; }
+        header .container .content .info p {
+          font-weight: 300; }
   header .logo img {
     width: 40px;
     position: absolute;
@@ -85,6 +101,8 @@ footer {
       footer .footerNav li a {
         font-size: 0.9rem;
         font-weight: 600; }
+        footer .footerNav li a:hover {
+          color: #383b3a; }
   footer .mail,
   footer .footerNav li {
     color: #e2643b; }

@@ -25,11 +25,11 @@ header {
   .container {
     display: flex;
     align-items: center;
-    height: 65%;
+    height: 80%;
 
     .light-bulb img {
       width: 450px;
-      transform: translateY(-10px);
+      transform: translateY(-50px);
     }
 
     .content {
@@ -38,14 +38,37 @@ header {
 
       .large-text {
         display: inline;
-        transform: rotate(270deg) translateY(-90px);
+        transform: rotate(270deg) translateY(-40px);
         color: $dark-color;
         display: flex;
-        margin: 0 0.7rem;
+        margin: 0.7rem;
 
         .rotate {
           font-size: $text-max;
+          margin: 0 0.4rem;
           font-weight: $weight-max;
+        }
+      }
+
+      .info {
+        transform: translateX(-150px);
+        h1 {
+          color: $primary-color;
+          font-weight: $weight-max;
+          font-size: $text-max;
+          border-bottom: 2px solid $dark-color;
+          width: 150px;
+        }
+
+        h3 {
+          font-family: $fontstack-two;
+          font-weight: $weight-min;
+          font-size: $text-med;
+          padding: $spacing-large 0;
+        }
+
+        p {
+          font-weight: $weight-min;
         }
       }
     }
@@ -68,7 +91,7 @@ header {
 
     img {
       width: 20px;
-      margin-right: $spacing;
+      margin-right: $spacing-min;
     }
   }
 }
@@ -89,6 +112,10 @@ footer {
       a {
         font-size: 0.9rem;
         font-weight: $weight-med;
+
+        &:hover {
+          color: $dark-color;
+        }
       }
     }
   }
