@@ -1,0 +1,95 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navbar {
+    display: flex;
+    font-size: 18px;
+    height: 20vh;
+    margin: 0;
+}
+
+.nav-heading {
+    width: 15%;
+    font-weight: bold;
+    font-weight: bolder;
+    margin-left: 6rem;
+    margin-top: 2rem;
+}
+.navbar-main {
+    display: flex;
+    width: 65%;
+    margin-left: -5%;
+}
+
+.navbar-links {
+    display: flex;
+    width: 20%;
+}
+li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    margin: 1rem;
+    padding: 0.3rem;
+}
+
+li a:hover {
+    border-bottom: 2px solid #adb5bd;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1.3fr;
+    height: 80vh;
+    margin: 0;
+}
+
+.quote-container {
+    width: 100%;
+    height: 80vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container {
+    height: 80vh;
+    margin: 0;
+    padding: 0;
+}
+img {
+    height: 100%;
+}
+
+.quote-title {
+    font-size: 54px;
+    width: 60%;
+}
+
+.quote-summary {
+    width: 60%;
+    font-size: 20px;
+    opacity: 0.6;
+    margin-top: -20px;
+}
+
+button {    
+    align-self: center;
+    transform: translateX(-108%);
+    background-color: black;
+    color: white;
+    height: 44px;
+    width: 160px;
+    border-radius: 25px;
+}
