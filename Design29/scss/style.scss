@@ -1,0 +1,93 @@
+@import "variables";
+@import "global";
+@import "Mixins";
+
+body {
+//   background: linear-gradient(to right, $secondary-color, $dark-color);
+  background: #2F3334;
+  color: $light-color;
+  line-height: 1.4;
+  height: 100vh;
+  width: 100vw;
+  font-family: $fontstack-one;
+  @include layout;
+}
+
+// Top navigation
+header {
+   height: 80vh;
+
+   nav {
+      @include flex;
+   }
+
+   .container {
+      display: flex;
+      align-items: center;
+      height: 65%;
+
+      // .light-bulb img {
+      //    position: absolute;
+      //    top: -100px;
+      //    left: 100px;
+      //    width: 400px;
+      // }
+   }
+
+  .logo img {
+    width: 40px;
+    margin-top: 0.6rem;
+  }
+
+  .menu {
+    @include flex;
+
+    h3 {
+      font-size: 0.95rem;
+      font-weight: $weight-med;
+    }
+
+    img {
+      width: 20px;
+      margin-right: $spacing;
+    }
+  }
+}
+
+// Bottom Navigation
+footer {
+  @include flex;
+  background: $secondary-color;
+  height: 70px;
+  padding: 0 0 0 2rem;
+
+  .footerNav {
+    display: flex;
+
+    li {
+      margin: 0 5rem;
+
+      a {
+        font-size: 0.9rem;
+        font-weight: $weight-med;
+      }
+    }
+  }
+
+  .mail,
+  .footerNav li {
+    color: $primary-color;
+  }
+
+  .next {
+     background: $primary-color;
+     height: 100%;
+     padding: 1.3rem 1rem 1rem;
+    transition: $animate;
+    font-weight: 100;
+
+     &:hover {
+        background: $dark-color;
+     }
+  }
+}
