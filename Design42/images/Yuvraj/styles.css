@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #DDD7D2;
+    font-family: Montserratbold, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: auto;
+}
+
+
+.container {
+    background-color: rgb(236, 212, 144);
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    height: 450px;
+    width: 900px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+/*------ navbar ------*/
+nav{
+    margin: 0 20px 10px;
+    display: flex;
+    float: right;
+}
+
+ul{
+    padding-right: 40px;
+}
+
+li{
+    display: inline;
+    padding: 10px;
+}
+
+li a{
+    text-decoration: none;
+    color: #373739;
+    font-weight: bold;
+    font-size: 0.6rem;
+}
+.logo{
+    margin: 40px 50px 0;
+}
+.dots{
+    display: inline;
+    margin-top: 10px;
+    float: left;
+}
+
+
+/*------ navbar dots -------*/
+
+.seat1{
+    background-color: #006CBB;
+    height: 12px;
+    width: 12px;
+    border-radius: 0 5px 5px 0;
+    margin-right: 1px;
+}
+.seat2{
+    background-color: #B9D3E9;
+    height: 12px;
+    width: 12px;
+    border-radius: 0 0px 5px 5px;
+    margin-right: 1px;
+}
+.seat3{
+    background-color: #FB8422;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    margin-right: 1px;
+}
+/*------ navbar ends ------*/
+
+/* text styling */
+
+.textin{
+    font-size: 1.5rem;
+    margin-top: 300px;
+    padding-left: 70px;
+    padding-right: 135px;
+}
+
+/* card-styling */
+.left-side{
+    background-color: #f1f1f1;
+}
+
+.right-side{
+    background-color: green;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+
+/* styling right side */
+.col1{
+    background-color:red;
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+.col2{
+    background-color: #0071BA;
+    display: grid;
+    grid-template-rows: 25% 50% 25%;
+}
+
+
+/* Styling col1 */
+
+.row1{
+    background: linear-gradient(to bottom left, #F89645 50%, #2D8AC7 50%);
+}
+
+.row2{
+    background: linear-gradient(to bottom right, #1D2329 50%, #BBD3E6 50%);
+}
+/* ------col1 ends------ */
+/* Styling col2 */
+.top-semi{
+    /* background-color: #B9D3E6; */
+    /* border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%; */
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.center-box{
+    background-color: linen;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+.center-center-box{
+    background-color: #1D2329;
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+    margin: 58px auto;
+}
+.bottom-semi{
+    /* background-color: #F88528; */
+    /* border-top-left-radius: 100%;
+    border-top-right-radius: 100%; */
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+/* ------col2 ends------ */
+
+.top-half1{
+    background-color: #B9D3E6;
+    border-bottom-left-radius: 100%;
+}
+.top-half2{
+    background-color: #B9D3E6 ;
+    border-bottom-right-radius: 100%;
+}
+
+.bottom-half1{
+    background-color: #F88528 ;
+    border-top-left-radius: 100%;
+}
+.bottom-half2{
+    background-color: #F88528 ;
+    border-top-right-radius: 100%;
+}
+
+/* card-styling ends */
+
