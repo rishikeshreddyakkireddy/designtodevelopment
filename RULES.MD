@@ -1,10 +1,10 @@
 # WELCOME
 
-First of all, thank you for showing intrest in contributing to our repository.
+First of all, thank you for showing interest in contributing to our repository.
 
 ## Merging A Pull Request
 
-If multiple people are assigned to the same issue, then the best of their impletation will be merged.
+If multiple people are assigned to the same issue, then the best of their implementations will be merged.
 
 ## Our Considerations
 
@@ -14,7 +14,7 @@ If multiple people are assigned to the same issue, then the best of their implet
 
 * Color
 * Font-size
-* Button
+* Buttons
 * Image Dimensions
 
 **2.** Responsiveness
