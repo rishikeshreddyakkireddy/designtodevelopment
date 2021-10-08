@@ -6,7 +6,7 @@ Welcome to my repository :)
 **I will provide you the design, Can you code?**
 
 Now a days building things on the internet has more value than ever.
-Web development is the most in-demand skill and I believe that the fastest way to acquire a skill is by building things. You can improve your development skills by contributing to my repository.
+Web development is the most in-demand skill and I believe that, the fastest way to acquire a skill is by building things. You can improve your development skills by contributing to my repository.
 
 
 
@@ -36,7 +36,7 @@ People who are very new in the Open source Community star_struck and who are eag
 
 **7. Create A New Floder**
 
-> Create a floder with your name inside the design folder you are working on.
+> Create a folder with your name inside the design folder you are working on.
 > Don't change the file names or add new files to the existing images folder
 
 **8. Commit The Changes**
