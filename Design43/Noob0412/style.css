@@ -1,0 +1,125 @@
+#nav{
+    align-content: center;
+    margin: 52px;
+}
+#title {
+    display: inline;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin-left: 0%;
+}
+#hamburger{
+    margin: 10%;
+    padding-left: 10%;
+    font-size: 2.5em;
+    color: white;
+}
+
+.center{
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: gainsboro;
+    margin-left: 15%;
+    font-size: 30px;
+}
+
+
+#asterisk1{
+    color: aqua;
+    padding-left: 10%;
+    padding-top: 10%;
+    font-size: 35px;
+}   
+/* ################################################ */
+
+#container{
+    color: white;
+    align-content: center;
+}
+#icon1{
+    color: #EB590A;
+    margin-top: 150px;
+    padding-left: 10%;
+    text-align: left;
+}
+.text{
+    font-size: 200px;
+    display: inline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+#icon2{
+    color: #22BFAC; 
+}
+#icon3{
+    color: #E3D7FF;
+}
+/* ############################################## */
+#container1{
+    color: white;   
+}
+.brace{
+    font-size: 200px;
+    margin-top: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #FFF3B0;
+    display: inline;
+}
+div,#container1,p,.text{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#dots{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #EB590A;
+    display: inline;
+    font-size: 150px;
+
+}
+/* ################################################### */
+#small{
+    margin-bottom: 0;
+}
+
+/* ###################################################### */
+#container3{
+    color: white;
+}
+
+
+
+#smaller_text{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color: pink;
+    display:inline-block;
+}
+pre{
+    /* display: inline; */
+    margin-top: 35px;
+}
+#asterisk2{
+    font-size: 169px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:  #22BFAC;
+}
+/* ########################################################### */
+#container4{
+    color: white;
+    /* display: inline; */
+}
+button{
+    padding: 24px 100px;
+    margin-left: 15px;
+    background-color: #FFF3B0;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+/* ################################## */
+div{
+    margin-left: 100px;
+    text-align: justify;
+}
