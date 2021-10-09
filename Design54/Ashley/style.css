@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-size: 14px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+header {
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+}
+section {
+  min-height: 200vh;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  height: 5vh;
+  background: #333;
+  width: 100%;
+}
+.main__nav {
+  min-height: 60px;
+  position: relative;
+  background: #333;
+}
+.links {
+  padding: 15px 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.links a {
+  text-decoration: none;
+  flex-grow: 1;
+}
+.fab,
+.fas {
+  font-size: 16px;
+}
+.item.icons {
+  flex-grow: 2;
+  display: flex;
+  justify-content: space-evenly;
+}
+.item {
+  color: white;
+}
+.sub__nav {
+  padding: 15px 0;
+  background: #f5f5f7;
+}
+.nav-icon {
+  display: none;
+}
+@media (max-width: 800px) {
+  .links {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background: #333;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 50%;
+    visibility: hidden;
+    transition: height 1s linear;
+    clip-path: circle(50px at 90% -20%);
+    -webkit-clip-path: circle(50px at 90% -10%);
+    transition: all 0.7s ease-out;
+  }
+  .links > a {
+    margin: 15px 0px;
+  }
+  .icons > i {
+    margin: 0 4px;
+  }
+  .nav-icon {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 50px;
+    cursor: pointer;
+  }
+  .nav-icon > span {
+    width: 35px;
+    border: 2px solid white;
+  }
+  .links.open {
+    visibility: visible;
+    clip-path: circle(1000px at 90% -10%);
+    -webkit-clip-path: circle(1000px at 90% -10%);
+    pointer-events: all;
+  }
+}
+.main__heading {
+  font-size: 3.8rem;
+  font-weight: 700;
+  margin-top: 5%;
+}
+.sub__heading {
+  font-size: 2rem;
+}
+
+.heading__links {
+  margin-top: 4vh;
+}
+.heading__links a {
+  margin-right: 20px;
+  font-size: 1.7rem;
+}
+
+.image {
+  flex-grow: 1;
+  background: url(../images/img1.png);
+  background-size: 900px auto;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
