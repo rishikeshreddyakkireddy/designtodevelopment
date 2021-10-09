@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap");
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  color: #95b462;
+  font-size: 16px;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1em 6em 0 6em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .logo {
+  margin-right: 8em;
+}
+
+nav .menu__link,
+nav .menu__link:visited,
+nav .menu__link:active {
+  text-decoration: none;
+  color: #30420d;
+  font-weight: 400;
+  font-size: 0.85em;
+}
+
+nav .menu__link:hover {
+  color: #30420d;
+}
+
+nav .menu__link + .menu__link {
+  margin-left: 4em;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  padding: 2em 6em;
+}
+
+.container h1 {
+  color: #30420d;
+  font-size: 3.5em;
+  font-weight: 800;
+  max-width: 70%;
+  margin-bottom: 1rem;
+}
+
+.bgimage {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  width: 50%;
+  left: 50%;
+  overflow: hidden;
+}
+
+.bgimage img {
+  position: absolute;
+  height: 100%;
+}
+
+.buttons-wrapp {
+  margin-top: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.buttons-wrapp .btn-pill {
+  padding: 1.35em 3em;
+  background-color: #1ad54d;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 3em;
+  font-size: 0.85em;
+  font-weight: 300;
+  background: #86e44b;
+  background: -webkit-gradient(linear, left top, right top, from(#86e44b), to(#1ad54d));
+  background: linear-gradient(90deg, #86e44b 0%, #1ad54d 100%);
+  -webkit-box-shadow: rgba(100, 100, 111, 0.35) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.35) 0px 7px 29px 0px;
+}
+
+.buttons-wrapp .play-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 2em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #95b462;
+  text-decoration: none;
+}
+
+.buttons-wrapp .play-btn p {
+  font-size: 0.75em;
+  margin-left: 1em;
+  max-width: 60%;
+}
+
+.buttons-wrapp .btn-icon {
+  width: 3.2em;
+  height: 3.2em;
+  border-radius: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.35) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.35) 0px 7px 29px 0px;
+}
+
+.buttons-wrapp .btn-icon .fa-play {
+  height: 10px;
+  color: #86e44b;
+}
+
+footer {
+  margin-bottom: 3em;
+  border-top: solid 1px rgba(0, 0, 0, 0.1);
+  border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+  padding: 1em 6em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .footer-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  max-width: 180px;
+}
+
+footer .footer-item + .footer-item {
+  margin-left: 3em;
+}
+
+footer .icon {
+  margin-right: 1em;
+}
+
+footer p {
+  line-height: 1.2;
+  font-size: 0.8em;
+}
+
+footer .svg-inline--fa {
+  height: 2em;
+}
