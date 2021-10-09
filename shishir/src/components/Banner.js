@@ -1,8 +1,8 @@
-import React from 'react'
-import spartan from './sparpng.png'
+
+import spark2 from './spark2.png'
 const Banner = () => {
     return (
-        <div className=' pr-36'>
+        <div className=' pr-'>
             <div className=' flex justify-center items-center pt-48    '>
                 <p className='text-8xl font-bold' >People who <br/> care about <br/>your growth</p>
                 
@@ -22,7 +22,7 @@ const Banner = () => {
             </div>
             </div>
             <div className=' flex'>
-                <img src={spartan} alt="" className='ml-auto w-56 h-54 mr-36' />
+                <img src={spark2} alt="" className='ml-auto w-56 h-54 mr-' />
             </div>
         </div>
     )

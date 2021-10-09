@@ -1,4 +1,4 @@
-import spark from './spartan.png'
+import spark from './spark.png'
 const Header = () => {
     return (
         <div className='flex pt-16   px-12'>

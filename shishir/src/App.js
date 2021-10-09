@@ -3,13 +3,13 @@ import Image from "./components/Image";
 
 
 function App() {
-  return (//grid grid-cols-1  sm:grid-cols-1   md:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2  grid-flow-row
-    <div className=' h-screen  w-full  bg-yellow-light' >
-      
+  return (
+    <div  className='grid grid-cols-1  sm:grid-col-1   md:grid-col-2 
+                    xl:grid-cols-2 2xl:grid-cols-2  grid-flow-row  bg-yellow-light'>
+      <Content />
       <Image />
-      <Content  />
-      
     </div>
   );
 }
+
 export default App;
