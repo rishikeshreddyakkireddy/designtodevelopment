@@ -3,6 +3,7 @@ import './_rightContainer.scss';
 
 // profile Image
 import profile from '../../images/model.jpg';
+import SliderButton from './SliderButton';
 
 const RightContainer = () => {
   return (
@@ -13,6 +14,8 @@ const RightContainer = () => {
             <img src={profile} alt="" />
           </div>
         </header>
+        <div style={{ height: '65vh' }}></div>
+        <SliderButton />
       </div>
     </div>
   );

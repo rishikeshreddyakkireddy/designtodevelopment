@@ -16,11 +16,39 @@
         height: 50px;
         border-radius: 50%;
         border: 3px solid #fff;
+        cursor: pointer;
         img {
           width: 100%;
           height: 100%;
           border-radius: 50%;
         }
+      }
+    }
+
+    .slider_btn_container {
+      height: 20vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-end;
+
+      .fa-angle-up {
+        padding: 12px 10px;
+        background-color: #588795;
+        border-top-left-radius: 90px;
+        border-top-right-radius: 90px;
+        color: #fff;
+        font-size: 18px;
+        cursor: pointer;
+      }
+      .fa-angle-down {
+        padding: 12px 10px;
+        background-color: #fff;
+        border-bottom-left-radius: 90px;
+        border-bottom-right-radius: 90px;
+        color: #36707e;
+        font-size: 18px;
+        cursor: pointer;
       }
     }
   }

@@ -42,4 +42,77 @@ $cup_bg: #cadddc;
   display: flex;
   width: 100vw;
   min-height: 100vh;
+  overflow: hidden;
+
+  .tea_container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-20%, -50%);
+    background-color: $cup_bg;
+    width: 600px;
+    height: 400px;
+    z-index: 2;
+
+    .inner_tea_container {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .search_container {
+        position: absolute;
+        left: -100px;
+        bottom: -5%;
+        z-index: 5;
+        margin-top: 2.5rem;
+        input {
+          outline: none;
+          border: none;
+          padding: 10px 5px 10px 20px;
+          background: $dark_color;
+          opacity: 0.6;
+          color: #fff;
+          width: 150px;
+        }
+        input::placeholder {
+          color: #fff;
+        }
+        button {
+          width: 30px;
+          padding: 10px 0;
+          border: none;
+          outline: none;
+          background: $dark_color;
+          opacity: 0.6;
+          color: #fff;
+          cursor: pointer;
+        }
+      }
+      .cup_text {
+        position: absolute;
+        top: 17%;
+        right: -10px;
+        transform: rotate(90deg);
+        font-size: 1rem;
+        color: $dark_color;
+        font-weight: 500;
+      }
+      .cup_img {
+        user-select: none;
+        pointer-events: none;
+        width: 270px;
+        height: 270px;
+        border-radius: 50%;
+        box-shadow: 40px 3px 13px -20px rgba(54, 112, 127, 1);
+        -webkit-box-shadow: 40px 3px 13px -20px rgba(54, 112, 127, 1);
+        -moz-box-shadow: 40px 3px 13px -20px rgba(54, 112, 127, 1);
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
 }

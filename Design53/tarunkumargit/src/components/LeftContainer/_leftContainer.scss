@@ -5,12 +5,15 @@
   width: 70%;
   .container {
     padding: 0 6vw;
+
+    // header
     .left_header {
       height: 15vh;
       display: flex;
       align-items: center;
       justify-content: space-between;
       .mug_icon {
+        cursor: pointer;
         .fas {
           color: $dark_color;
           font-size: 1.7rem;
@@ -24,6 +27,76 @@
           font-size: 1rem;
           font-weight: 600;
           padding: 0 5.5rem;
+          cursor: pointer;
+        }
+      }
+    }
+    // text container
+    .intro_text_container {
+      height: 65vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0 3rem;
+      z-index: 5;
+      .intro_header {
+        padding-top: 2.5rem;
+        h3 {
+          font-size: 1.2rem;
+          font-weight: 600;
+        }
+      }
+      .intro_text {
+        font-size: 5.1rem;
+        font-weight: 500;
+        z-index: 5;
+        padding-bottom: 1.5rem;
+      }
+      .intro_desc {
+        width: 50%;
+        color: $dark_color;
+        font-size: 0.9rem;
+        font-weight: 600;
+        line-height: 1.95rem;
+      }
+    }
+
+    // footer
+    .left_footer {
+      width: 100%;
+      height: 20vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: relative;
+      // numbers
+      .numbers {
+        position: absolute;
+        top: -5px;
+        h4 {
+          font-size: 0.8rem;
+          color: $dark_color;
+          font-weight: 500;
+          span {
+            font-size: 1.9rem;
+            color: #000;
+            font-weight: 400;
+          }
+        }
+      }
+
+      // footer links
+      .footer_list {
+        display: flex;
+        align-items: center;
+        li {
+          font-size: 1rem;
+          font-weight: 600;
+          padding: 0 5rem;
+          cursor: pointer;
+        }
+        :first-child {
+          padding-left: 0;
         }
       }
     }
