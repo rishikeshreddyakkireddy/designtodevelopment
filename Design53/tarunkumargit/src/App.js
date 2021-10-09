@@ -1,11 +1,16 @@
 import React from 'react';
 import './App.scss';
 
+// Components
+import LeftContainer from './components/LeftContainer';
+import RightContainer from './components/RightContainer';
+
 const App = () => {
   return (
-    <div>
-      <h1>Hi There</h1>
-    </div>
+    <section className="page_wrapper">
+      <LeftContainer />
+      <RightContainer />
+    </section>
   );
 };
 
