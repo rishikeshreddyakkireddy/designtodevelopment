@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Marcellus&display=swap");
+
+:root {
+  --primary: #929292;
+  --secondary: #4e4e58;
+  --white: #fff;
+  --black: #000;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#hero {
+  height: 100vh;
+  width: 100%;
+  background-color: var(--primary);
+  position: relative;
+  padding: 70px 0 !important;
+}
+
+.grid_icon {
+  height: 25px;
+  width: 25px;
+  position: relative;
+}
+
+.square {
+  height: 5px;
+  width: 5px;
+  background-color: rgba(255, 255, 255, 0.6);
+  position: absolute;
+}
+
+.s1 {
+  top: 0;
+  left: 0;
+}
+
+.s2 {
+  top: 0;
+  left: 8px;
+}
+
+.s3 {
+  top: 0;
+  left: 16px;
+}
+
+.s4 {
+  top: 8px;
+  left: 0;
+}
+
+.s5 {
+  top: 8px;
+  left: 8px;
+}
+
+.s6 {
+  top: 8px;
+  left: 16px;
+}
+
+.s7 {
+  top: 16px;
+  left: 0;
+}
+
+.s8 {
+  top: 16px;
+  left: 8px;
+}
+
+.s9 {
+  top: 16px;
+  left: 16px;
+}
+
+.top_right_banner {
+  position: absolute;
+  top: 0;
+  right: 15%;
+  padding: 30px 5px;
+  background-color: #282828;
+  color: var(--white);
+  font-size: 12px;
+  text-transform: uppercase;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.bottom_left_links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  bottom: 5%;
+  left: 0%;
+}
+
+.s_link {
+  color: var(--white);
+  margin: 10px 15px;
+}
+
+.s_text {
+  margin: 50px 0 30px 0;
+  transform: rotate(-90deg);
+  color: var(--white);
+  text-transform: lowercase;
+  font-size: 8px;
+  letter-spacing: 2px;
+}
+
+.bottom_tag_line {
+  position: absolute;
+  bottom: 4%;
+  left: 12%;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 90px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.main_content {
+  position: absolute;
+  left: 15%;
+  top: 26%;
+}
+
+.heading {
+  font-size: 75px;
+  font-family: "Grechen Fuemen", cursive;
+}
+
+.content {
+  font-size: 13px;
+  width: 340px;
+  font-family: "Marcellus", serif;
+}
+
+.cta {
+  width: fit-content;
+  margin-top: 15px;
+  padding: 5px 35px;
+  background-color: #282828;
+  color: var(--white);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.main_img{
+  position: absolute;
+  right: 8%;
+  top: 10%;
+  height: 350px;
+}
+
+.main_img img{
+  height: 100%;
+}
+
+
+.other_img{
+  position: absolute;
+  right: 7%;
+  top: 64%;
+  height: 100px;
+}
+
+
+.other_img img{
+  height: 100%;
+}
+
+.other_img::after{
+  position: absolute;
+  content: '';
+  width: 120px;
+  height: 2px;
+  background-color: var(--white);
+  bottom: -10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
