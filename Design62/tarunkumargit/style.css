@@ -276,9 +276,6 @@ footer img:hover {
 }
 
 @media only screen and (max-width: 800px) {
-  header {
-    height: 25vh;
-  }
   .heading {
     font-size: 2.5rem;
     top: -6%;
@@ -286,10 +283,6 @@ footer img:hover {
   .heading_intro {
     font-size: 0.8rem;
     padding-top: 2.7rem;
-  }
-
-  .row {
-    height: 50vh;
   }
 
   .btn {
@@ -321,8 +314,22 @@ footer img:hover {
   header {
     height: 15vh;
   }
+  .heading {
+    font-size: 2rem;
+    top: -3%;
+  }
   .row {
     flex-direction: column;
+    height: auto;
+  }
+  form {
+    padding-top: 0.2rem;
+  }
+  input {
+    padding-top: 1.5rem;
+  }
+  .btn {
+    margin-top: 1rem;
   }
   .bar_container {
     display: none;
