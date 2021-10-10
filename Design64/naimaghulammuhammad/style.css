@@ -1,0 +1,34 @@
+.bg-img{
+    opacity: 0.2;
+    transform: rotateY(206deg);
+    height: 70vh;
+    width: 50vw;
+    left: 0;
+}
+a{
+    cursor: pointer;
+}
+.right{
+    background-image: url("images/blakc-bg.jpg");
+}
+.social-icons a{
+    text-decoration: none;
+    cursor: pointer;
+    color: grey;
+    padding: 5px;
+}
+.social-icons a:hover{
+    color: white;
+    font-size: large;
+    transition: all .2s ease-in-out;
+}
+@media screen and (max-width: 928px){
+    .bg-img{
+        height: 80vh;
+        width: 100vw;
+        left: 10vh;
+    }
+    hr{
+        width: 200px !important;
+    }
+}
