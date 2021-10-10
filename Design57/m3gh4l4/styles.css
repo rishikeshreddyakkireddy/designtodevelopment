@@ -1,0 +1,39 @@
+.container > .row{
+    height: 100vh !important;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row > .col{
+    padding: 20px 0;
+}
+div, p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input , select{
+    background-color: #323431;
+    border-width: 0 0 1px 0;
+    outline-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: #D8BF5F;
+    border-bottom-color: #D8BF5F;
+    padding: 5px 0;
+}
+.input{
+    width: 100%;
+}
+::placeholder{
+    color: #D8BF5F;
+}
+
+select{
+    width: 100%;
+}
+
+.submit{
+    border-width: 2px;
+    border-color: #D8BF5F;
+    padding: 5px 10px 5px 10px;
+}
