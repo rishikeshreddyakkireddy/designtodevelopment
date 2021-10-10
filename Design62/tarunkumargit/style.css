@@ -127,7 +127,7 @@ header {
   font-weight: 600;
 }
 
-h3 {
+.heading_intro {
   height: 20%;
   width: 90%;
   color: var(--light-font);
@@ -223,7 +223,7 @@ input::placeholder {
   display: flex;
   align-items: center;
   color: var(--light-font);
-  padding-bottom: 1.7rem;
+  padding-bottom: 2.2rem;
 }
 
 .far,
@@ -235,4 +235,109 @@ input::placeholder {
 .address_info {
   font-size: 15px;
   letter-spacing: 1px;
+}
+
+footer {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+footer img {
+  height: 18px;
+  margin: 20px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+footer img:hover {
+  transform: scale(1.7);
+}
+
+/* Responsivness */
+
+@media only screen and (max-width: 1134px) {
+  header {
+    height: 20vh;
+  }
+  .heading {
+    font-size: 3rem;
+    top: -6%;
+  }
+  .heading_intro {
+    font-size: 1rem;
+    padding-top: 3rem;
+  }
+
+  .row {
+    height: 60vh;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  header {
+    height: 25vh;
+  }
+  .heading {
+    font-size: 2.5rem;
+    top: -6%;
+  }
+  .heading_intro {
+    font-size: 0.8rem;
+    padding-top: 2.7rem;
+  }
+
+  .row {
+    height: 50vh;
+  }
+
+  .btn {
+    padding: 0.7rem 0;
+  }
+  .info_container h1 {
+    font-size: 1.8rem;
+  }
+  .far,
+  .fas {
+    font-size: 22px;
+  }
+  .address_info {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 690px) {
+  section {
+    overflow-y: auto;
+    background: linear-gradient(
+      to right,
+      var(--light-color) 0%,
+      var(--light-color) 60%,
+      var(--yellow-color) 60%,
+      var(--yellow-color) 100%
+    );
+  }
+  header {
+    height: 15vh;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .bar_container {
+    display: none;
+  }
+  .col_1 {
+    width: 85%;
+  }
+  .col_2 {
+    margin-top: 4rem;
+    width: 85%;
+  }
+  .box {
+    top: -10px;
+    left: -10px;
+    width: 26px;
+    height: 26px;
+  }
 }
