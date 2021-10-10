@@ -34,7 +34,7 @@ People who are very new in the Open source Community star_struck and who are eag
 
     git checkout -b BRANCH_NAME
 
-**7. Create A New Floder**
+**7. Create A New Folder**
 
 > Create a folder with your name inside the design folder you are working on.
 > Don't change the file names or add new files to the existing images folder

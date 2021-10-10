@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@200;300;400;500&family=Open+Sans:wght@300;400;500&display=swap");
+
+$primary: #2a2a28;
+$secondar: #dee3dc;
+$accent: #fec900;
+$accentDarker: #8b7629;
+$topDarkGradient: #333532;
+$bottomDarkGradient: #272727;
+$topLightGradient: #e4e9e2;
+$bottomLightGradient: #d5dbd9;
+
+* {
+    // border: solid 1px red;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: $accent;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    min-height: 100vh;
+    position: relative;
+}
+
+h1,
+input,
+nav,
+.title {
+    font-family: "Lora", serif;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+
+.column {
+    padding: 0 4rem;
+}
+
+.col-wide {
+    flex: 0 0 60%;
+    background: $topDarkGradient;
+    background: linear-gradient(0deg, $topDarkGradient 0%, $bottomDarkGradient 100%);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .wrapp {
+        width: 70%;
+    }
+
+    h1 {
+        font-size: 3em;
+        font-weight: 300;
+    }
+
+    p {
+        color: $accentDarker;
+    }
+
+    .form {
+        margin-top: 4em;
+    }
+
+    .inpt {
+        display: flex;
+        flex-direction: column;
+        flex: 1 0 auto;
+
+        & + .inpt {
+            margin-left: 1em;
+        }
+    }
+
+    .input-grp {
+        display: flex;
+        margin-bottom: 3em;
+    }
+
+    label {
+        color: $accentDarker;
+        font-size: 0.8em;
+        padding-bottom: 4px;
+    }
+
+    input {
+        background: transparent;
+        border: none;
+        border-bottom: solid 1px $accentDarker;
+        padding: 0.5em 0;
+        font-size: 1.2rem;
+        font-weight: 200;
+        color: $accent;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    button {
+        border: none;
+        padding: 1em 1.5em;
+        color: $primary;
+        min-width: 130px;
+        background: $accent;
+        margin-left: auto;
+        margin-top: 2em;
+    }
+}
+
+.col-narrow {
+    flex: 0 0 40%;
+    background: $topLightGradient;
+    background: linear-gradient(0deg, $topLightGradient 0%, $bottomLightGradient 100%);
+    display: flex;
+    color: $primary;
+    flex-direction: column;
+
+    nav {
+        display: flex;
+        margin-top: 2em;
+        justify-content: space-around;
+        font-size: 0.8rem;
+
+        .nav-item {
+            color: rgba($primary, 0.5);
+            text-decoration: line-through;
+            font-style: italic;
+
+            &.active {
+                text-decoration: none;
+                color: rgba($primary, 1);
+            }
+        }
+    }
+
+    .wrapp {
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .contactinfo {
+        h1,
+        .meta {
+            margin-bottom: 0.8em;
+        }
+
+        h1:last-of-type {
+            margin-top: 2em;
+        }
+    }
+
+    .social {
+        font-size: 1.5em;
+        a {
+            color: $primary;
+            text-decoration: none;
+            margin-right: 0.8em;
+        }
+    }
+}
+
+.title {
+    position: absolute;
+    top: 5%;
+    width: 100%;
+    text-align: center;
+    z-index: 0;
+    font-size: 10em;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    color: rgba($accentDarker, 0.05);
+    user-select: none;
+}

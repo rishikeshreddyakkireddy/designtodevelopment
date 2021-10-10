@@ -1,0 +1,915 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+:root {
+  --bg-left: #e8a18f;
+  --bg-right: #b32f2d;
+  --text-color: #fff;
+}
+body {
+  overflow: hidden;
+}
+
+.container {
+  /* border: 2px solid red; */
+  height: 90vh;
+  /* width: 100vw; */
+}
+
+/* ******************************* LEFTSIDE STYLING START ******************************* */
+.leftside-section {
+  /* border: 2px solid red; */
+  height: 97vh;
+  width: 70%;
+  background-color: var(--bg-left);
+  float: left;
+}
+.navbar {
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  /* border: 2px solid red; */
+}
+.logo {
+  /* border: 2px solid black; */
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  /* margin: 1rem 2rem; */
+  padding: 5px 5px;
+  color: var(--text-color);
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-left: 6rem;
+}
+.nav-content {
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-items {
+  list-style: none;
+  text-decoration: none;
+  /* border: 2px solid red; */
+  margin-left: 4rem;
+}
+.nav-items a {
+  list-style: none;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.hero-section {
+  /* border: 2px solid red; */
+  margin-left: 6rem !important;
+  height: 88vh;
+}
+
+.hero-mainheading {
+  color: var(--text-color);
+  font-size: 3rem;
+  font-weight: bolder;
+  padding-left: 6rem;
+  padding-top: 5rem;
+  /* border: 2px solid red; */
+}
+.main-para {
+  color: var(--text-color);
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  padding-left: 6rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.btn-style {
+  border: 2px solid transparent;
+  background-color: var(--bg-right);
+  color: var(--text-color);
+  height: 2.5rem;
+  width: 10rem;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  margin-left: 6rem;
+  margin-top: 3rem;
+  /* box-shadow: 0 0.3rem 0.4rem rgba(183, 171, 255, 0.5); */
+}
+.bottom-section {
+  /* border: 2px solid red; */
+  display: flex;
+  position: relative;
+  top: 1rem;
+  left: -2rem;
+  height: 13rem;
+  margin-left: 2rem;
+  margin-top: 3rem;
+}
+.bottom-section > span {
+  /* border: 2px solid red; */
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  width: 3rem;
+  font-weight: 700;
+  color: var(--text-color);
+  font-size: 1rem;
+  letter-spacing: 2px;
+  position: absolute;
+  top: 10rem;
+  left: 0rem;
+}
+
+.previous-arrow {
+  border: 2px solid var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--text-color);
+  position: absolute;
+  top: 6.5rem;
+  /* left: 7.2rem; */
+  left: 11%;
+}
+.next-arrow {
+  border: 2px solid var(--bg-right);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--text-color);
+  padding-left: 2px;
+  background-color: var(--bg-right);
+  position: absolute;
+  top: 6.5rem;
+  /* left: 37rem; */
+  left: 64%;
+}
+
+.bottom-img {
+  /* border: 2px solid yellow; */
+  position: absolute;
+  top: 3rem;
+  /* left: 14rem; */
+  left: 23%;
+}
+.bottom-img img {
+  height: 10rem;
+}
+.bottom-text {
+  /* border: 2px solid violet; */
+  color: var(--text-color);
+  position: absolute;
+  top: 4rem;
+  /* left: 23.5rem; */
+  left: 40%;
+}
+.bottom-text span {
+  font-weight: 600;
+  color: var(--text-color);
+  font-size: 0.8rem;
+  text-transform: capitalize;
+}
+.bottom-text p {
+  margin-top: 2rem;
+  font-weight: 400;
+  color: var(--text-color);
+  font-size: 0.8rem;
+  text-transform: capitalize;
+}
+
+.bottom-number {
+  /* border: 2px solid black; */
+  color: var(--text-color);
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 5px;
+  position: absolute;
+  top: 4.5rem;
+  /* left: 44rem; */
+  /* right: 10rem; */
+  right: 17%;
+}
+.circle {
+  margin-top: -0.5rem;
+  display: flex;
+  position: absolute;
+  top: 8rem;
+  /* left: 42rem; */
+  right: 17%;
+  /* border: 2px solid red; */
+}
+.circle1 {
+  border: 2px solid var(--text-color);
+  height: 0.6rem;
+  width: 0.6rem;
+  color: black;
+  background-color: var(--text-color);
+  margin: 3px;
+  border-radius: 50%;
+}
+.circle2 {
+  border: 1px solid var(--text-color);
+  height: 0.6rem;
+  width: 0.6rem;
+  color: black;
+  margin: 3px;
+  border-radius: 50%;
+}
+.main-img {
+  background-color: transparent !important;
+  /* border: 2px solid violet; */
+  display: inline-block;
+  position: absolute;
+  top: 2.8rem;
+  left: 61%;
+  z-index: 99;
+}
+.main-img img {
+  height: 40rem;
+  width: 18rem;
+}
+/* ******************************* LEFTSIDE STYLING END ******************************* */
+
+
+
+
+/* ******************************* RIGHTSIDE STYLING START ******************************* */
+.rightside-section {
+  /* border: 2px solid yellow; */
+  float: right;
+  font-size: 0.8rem;
+  height: 97vh;
+  width: 30%;
+  background-color: var(--bg-right);
+}
+.search {
+  height: 2rem;
+  width: 2rem;
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 300;
+  position: absolute;
+  top: 0rem;
+  right: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 1rem;
+  z-index: 99;
+  /* border: 2px solid #fff; */
+}
+.hero-rightside {
+  /* border: 2px solid blue; */
+  padding-top: 3rem;
+  position: relative;
+  height: 88vh;
+  background-color: var(--bg-right);
+}
+.rightside-firstbox .horizontal-line {
+  display: inline-block;
+  width: 6rem;
+  background-color: #fff;
+  position: absolute;
+  top: 14rem;
+  right: 15%;
+}
+
+.rightside-text {
+  /* border: 2px solid red; */
+  display: inline-block;
+  position: absolute;
+  top: 13rem;
+  left: 80%;
+}
+.rightside-text span {
+  font-weight: 600;
+  float: right;
+}
+.rightside-section .main-para {
+  color: var(--text-color);
+  font-size: 1rem;
+  line-height: 0px;
+  margin-bottom: -1.5rem;
+  font-weight: 400;
+}
+.rightside-secondbox {
+  position: absolute;
+  top: 23rem;
+  width: 100%;
+}
+.rightside-secondbox .horizontal-line {
+  display: inline-block;
+  width: 4rem;
+  background-color: #fff;
+  position: absolute;
+  top: 1rem;
+  left: 10rem;
+}
+.rightside-secondbox .main-para {
+  color: var(--text-color);
+  font-size: 1rem;
+  line-height: 0.5rem;
+  font-weight: 400;
+  position: absolute;
+  top: -0.3rem;
+  left: 10%;
+}
+.rightside-secondbox img {
+  /* border: 2px solid black; */
+  height: 6rem;
+  width: 7rem;
+  position: absolute;
+  top: 2.5rem;
+  left: 15%;
+}
+.social-icons {
+  /* border: 2px solid red; */
+  position: absolute;
+  bottom: 2rem;
+  right: 3rem;
+  height: 6rem;
+  width: 6rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  color: var(--text-color);
+  font-size: 1.5rem;
+  /* border: 2px solid black; */
+  height: 2rem;
+  width: 2rem;
+  margin-bottom: 1rem;
+  margin-left: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ******************************* RIGHTSIDE STYLING END ******************************* */
+
+/* *************************RESPONSIVE CODE START ********************************** */
+@media screen and (min-width: 1292px) and (max-width: 1364px) {
+  .logo {
+    font-size: 1.3rem;
+  }
+
+  .nav-items {
+    list-style: none;
+    text-decoration: none;
+    margin-left: 3rem;
+  }
+  .nav-items a {
+    font-size: 0.9rem;
+  }
+  .previous-arrow {
+    height: 3rem;
+    width: 3rem;
+    font-size: 1.4rem;
+    position: absolute;
+    top: 6.5rem;
+    left: 10%;
+  }
+  .next-arrow {
+    position: absolute;
+    top: 6.5rem;
+    left: 60%;
+  }
+
+  .bottom-img {
+    /* border: 2px solid yellow; */
+    position: absolute;
+    top: 3rem;
+    left: 20%;
+  }
+  .bottom-img img {
+    height: 9rem;
+  }
+  .bottom-text {
+    position: absolute;
+    top: 4rem;
+    left: 35%;
+  }
+
+  .bottom-number {
+    position: absolute;
+    top: 4.5rem;
+    right: 15%;
+  }
+  .circle {
+    margin-top: -0.5rem;
+    display: flex;
+    position: absolute;
+    top: 8rem;
+    right: 15%;
+  }
+
+  .main-img {
+    position: absolute;
+    top: 2.8rem;
+    left: 60.5%;
+    z-index: 99;
+  }
+  .main-img img {
+    height: 37rem;
+    width: 16rem;
+  }
+}
+@media screen and (min-width: 1100px) and (max-width: 1292px) {
+  .logo {
+    padding: 5px 3px;
+    color: var(--text-color);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 5rem;
+  }
+  .nav-items {
+    margin-left: 1.5rem;
+    /* width: 10px; */
+    margin-left: 2rem;
+  }
+  .nav-items a {
+    font-size: 0.9rem;
+  }
+  .hero-mainheading {
+    font-size: 2.7rem;
+    padding-left: 3.7rem;
+    padding-top: 5rem;
+  }
+  .main-para {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 3.7rem;
+    font-size: 1.2rem;
+  }
+  .btn-style {
+    height: 2.5rem;
+    width: 10rem;
+    font-size: 1rem;
+    margin-left: 3.7rem;
+    margin-top: 3rem;
+  }
+
+  .previous-arrow {
+    height: 3rem;
+    width: 3rem;
+    font-size: 1.4rem;
+    position: absolute;
+    top: 6.5rem;
+    /* left: 4rem; */
+    left: 8%;
+  }
+
+  .next-arrow {
+    position: absolute;
+    top: 6.5rem;
+    left: 61%;
+  }
+
+  .bottom-img {
+    /* border: 2px solid yellow; */
+    position: absolute;
+    top: 3rem;
+    left: 17%;
+  }
+  .bottom-img img {
+    height: 9rem;
+  }
+  .bottom-text {
+    position: absolute;
+    top: 4rem;
+    left: 34%;
+  }
+
+  .bottom-number {
+    position: absolute;
+    top: 4.5rem;
+    right: 14%;
+  }
+  .circle {
+    margin-top: -0.5rem;
+    display: flex;
+    position: absolute;
+    top: 8rem;
+    right: 14%;
+  }
+
+  .main-img {
+    position: absolute;
+    top: 3.8rem;
+    left: 59.7%;
+  }
+  .main-img img {
+    height: 34rem;
+    width: 14.5rem;
+  }
+
+  .search {
+    position: absolute;
+    top: 0rem;
+    right: 1.5rem;
+    margin: 1rem 1rem;
+  }
+
+  .rightside-firstbox .horizontal-line {
+    width: 4.5rem;
+    position: absolute;
+    top: 14rem;
+    right: 15%;
+  }
+
+  .rightside-text {
+    position: absolute;
+    top: 13rem;
+    left: 81%;
+  }
+  .rightside-text span {
+    font-weight: 600;
+    float: right;
+  }
+  .rightside-section .main-para {
+    font-size: 0.9rem;
+    margin-bottom: -1.5rem;
+  }
+  .rightside-secondbox {
+    position: absolute;
+    top: 23rem;
+    width: 100%;
+  }
+  .rightside-secondbox .horizontal-line {
+    width: 2.5rem;
+    position: absolute;
+    top: 1rem;
+    left: 11%;
+  }
+  .rightside-secondbox .main-para {
+    font-size: 0.9rem;
+    font-weight: 400;
+    position: absolute;
+    top: -0.3rem;
+    left: 11%;
+  }
+  .rightside-secondbox img {
+    height: 6rem;
+    width: 7rem;
+    position: absolute;
+    top: 2.5rem;
+    left: 15%;
+  }
+  .social-icons {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    height: 6rem;
+    width: 6rem;
+  }
+  .icon {
+    font-size: 1.5rem;
+    height: 2rem;
+    width: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+  }
+}
+
+@media screen and (min-width:1005px) and (max-width: 1100px) {
+  .logo {
+    font-size: 1.5rem;
+    margin-left: 4rem;
+  }
+  .nav-items {
+    margin-left: 1.5rem;
+    margin-left: 2rem;
+  }
+  .nav-items a {
+    font-size: 0.9rem;
+  }
+  .hero-mainheading {
+    font-size: 2.7rem;
+    padding-left: 1.5rem;
+    padding-top: 5rem;
+  }
+  .main-para {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 1.5rem;
+    font-size: 1.2rem;
+  }
+  .btn-style {
+    height: 2.5rem;
+    width: 10rem;
+    font-size: 1rem;
+    margin-left: 1.5rem;
+    margin-top: 3rem;
+  }
+  .bottom-section > span {
+    height: 3rem;
+    width: 3rem;
+    font-size: 0.9rem;
+    position: absolute;
+    top: 10rem;
+    left: -1.5rem;
+  }
+
+  .previous-arrow {
+    height: 3rem;
+    width: 3rem;
+    font-size: 1.4rem;
+    position: absolute;
+    top: 6.5rem;
+    left: 6%;
+  }
+
+  .next-arrow {
+    position: absolute;
+    top: 6.5rem;
+    left: 61%;
+  }
+
+  .bottom-img {
+    /* border: 2px solid yellow; */
+    position: absolute;
+    top: 3.5rem;
+    left: 17%;
+  }
+  .bottom-img img {
+    height: 8rem;
+  }
+  .bottom-text {
+    position: absolute;
+    top: 4.5rem;
+    left: 32%;
+  }
+
+  .bottom-number {
+    position: absolute;
+    top: 4.5rem;
+    right: 14%;
+  }
+  .circle {
+    margin-top: -0.5rem;
+    display: flex;
+    position: absolute;
+    top: 8rem;
+    right: 14%;
+  }
+
+  .main-img {
+    position: absolute;
+    top: 5.2rem;
+    left: 59.7%;
+  }
+  .main-img img {
+    height: 32rem;
+    width: 13.5rem;
+  }
+
+  .search {
+    position: absolute;
+    top: 0rem;
+    right: 1.5rem;
+    margin: 1rem 1rem;
+  }
+
+  .rightside-firstbox .horizontal-line {
+    width: 4.5rem;
+    position: absolute;
+    top: 14rem;
+    right: 16.5%;
+  }
+
+  .rightside-text {
+    position: absolute;
+    top: 13rem;
+    left: 82%;
+  }
+  .rightside-text span {
+    font-weight: 00;
+    float: right;
+  }
+  .rightside-section .main-para {
+    font-size: 0.8rem;
+    margin-bottom: -1.5rem;
+  }
+  .rightside-secondbox {
+    position: absolute;
+    top: 23rem;
+    width: 100%;
+  }
+  .rightside-secondbox .horizontal-line {
+    width: 2.5rem;
+    position: absolute;
+    top: 1rem;
+    left: 9.5%;
+  }
+  .rightside-secondbox .main-para {
+    font-size: 0.8rem;
+    font-weight: 400;
+    position: absolute;
+    top: -0.2rem;
+    left: 12%;
+  }
+  .rightside-secondbox img {
+    height: 6rem;
+    width: 7rem;
+    position: absolute;
+    top: 2.5rem;
+    left: 13%;
+  }
+  .social-icons {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    height: 6rem;
+    width: 6rem;
+  }
+  .icon {
+    font-size: 1.5rem;
+    height: 2rem;
+    width: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+  }
+}
+
+
+@media screen and (max-width: 1005px) {
+  .logo {
+    font-size: 1.3rem;
+    margin-left: 3rem;
+  }
+  .nav-items {
+    margin-left: 1.5rem;
+  }
+  .nav-items a {
+    font-size: 0.9rem;
+  }
+  .hero-mainheading {
+    font-size: 2.7rem;
+    padding-left: 0rem;
+    padding-top: 5rem;
+  }
+  .main-para {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 0rem;
+    font-size: 1.2rem;
+  }
+  .btn-style {
+    height: 2.5rem;
+    width: 10rem;
+    font-size: 1rem;
+    margin-left: 0rem;
+    margin-top: 3rem;
+  }
+  .bottom-section > span {
+    height: 3rem;
+    width: 3rem;
+    font-size: 0.9rem;
+    position: absolute;
+    top: 10rem;
+    left: -2rem;
+  }
+
+  .previous-arrow {
+    height: 3rem;
+    width: 3rem;
+    font-size: 1.4rem;
+    position: absolute;
+    top: 6.5rem;
+    left: 4%;
+  }
+
+  .next-arrow {
+    position: absolute;
+    top: 6.5rem;
+    left: 64%;
+  }
+
+  .bottom-img {
+    /* border: 2px solid yellow; */
+    position: absolute;
+    top: 3.5rem;
+    left: 17%;
+  }
+  .bottom-img img {
+    height: 8rem;
+  }
+  .bottom-text {
+    position: absolute;
+    top: 4.5rem;
+    left: 32%;
+  }
+
+  .bottom-number {
+    position: absolute;
+    top: 4.5rem;
+    right: 14%;
+  }
+  .circle {
+    margin-top: -0.5rem;
+    display: flex;
+    position: absolute;
+    top: 8rem;
+    right: 14%;
+  }
+
+  .main-img {
+    position: absolute;
+    top: 5.2rem;
+    left: 59.7%;
+  }
+  .main-img img {
+    height: 32rem;
+    width: 13.5rem;
+  }
+
+  .search {
+    position: absolute;
+    top: 0rem;
+    right: 1.5rem;
+    margin: 1rem 1rem;
+  }
+
+  .rightside-firstbox .horizontal-line {
+    width: 4.5rem;
+    position: absolute;
+    top: 14rem;
+    right: 16%;
+  }
+
+  .rightside-text {
+    position: absolute;
+    top: 13rem;
+    left: 85%;
+  }
+  .rightside-text span {
+    font-weight: 00;
+    float: right;
+  }
+  .rightside-section .main-para {
+    font-size: 0.8rem;
+    margin-bottom: -1.5rem;
+  }
+  .rightside-secondbox {
+    position: absolute;
+    top: 23rem;
+    width: 100%;
+  }
+  .rightside-secondbox .horizontal-line {
+    width: 2.5rem;
+    position: absolute;
+    top: 1rem;
+    left: 10.2%;
+  }
+  .rightside-secondbox .main-para {
+    font-size: 0.8rem;
+    font-weight: 400;
+    position: absolute;
+    top: -0.2rem;
+    left: 15%;
+  }
+  .rightside-secondbox img {
+    height: 6rem;
+    width: 7rem;
+    position: absolute;
+    top: 2.5rem;
+    left: 13%;
+  }
+  .social-icons {
+    position: absolute;
+    bottom: 2rem;
+    right: 0.5Frem;
+    height: 6rem;
+    width: 6rem;
+  }
+  .icon {
+    font-size: 1.5rem;
+    height: 2rem;
+    width: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 5rem;
+  }
+  .search
+  {
+      position: absolute;
+      right: 1rem;
+  }
+}
+/* ****************RESPONSIVE CODE START ************************ */

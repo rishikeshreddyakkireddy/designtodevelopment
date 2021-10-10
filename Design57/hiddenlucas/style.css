@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@200;300;400;500&family=Open+Sans:wght@300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #fec900;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  min-height: 100vh;
+  position: relative;
+}
+
+h1,
+input,
+nav,
+.title {
+  font-family: "Lora", serif;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+.column {
+  padding: 0 4rem;
+}
+
+.col-wide {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 60%;
+          flex: 0 0 60%;
+  background: #333532;
+  background: -webkit-gradient(linear, left bottom, left top, from(#333532), to(#272727));
+  background: linear-gradient(0deg, #333532 0%, #272727 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.col-wide .wrapp {
+  width: 70%;
+}
+
+.col-wide h1 {
+  font-size: 3em;
+  font-weight: 300;
+}
+
+.col-wide p {
+  color: #8b7629;
+}
+
+.col-wide .form {
+  margin-top: 4em;
+}
+
+.col-wide .inpt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+
+.col-wide .inpt + .inpt {
+  margin-left: 1em;
+}
+
+.col-wide .input-grp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 3em;
+}
+
+.col-wide label {
+  color: #8b7629;
+  font-size: 0.8em;
+  padding-bottom: 4px;
+}
+
+.col-wide input {
+  background: transparent;
+  border: none;
+  border-bottom: solid 1px #8b7629;
+  padding: 0.5em 0;
+  font-size: 1.2rem;
+  font-weight: 200;
+  color: #fec900;
+}
+
+.col-wide input:focus {
+  outline: none;
+}
+
+.col-wide form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.col-wide button {
+  border: none;
+  padding: 1em 1.5em;
+  color: #2a2a28;
+  min-width: 130px;
+  background: #fec900;
+  margin-left: auto;
+  margin-top: 2em;
+}
+
+.col-narrow {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 40%;
+          flex: 0 0 40%;
+  background: #e4e9e2;
+  background: -webkit-gradient(linear, left bottom, left top, from(#e4e9e2), to(#d5dbd9));
+  background: linear-gradient(0deg, #e4e9e2 0%, #d5dbd9 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #2a2a28;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.col-narrow nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2em;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 0.8rem;
+}
+
+.col-narrow nav .nav-item {
+  color: rgba(42, 42, 40, 0.5);
+  text-decoration: line-through;
+  font-style: italic;
+}
+
+.col-narrow nav .nav-item.active {
+  text-decoration: none;
+  color: #2a2a28;
+}
+
+.col-narrow .wrapp {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.col-narrow .contactinfo h1,
+.col-narrow .contactinfo .meta {
+  margin-bottom: 0.8em;
+}
+
+.col-narrow .contactinfo h1:last-of-type {
+  margin-top: 2em;
+}
+
+.col-narrow .social {
+  font-size: 1.5em;
+}
+
+.col-narrow .social a {
+  color: #2a2a28;
+  text-decoration: none;
+  margin-right: 0.8em;
+}
+
+.title {
+  position: absolute;
+  top: 5%;
+  width: 100%;
+  text-align: center;
+  z-index: 0;
+  font-size: 10em;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  color: rgba(139, 118, 41, 0.05);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
