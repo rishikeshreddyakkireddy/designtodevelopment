@@ -1,0 +1,122 @@
+body{
+    margin: 50px;
+    padding: 100px;
+}
+h1{
+    margin: 20px 0;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+.box{
+    box-shadow: 0px 15px 10px -5px rgb(190, 179, 179);
+    padding: 10px 5px 0;
+}
+
+.contact{
+    margin: 10px;
+    padding: 50px;
+}
+.button{
+    margin: 20px 0 0;
+    background-color: rgb(32, 32, 32);
+    border: none;
+    color:#FFf;
+    text-align: center;
+    padding: 10px 180px;
+    font-size: 12px;
+    letter-spacing: 0.37rem;
+ }
+ .button:hover{
+    background-color:  rgb(255, 255, 28);
+    color: black;
+}
+.info{
+    background-color: rgb(36, 35, 35);
+    color: #fff;
+    padding: 30px;
+    line-height: 3.5rem;
+    
+}
+ .socials{
+        background-color: rgb(255, 255, 28);
+        padding: 30px;
+        text-align: center;
+        letter-spacing: 1.2rem;
+    } 
+.square{
+    color: #fff;
+}
+
+@media (min-width:900px){
+    .navbar{
+        margin: 0;
+        padding: 0;
+        left: 120px;
+        width: 8%;
+        position: fixed;
+        height: 100%;
+        overflow: auto;
+    }
+    .navbar-brand{
+        position: relative;
+        bottom: 260px;
+        
+        padding: 3px 8px;
+    }
+    .contact{
+        margin: 10px 20px;
+        padding: 100px;
+    }
+    .button{
+       margin: 20px 0 0;
+       background-color: rgb(32, 32, 32);
+       border: none;
+       color:#FFf;
+       text-align: center;
+       padding: 10px 165px;
+       font-size: 12px;
+       letter-spacing: 0.37rem;
+    }
+    .button:hover{
+        background-color:  rgb(255, 255, 28);
+        color: black;
+    }
+    .socials{
+       position: relative;
+       left: 131%;
+       height: 608px;
+       width: 200px;
+       background-color: rgb(255, 255, 28);
+    }
+    .text{
+        padding: 20px 5px 0;
+        position: absolute;
+        bottom: 0;
+        left: 30px;
+        line-height: 7rem;
+        letter-spacing: 1.2rem;
+    }
+    .info{
+        position: absolute;
+        top: 290px;
+        right: 146px;
+        height: 350px;
+        width: 350px;
+        background-color: rgb(36, 35, 35);
+        color: #fff;
+        padding: 30px;
+        line-height: 3.5rem;
+        
+    }
+    .square{
+        background-color: rgb(255, 255, 28);
+        color: rgb(255, 255, 28);
+        display: inline-block;
+        position: absolute;
+        top: 280px;
+        right: 480px;
+        height: 30px;
+        width: 30px;
+        z-index: 1;
+    }
+}
