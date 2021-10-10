@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    color: #000000;
+}
+
+body{
+    background-color: #FFFFFF;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4px 30px;
+    background-color: #FFFFFF;
+}
+
+
+/* /* .navBar{
+    margin-right: auto; 
+} 
+*/
+
+.logo{
+    margin-left: 30px;
+}
+
+.nav-links {
+    display: inline-block;
+    /* margin-left: 255px; */
+    margin-top: 20px;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 5px 6px;
+    margin-right: 10px;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.brand{
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+}
+
+.btn-connect{
+    height: 40px;
+    width: 150px;
+    margin-top: 10px;
+    margin-right: 20px;
+    padding: 5px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    color: #000000;
+    background-color: #fff;
+}
+
+.main-art img{
+    width: 550px;
+    /* background-color: red; */
+    margin: 0px auto;
+    display: block;
+}
+
+.explore{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.explore img{
+    opacity: 0.8;
+}
+
+.sub-text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom img{
+    width: 170px;
+    margin: 0px 50px;
+}
+
+.bottom button{
+    background-color: #000;
+    color: #fff;
+    width: 180px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
