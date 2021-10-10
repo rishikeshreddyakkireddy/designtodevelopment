@@ -58,7 +58,7 @@ ul > li:hover {
   background-color: rgba(27, 27, 27, 0.6);
 }
 .major-controll {
-  padding-top: 3em;
+  padding-top: 1.7em;
   width: 100%;
 }
 
@@ -69,14 +69,14 @@ ul > li:hover {
 }
 
 .library {
-  padding-top: 3em;
+  padding-top: 1.5em;
 }
 .library > ul > li {
   font-size: 15px;
   line-height: 2em;
 }
 .playlists {
-  padding-top: 3em;
+  padding-top: 1.5em;
 }
 .playlists > ul > li {
   font-size: 15px;
@@ -152,7 +152,7 @@ ul > li:hover {
   color: white;
 }
 .web-player {
-  width: 80vw;
+  width: 95vw;
   height: 4em;
   position: absolute;
   z-index: 2;
@@ -185,15 +185,15 @@ ul > li:hover {
   color: white;
 }
 .controllers {
-  width: 30vw;
+  width: 40vw;
   display: flex;
   flex-direction: column;
-  margin-left:10vw;
+  margin-left:15vw;
   align-items: center;
 }
 .play {
 
-  width: 25vw;
+  width: 30vw;
   display: flex;
   justify-content: space-around;
 }
@@ -222,7 +222,7 @@ ul > li:hover {
   display: flex;
   width:20vw;
   justify-content: space-around;
-  margin-left:5vw;
+  margin-left:10vw;
 }
 
 .intensity{
@@ -242,4 +242,17 @@ ul > li:hover {
   height: 5px;
   border-radius: 2px;
   background-color:rgb(61, 69, 78);
+}
+.flash-menu{
+  padding-top: 1em;
+  margin-left: 3em;
+  width:40%;
+  display:flex;
+  justify-content: space-evenly;
+}
+.flash-menu .circle{
+  width:15px;
+  height: 15px;
+  border-radius:50%;
+  border:1px solid white;
 }
