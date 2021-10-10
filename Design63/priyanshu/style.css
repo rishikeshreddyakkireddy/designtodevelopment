@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --background-color: rgb(241, 188, 41);
+    --yellow-color: rgb(30, 44, 236);
+    --secondary-color: rgb(253, 255, 219);
+    --bg-color-of-lists-in-skills-section: rgb(66, 66, 66);
+
+}
+* {
+    font-family: "Poppins" , sans-serif;
+}
+
+body {
+    background-color: var(--background-color) !important;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, td, a {
+    cursor: pointer;
+}
+
+canvas.particles-js-canvas-el {
+    position: absolute;
+    height: 100% !important;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: -1000;
+    margin: 0px;
+}
+
+/* Navbar */
+
+.nav_section .navbar-brand {
+    font-size: 20px;
+}
+
+.nav_section .navbar-brand span {
+    color: var(--yellow-color) ;
+}
+.nav_section .navbar-nav li {
+    margin: 0px 8px;
+}
+.nav_section .navbar-nav li a {
+    color: rgb(56, 50, 50) !important;
+    font-size: 18px;
+}
+.nav_section .navbar-nav .nav-link::before{
+    content: '';
+    width: 0px;
+    height: 0px;
+    background-color:rgb(231, 219, 216);
+    position: absolute;
+    bottom: 7px;
+    transition: 0.5s;
+}
+.nav_section .navbar-nav .nav-link:hover::before{
+   content: '';
+   height: 3px;
+   width: 26px;
+   background-color:rgb(255, 255, 248);
+   position:absolute;
+   bottom: 7px; 
+}
+
+.hero_section .row{
+    display: flex;
+    align-items: center;
+    height: 100vh
+}
+
+.hero_section .row h1,h2,h3,p{
+    color: black;
+}
+.hero_section .row h3{
+    font-size: 21px;
+    font-weight: 300;
+    margin-bottom: 15px ;
+}
+.hero_section .row h3::after {
+    content: '';
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    width: 90px;
+    height: 1.5px;
+    background-color: black;
+    margin-left: 6px;
+}
+.hero_section .row h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+.hero_section .row h2 {
+    font-size: 23px;
+    font-weight: 130;
+    margin: 8px 0px;
+}
+.hero_section .row p{
+    font-size: 16px;
+    margin-top: 13px;
+    line-height: 21px;
+    color: var(--secondary-color);
+}
+.hero_section .row button {
+    border-radius: 15px;
+    font-size: 15px;
+    color: ghostwhite;
+    background-color: var(--yellow-color);
+    border: 3px solid var(--yellow-color);
+    width: 118px;
+    font-family: 'Poppins' , sans-serif;
+    margin-top: 12px;
+}
+.hero_section .row button:hover {
+    animation: swing;
+    animation-duration: 0.5s;
+    background: white;
+    color: black;
+    border-color: white;
+}
+.hero_section .row img {
+     width: 100%;
+     height: 100%;
+}
+
+
+@media (max-width: 1200px) and (min-width: 993px) {
+    .hero_section .row h1 {
+        font-size: 58px;
+    }
+}
+
+@media (max-width: 993px) and (min-width: 763px) {
+    .hero_section .row h1 {
+        font-size: 42px;
+    }
+    .hero_section .row h2 {
+        font-size: 15px;
+    }
+    .hero_section .row p {
+        font-size: 11px;
+    }
+    .hero_section .row h3 {
+        font-size: 15px;
+    }
+    .hero_section .row button {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 763px) and (min-width: 500px) {
+    .hero_section {
+        margin: 65px 0px;
+    }
+    .hero_section .row h1 {
+        font-size: 46px;
+        text-align: center;
+    }
+    .hero_section .row h2 {
+        font-size: 15px;
+        text-align: center;
+    }
+    .hero_section .row p {
+        font-size: 11px;
+        text-align: center;
+    }
+    .hero_section .btn_container {
+        justify-content: center;
+        text-align: center;
+    }
+    .hero_section .row h3 {
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .hero_section .row h3::after {
+        width: 0px;
+    }
+    .hero_section .btn_container button {
+        width: 101px;
+        height: 44px;
+        font-size: 13px;
+        text-align: center;
+    }
+    .hero_section img {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+.bottom center {
+    padding: 5px;
+    font-size: .9rem;
+    background: rgb(129, 16, 16);
+}
+.bottom center span {
+    color: black;
+}
+.bottom center a {
+    color: rgb(26, 27, 100);
+    font-weight: 200;
+    text-decoration: none;
+}
+.bottom center a:hover {
+    text-decoration: underline;
+}
+.bottom .credit{
+    padding: 1rem 0 0 0;
+    text-align: center;
+    font-size: 1.1em;
+    font-family: 'Nunito',sans-serif;
+    font-weight: 100;
+    color: rgb(196, 13, 13);
+    
+  }
