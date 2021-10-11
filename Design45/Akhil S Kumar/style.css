@@ -1,0 +1,196 @@
+.mainRow{
+    height: 100vh;
+}
+
+.logo{
+    position: absolute;
+    top: 15px;
+}
+
+.logo .fa{
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.logo span{
+    color: #fff;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.leftSide{
+    padding-top: 140px;
+    background-color: #FF6900;
+}
+
+.leftSide h3{
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+.leftSide img{
+    margin-top: 30px;
+    width: 50%;
+}
+
+.leftSide h2{
+    margin-top: 50px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.leftSide .dots{
+    margin-top: 100px;
+}
+
+.leftSide .dots .dot{
+    color: #fff;
+    margin-right: 10px;
+    font-size: 10px;
+
+}
+
+.leftSide .dots .dotFocus{
+    padding: 4px;
+    border-radius: 50%;
+    border: 2px solid #FFBB00;
+}
+
+.rightSide{
+    padding-top: 140px;
+    background-color: #222222;
+}
+
+.loginSignup{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.loginSignup .btn{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    width: 100px;
+    border: none;
+    border: 2px solid #5A5A5A;
+}
+
+.loginSignup .btn:hover, .loginSignup .btn:focus, .loginSignup .btn:active{
+    color: #fff;
+    border: none;
+    border: 2px solid #5A5A5A;
+    outline: none;
+    box-shadow: none !important;
+}
+
+.loginSignup .btn1{
+    background-color: #5A5A5A;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-right: -10px;
+}
+
+.loginSignup .btn2{
+    background-color: transparent;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.rightSide h3{
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+.input-fieldsMain{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.input-fields label{
+    margin-top: 20px;
+    color: #5c5c5c;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.input-fields input{
+    margin-top: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #2B2B2B;
+    padding-bottom: 15px;
+    min-width: 650px;
+    color: #fff;
+}
+
+.input-fields input:focus{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 15px;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+}
+
+.form-check{
+    margin-top: 30px;
+}
+
+.form-check input{
+    background-color: #FFBB00;
+    border: none;
+}
+
+.form-check input:focus{
+    background-color: #FFBB00;
+    box-shadow: none;
+}
+
+.form-check label{
+    color: #fff;
+    font-size: 14px;
+}
+
+.form-check a{
+    color: #5c5c5c;
+}
+
+.form-check-input:checked {
+    background-color: #FFBB00;
+    border: none;
+}
+
+.submit-sec{
+    margin-top: 50px;
+}
+
+.submit-sec .btn{
+    background-color: #FFBB00;
+    border: none;
+    color: #222222;
+    font-size: 15px;
+    font-weight: 600;
+    width: 150px;
+    border-radius: 20px;
+}
+
+.submit-sec .btn:hover, .submit-sec .btn:focus, .submit-sec .btn:active{
+    background-color: #FFBB00;
+    color: #222222;
+    border: none;
+    outline: none;
+    box-shadow: none !important;
+}
+
+.login, .login:hover{
+    color: #5c5c5c;
+    margin-left: 20px;
+}
