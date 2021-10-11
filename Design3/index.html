@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link href="style.css" rel="stylesheet">
+    <title>Design3</title>
+</head>
+<body>
+    <nav class='navbar'>
+        <h1 id="index">INDEX</h1>
+        <div class="NavigationMenu">
+            <a href="#aboutme">Product</a>
+            <a href="#skills">Solutions</a>
+            <a href="#projects">Resources</a>
+            <a href="#ContactForm">Pricing</a>
+            <a id="sign"  href="#Sign Up">Sign Up</a>
+            <a id="request" href="#Request Demo">Request Demo</a>
+        </div>
+    </nav>
+    <section class="HeroSection">
+        <div class="HeroSectionDetails">
+            <h3><span style="color: rgb(255, 254, 240);">&lt</span> Open source<span style="color: rgb(252, 248, 235);"> /&gt</span> adoption at scale</h3>
+            <h2>Accelerate Development with Native Integrations</h2>
+          <center><button class="btn"><i style="font-size: 1.7rem; margin-left: 12px; margin-right: 12px;" class="fa-solid fa-circle-play"></i> Start now</button></center>  
+        </div>
+    </section>
+    <section id="container">
+        <div id="services">
+            <div class="box" id="box1" style="background: rgb(248, 212, 218);">
+                <i class="fa-brands fa-git-alt" style="font-size: 2rem;"></i><span id="heading">Git</span>
+                
+                <p class="center">
+                    Open source distributed version control system to handle any size projects
+                </p>
+                <button id="in" onclick="myFunction1()">Learn More</button><i class="fa-solid fa-angle-right"></i>
+                <div id="git">
+                    This is git.
+                </div>
+            </div>
+            <div class="box" id="box2" style="background: rgb(248, 231, 184);">
+                <i class="fa-brands fa-angular"style="font-size: 2rem;"></i>
+                <span id="heading">Angular JS</span>
+
+                <p class="center">
+                    Toolset for building the framework most suited to your application development 
+                </p>
+                <button id="in" onclick="myFunction2()">Learn More</button><i class="fa-solid fa-angle-right"></i>
+                <div id="angular">
+                    This is Angular JS.
+                </div>
+            </div>
+
+            <div class="box" id="box3" style="background: rgba(215, 252, 215, 0.952);">
+                <i class="fa-brands fa-react" style="font-size: 2rem;"></i>
+                <span id="heading">React</span>
+
+                <p class="center">
+                    Front-end Javascript library for building user interfaces or UI components
+                </p>
+                <button id="in" onclick="myFunction3()">Learn More</button><i class="fa-solid fa-angle-right"></i>
+                <div id="react">
+                    This is React.
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        function myFunction1() {
+          var x = document.getElementById("git");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        function myFunction2() {
+          var x = document.getElementById("angular");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        function myFunction3() {
+          var x = document.getElementById("react");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        </script>
+</body>
+</html>
