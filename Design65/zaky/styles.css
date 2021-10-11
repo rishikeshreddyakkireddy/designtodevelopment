@@ -14,13 +14,15 @@ html,body{
    
 }
 h1{
-    font-size: 5rem;
+    /* font-size: 5rem; */
+    font-size: 6rem;
     font-weight: bold;
     color: #fff;
 }
 p{
     color: grey;
-    font-size: 1.75rem;
+    /* font-size: 1.75rem; */
+    font-size: 2rem;
 
 }
 .nav-link{
@@ -35,13 +37,16 @@ p{
 .image{
     
     display: block;
-    margin-right: 150px;
+    /* margin-right: 150px; */
+    margin-right: 70px;
     position: absolute;
     bottom: 0px;
     right: 0px;
     object-fit: cover;
-    width: 550px;
-    height: 680px;
+    /* width: 550px;
+    height: 680px; */
+    width: 590px;
+    height: 750px;
     z-index: 1;
 }
 
@@ -60,7 +65,8 @@ p{
 }
 
 .search{
-    margin-left: 250px;
+    /* margin-left: 250px; */
+    margin-left: 600px;
     margin-top: 10px;
     text-align: right;
     float: right;
@@ -88,7 +94,8 @@ input{
 .container-fluid{
     width: 50%;
     text-align: left;
-    margin: 8% 0% 6% 10%;
+    /* margin: 8% 0% 6% 10%; */
+    margin: 8% 0% 6% 2%;
   
 }
 
@@ -96,7 +103,8 @@ input{
 
 .Emailform{
     width: 100%;
-    margin-bottom: 20%;
+    /* margin-bottom: 20%; */
+
 }
 .email{
     padding-left: 28px;
@@ -104,7 +112,8 @@ input{
 }
 
 .navbar, .navbar-expand-lg, .navbar-light{
-    margin: 5px 10%;
+    /* margin: 5px 10%; */
+    margin: 1% 2%;
     color: #fff;
 }
 .dropdown-item{
@@ -116,8 +125,8 @@ input{
 
 hr:not([size]) {
     height: 1px;
-    margin: 1% 10%;
-    
+    /* margin: 1% 10%; */
+    margin: 1% 2%;
     color: #f3edfa;
     z-index: -1;
 }
@@ -129,10 +138,12 @@ hr:not([size]) {
 }
 .m-0{
    font-size: 12px!important;
-   margin-left: 60%!important;
+   /* margin-left: 60%!important; */
+   margin-left: 20%!important;
 }
 .text-mono{
-    margin-left: 60%;
+    /* margin-left: 60%; */
+    margin-left: 20%;
     font-size: 15px;
 }
 
