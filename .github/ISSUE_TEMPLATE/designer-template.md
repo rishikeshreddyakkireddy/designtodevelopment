@@ -1,7 +1,7 @@
 ---
-name: Issue_Template
-about: I will provide you the design, can you code?
-title: DESIGN**
+name: Designer Template
+about: Develop this design
+title: Design**
 labels: ''
 assignees: ''
 
@@ -9,6 +9,8 @@ assignees: ''
 
 Develop this design using your preferred web technologies. Try to approximate it up to 80%.
 Don't worry about colors much, but try to make the UI neat and clean.
+
+**Designed By:**  Add_your_name_and_remove_this_text
 
 # DESIGN
 
