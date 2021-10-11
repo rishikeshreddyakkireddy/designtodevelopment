@@ -1,0 +1,49 @@
+$text-primary: #ffffff;
+$text-secondary: #bf7253;
+$button-border: #737373;
+
+// Flex Box
+
+@mixin flex($direction, $justify, $align, $wrap) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+  flex-wrap: $wrap;
+}
+
+// Media Responsive
+
+@mixin media($point) {
+  @if $point == mobilexs {
+    @media (max-width: 350px - 1px) {
+      /* 350px */
+      @content;
+    }
+  } @else if $point == mobile {
+    @media (max-width: 400px - 1px) {
+      /* 400px */
+      @content;
+    }
+  } @else if $point == sm {
+    @media (max-width: 576px - 1px) {
+      /* 576px */
+      @content;
+    }
+  } @else if $point == md {
+    @media (max-width: 768px - 1px) {
+      /* 768px */
+      @content;
+    }
+  } @else if $point == lg {
+    @media (max-width: 992px - 1px) {
+      /* 992px */
+      @content;
+    }
+  } @else if $point == xlg {
+    @media (max-width: 1200px - 1px) {
+      /* 1200px */
+      @content;
+    }
+  }
+}
