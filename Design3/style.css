@@ -35,6 +35,10 @@ body {
     font-size: 20px;
     font-weight: bolder;
   }
+  a:hover{
+    font-weight: bolder; 
+    color: rgb(34, 32, 32); border: 2px white; border-radius: 25px; background: rgb(255, 255, 228);
+  }
   #sign{
       margin-left: 80px;
   }
@@ -44,9 +48,12 @@ body {
       padding: 13px;
       color: aliceblue;
   }
+  #request:hover{
+    background: rgb(247, 246, 246); color: rgb(15, 144, 250);
+  }
   .HeroSection {
     background-color: rgb(255 255 255/ 31%);
-    border: 10px solid rgb(255 255 255/ 31%); border-radius: 20px;
+    border: 10px solid rgb(255 255 255/ 31%); border-radius: 20px; box-shadow: -5px 5px 8px 4px rgb(113, 112, 114);
     margin: 50px;
     width: 75%;
     display: flex; flex-wrap: wrap; align-items: center; justify-content: space-evenly;
@@ -67,6 +74,11 @@ body {
     color: black; 
     cursor: pointer;
   }
+  .btn:hover{
+    width: 200px;
+    font-weight: bold; font-size: 1.3rem ;
+    background: rgba(218, 252, 215, 0.911);
+  }
 #container{
     margin-top: 30px;
 }
@@ -80,8 +92,12 @@ body {
     margin: 10px 20px;
     width: 23vw;
     border-radius: 28px;
-    background: #f2f2f2;
     margin-bottom: 20px;
+}
+#services .box:hover{
+  width: 26vw;
+  box-shadow: 4px 4px 7px 4px #888888;
+  cursor: pointer;
 }
 #services .box >h2,p{
     margin-top: 0px;
