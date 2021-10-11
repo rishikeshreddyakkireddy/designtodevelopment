@@ -1,0 +1,70 @@
+body{
+	background-color: #36454F;
+}
+.container{
+	margin-top:50px;
+	width:1000px;
+	background-color: black;
+}
+#ro1{
+	margin:20px 20px 20px 20px;
+	padding-top:40px;
+}
+h1,h2{
+	color:ghostwhite;
+}
+sup{
+	font-size:14px;
+	vertical-align:super;
+}
+#about{
+	color:sandybrown;
+}
+#para1{
+	color:gainsboro;
+}
+.para2{
+	font-size: 26px;
+}
+p{
+	color:darkgray;
+}
+#horizontal{
+	color:whitesmoke;
+	width:900px;
+	margin-left:30px;
+	height:4px;
+    margin-top:-10px;
+}
+.ro2{
+	margin-left:20px;
+	margin-right:20px;
+
+}
+.horizontal1{
+	color: white;
+}
+.horizontal2{
+	color: sandybrown;
+}
+.co{
+	color:gray;
+}
+h5{
+	color:ghostwhite;
+}
+#heading2{
+	margin-top:105px;
+	font-size:75px;
+}
+u{
+	color:sandybrown;
+	text-decoration-style: dotted;
+
+}
+.para3{
+	font-size:12.6px;
+}
+.para4{
+	font-size:14px;
+}
