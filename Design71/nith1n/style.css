@@ -150,9 +150,14 @@ nav {
 footer {
   height: 150px;
   width: 100%;
-  background-color: #909090;
+  background-color: var(--yellow);
   display: flex;
   position: relative;
+}
+
+footer * {
+  font-family: sans-serif;
+  letter-spacing: 0.05px;
 }
 
 /* events */
@@ -199,10 +204,6 @@ footer {
   height: 80px;
   width: 220px;
   padding: 10px;
-}
-footer * {
-  font-family: sans-serif;
-  letter-spacing: 0.05px;
 }
 
 .event-item section {
