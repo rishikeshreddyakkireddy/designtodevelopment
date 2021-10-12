@@ -1,0 +1,193 @@
+html,body{
+    
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    line-height: 1.5;
+    background-color: rgb(8, 5, 41); 
+    
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+   
+}
+h1{
+    /* font-size: 5rem; */
+    font-size: 6rem;
+    font-weight: bold;
+    color: #fff;
+}
+p{
+    color: grey;
+    /* font-size: 1.75rem; */
+    font-size: 2rem;
+
+}
+.nav-link{
+    color: #fff !important;
+}
+
+.githubImage{
+    margin-left: 15px;
+    width: 40px;
+}
+
+.image{
+    
+    display: block;
+    /* margin-right: 150px; */
+    margin-right: 70px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    object-fit: cover;
+    /* width: 550px;
+    height: 680px; */
+    width: 590px;
+    height: 750px;
+    z-index: 1;
+}
+
+.home-hero-glow{
+    top: 50%;
+    left: 50%;
+    width: 200%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    position: absolute !important;
+    border-style: none;
+}
+.form-control{
+    display: inline-block;
+    width: 50%;
+}
+
+.search{
+    /* margin-left: 250px; */
+    margin-left: 600px;
+    margin-top: 10px;
+    text-align: right;
+    float: right;
+}
+
+input{
+    opacity: 100%;
+    background-color: grey;
+}
+
+.btn{
+    color: #fff ;
+}
+
+ .btn1{
+    background: linear-gradient(
+        180deg, rgba(52, 183, 89, 0.15) 0%, rgba(46, 164, 79, 0) 100%),#2ea44f !important;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 5px;
+    position: absolute;
+    padding: 4px 30px 10px 30px
+} 
+
+.container-fluid{
+    width: 50%;
+    text-align: left;
+    /* margin: 8% 0% 6% 10%; */
+    margin: 8% 0% 6% 2%;
+  
+}
+
+
+
+.Emailform{
+    width: 100%;
+    /* margin-bottom: 20%; */
+
+}
+.email{
+    padding-left: 28px;
+   
+}
+
+.navbar, .navbar-expand-lg, .navbar-light{
+    /* margin: 5px 10%; */
+    margin: 1% 2%;
+    color: #fff;
+}
+.dropdown-item{
+    font-size: 12px;
+}
+.bold{
+    font-weight: bold;
+}
+
+hr:not([size]) {
+    height: 1px;
+    /* margin: 1% 10%; */
+    margin: 1% 2%;
+    color: #f3edfa;
+    z-index: -1;
+}
+
+
+.bottom{
+    font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace !important;
+    color: #fff;
+}
+.m-0{
+   font-size: 12px!important;
+   /* margin-left: 60%!important; */
+   margin-left: 20%!important;
+}
+.text-mono{
+    /* margin-left: 60%; */
+    margin-left: 20%;
+    font-size: 15px;
+}
+
+/*Media Wuery */
+@media (max-width: 1200px){
+
+    .image{
+    
+        display: block;
+        margin-right: 50px;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        object-fit: cover;
+        width: 350px;
+        height: 390px;
+        z-index: 1;
+    }
+    
+    h1{
+        margin-left: 7%;
+        font-size: 4rem;
+        font-weight: bold;
+        color: #fff;
+    }
+
+    p{
+        margin-left: 7%;
+        color: grey;
+        font-size: 1rem;
+    
+    }
+    .Emailform{
+        margin-left: 7%;
+        width: 80%;
+    }
+    .navbar-toggler{
+        background-color: rgb(54, 48, 136);
+        margin: 30px 0 0 40px;
+    } 
+    
+    .githubImage{
+        margin: 30px 0 0 40px;
+        width: 40px;
+    }
+    
+}
