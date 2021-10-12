@@ -49,4 +49,51 @@ body {
 
 }
 
+/* body */
+
+.tittle{
+    font-size: 4.5rem;
+    font-weight: 1000;
+    margin-bottom: -5px;
+    letter-spacing: -2px;
+    margin-left: 2rem;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+#top{
+    margin-top: 11rem;
+}
+
+.subtittle{
+    font-size: 3rem;
+    font-weight: 1000;
+    letter-spacing: 5px;
+    margin-left: 2rem;
+    color: #9CC913; 
+    font-family:'Oswald',sans-serif;
+}
+
+.watch{
+    color: white;
+    display: inline-flex;
+    margin-top: 4.9rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+}
+
+.playIcon{
+    margin-top: 4rem;
+    margin-left: 2rem;
+    color: #9CC913;
+    font-size: 3rem;
+    margin-right: 0rem;
+}
+
+.hpImg{
+    margin-left: 2rem;
+    width: 39rem;
+    height: 37.4rem;
+}
 
