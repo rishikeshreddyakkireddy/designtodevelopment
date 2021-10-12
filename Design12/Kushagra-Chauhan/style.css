@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+
+}
+
+.container{
+    display: flex;
+}
+
+.box{
+    background-image: radial-gradient(rgb(252, 121, 121), rgb(247, 47, 47));
+    background-size: cover;
+    /* height: 1420px; */
+    /* width: 3000px; */
+}
+
+.navbar{
+    display: flex;
+    position: sticky;
+}
+
+#icon{
+    width: 180px;
+    height: 100px;
+    padding: 2%;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    position: absolute;
+    left: 40%;
+}
+
+.navbar ul li{
+    padding: 25px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.content{
+    width: 2900px;
+    position: relative;
+    left: 65%;
+}
+
+.text{
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+.content h3{
+    font-size: 10px;
+    font-weight:bold;
+    color: rgb(194, 185, 185);
+}
+
+.content h1{
+    font-size: 80px;
+    font-weight:bolder;
+    color: white;
+}
+
+
+.content h2{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(207, 201, 201);
+}
+
+.shoe i{
+ display: flex;
+ align-items: center;
+ 
+}
+
+.shoe i p{
+    color: white;
+    font-size: 25px;
+    font-family: 'Titillium Web', sans-serif;
+    padding: 10px;
+}
+
+.fa-1{
+    position: relative;
+    left: 23%;
+    top: 200px;
+}
+
+.fa-2{
+    position: relative;
+    left: 62%;
+    top: 100px;
+}
+
+.fa-3{
+    position: relative;
+    left: 75%;
+    top: 400px;
+}
+.fa-4{
+    color: white;
+    position: absolute;
+    left: 90%;
+    top: 540px;
+    padding: 40px;
+}
+.fa-5{
+    color: white;
+    position: absolute;
+    left: 90%;
+    top: 600px;
+    padding: 40px;
+}
+.fa-6{
+    color: white;
+    position: absolute;
+    left: 0%;
+    top: 600px;
+    background:rgb(245, 67, 67)
+}
+
+
+#image{
+    width: 1500px;
+    height: 750px;
+    position: absolute;
+    left: 750px;
+    top: 300px;
+}
+
+#image2{
+    width: 1500px;
+    height: 150px;
+    position: absolute;
+    left: 750px;
+    top: 970px;
+}
+
+.btn{
+    position: absolute;
+    left: 45%;
+    top: 1150px;
+    outline: none;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 30px;
+    padding: 20px 30px;
+    border: 0;
+    border-radius: 35px;
+    color: white;
+    background: rgb(48, 46, 46);
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.btn:hover{
+background: rgb(245, 67, 67);
+}
+
+.line {
+    font-size: 30px;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    left: 78%;
+    top: 1200px;
+
+}
+
+.fa-bottom {
+    top: 1250px;
+    position: absolute;
+    left: 80px;
+    color: white;
+}
+
+.sidebar{
+    width: 150px;
+    margin-top: 0;
+    padding-top: 0;
+    display: grid;
+    background-image: repeating-linear-gradient( rgb(248, 134, 134), rgb(209, 9, 9));
+    background-size: cover;
+    align-content: center;
+    justify-content: center;
+}
+
+.sidebar a i{
+    cursor:pointer;
+    padding: 20px;
+    height: 100px;
+    width: 110px;
+    transition: all 0.3s linear;
+    color: white;
+}
+
+.sidebar a i:hover{
+    background: rgb(58, 57, 57);
+}
+
+.fa-bars{
+    background-color: rgb(58, 53, 53);
+    width: fit-content;
+}
+
+.fa-share-alt{
+    margin-top: 500px;
+}
