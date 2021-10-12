@@ -1,0 +1,154 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*, *::after, *::before{
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+}
+
+ol{
+  list-style: none;
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.9), rgba(0,0,0,0.8));
+}
+
+.main_container{
+  width: 75vw;
+  height: 85vh;
+  padding: 2.5rem 5rem;
+  border-radius: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 8px 9px 10px 0px rgb(0 0 0 / 60%);
+  background-image: linear-gradient(to bottom left, rgba(0,0,0,0.80), rgba(0,0,0,0.70));
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+}
+
+.navbar-links{
+  display: flex;
+  flex-basis: 60%;
+  margin-right: auto;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.active{
+  color: #a2ce2c;
+}
+
+.btn{
+  background: #a2ce2c;
+  border-radius: 2rem;
+  padding: 1rem 3rem;
+}
+
+a{
+  text-decoration: none;
+}
+
+.main{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  /* justify-content: space-between; */
+}
+
+.main-imgbox{
+  margin: 0 4rem 0 auto;
+}
+
+.textbox *{
+  font-size: 5rem;
+  font-family: 'Anton', sans-serif;
+  text-transform: uppercase;
+}
+
+.feature{
+  font-family: 'Anton', sans-serif;
+  font-size: 3rem;
+  color: #a2ce2c;
+  letter-spacing: 4px;
+}
+
+.ctabox{
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.icon{
+  font-size: 4rem;
+  margin-right: 1rem;
+}
+
+.icon *{
+  color: #a2ce2c;
+}
+
+.inner_circle{
+  height: 40rem;
+  width: 40rem;
+  text-align: center;
+  border: 1px solid #f2f2f2cc;
+  border-radius: 100% ;
+  position: relative;
+}
+
+.inner_circle::after{
+  content: "";
+  display: block;
+  width: 52rem;
+  height: 52rem;
+  top: -6rem;
+  right: -6rem;
+  position: absolute;
+  border-radius: 100%;
+  border: 1px solid #ffffffe3;
+}
+
+.img{
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contactbar{
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.socialhandles *{
+  display: inline;
+  margin-right: 2px;
+}
+
