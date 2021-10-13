@@ -11,7 +11,7 @@ body{
     display: flex;
     font-family: 'Titillium Web', sans-serif;
     display: flex;
-    height: 750px;
+    height: 810px;
 }
 
 .box{
@@ -49,19 +49,19 @@ body{
 }
 
 .content h3{
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     padding-left: 900px;
     color: rgb(228, 159, 159);
 }
 .content h1{
-    font-size: 40px;
+    font-size: 55px;
     font-weight: bolder;
     padding-left: 900px;
     color: white;
 }
 .content h2{
-    font-size: 25px;
+    font-size: 40px;
     font-weight: bold;
     padding-left: 900px;
     color: rgb(252, 149, 149);
@@ -148,7 +148,7 @@ body{
 }
 
 .side{
-    height: 1600x;
+    height: 810px;
 }
 
 .menu{
@@ -185,5 +185,5 @@ body{
 }
 
 .fa-share-alt{
-    margin-top: 378px;
+    margin-top: 440px;
 }
