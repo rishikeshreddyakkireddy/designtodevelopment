@@ -5,218 +5,218 @@
     padding: 0;
 }
 
-.body{
-
-}
-
-.container{
+body{
+    background-image: radial-gradient(rgb(250, 120, 120), rgb(248, 31, 31));
+    height: 1400px;
+    background-repeat: no-repeat;
     display: flex;
-}
-
-.box{
-    background-image: radial-gradient(rgb(252, 121, 121), rgb(247, 47, 47));
-    background-size: cover;
-    /* height: 1420px; */
-    /* width: 3000px; */
 }
 
 .navbar{
     display: flex;
-    position: sticky;
 }
 
 #icon{
-    width: 180px;
-    height: 100px;
-    padding: 2%;
+height: 100px;
+width: 180px;
+padding: 40px;
+margin-left: 40px;
 }
 
 .navbar ul{
     display: flex;
     list-style: none;
-    position: absolute;
-    left: 40%;
+    margin-left: 600px;
+    margin-right: 1045px;
 }
 
 .navbar ul li{
-    padding: 25px;
-    font-size: 35px;
-    font-weight: bold;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.navbar ul li i{
+    margin-top: 10px;
 }
 
 .navbar ul li a{
     text-decoration: none;
     color: white;
     cursor: pointer;
+    font-size: 40px;
     font-family: 'Titillium Web', sans-serif;
+    font-weight: bolder;
+    transition: all 0.3s linear;
+    display: flex;
+}
+
+.navbar ul li a:hover{
+    background: rgb(250, 102, 102);
 }
 
 .content{
-    width: 2900px;
-    position: relative;
-    left: 65%;
-}
-
-.text{
     font-family: 'Titillium Web', sans-serif;
-
+    position: fixed;
+    left: 70%;
 }
 
 .content h3{
-    font-size: 10px;
-    font-weight:bold;
-    color: rgb(194, 185, 185);
+    font-size: 45px;
+    color: rgb(218, 218, 218);
+    font-weight: bolder;
 }
-
 .content h1{
-    font-size: 80px;
-    font-weight:bolder;
+    font-size: 85px;
     color: white;
+    font-weight: bolder;
 }
-
-
 .content h2{
-    font-size: 50px;
-    font-weight: bold;
-    color: rgb(207, 201, 201);
+    font-size: 65px;
+    color: rgb(187, 168, 168);
+    font-weight: bolder;
 }
 
-.shoe i{
- display: flex;
- align-items: center;
- 
+.shoe{
+    /* display: grid; */
 }
 
-.shoe i p{
-    color: white;
-    font-size: 25px;
+.content i{
+    display: flex;
+    color: rgb(53, 49, 49);
+}
+
+.content i p{
     font-family: 'Titillium Web', sans-serif;
-    padding: 10px;
-}
-
-.fa-1{
-    position: relative;
-    left: 23%;
-    top: 200px;
-}
-
-.fa-2{
-    position: relative;
-    left: 62%;
-    top: 100px;
-}
-
-.fa-3{
-    position: relative;
-    left: 75%;
-    top: 400px;
-}
-.fa-4{
+    font-size: 40px;
+    display: flex;
     color: white;
-    position: absolute;
-    left: 90%;
-    top: 540px;
-    padding: 40px;
 }
-.fa-5{
-    color: white;
-    position: absolute;
-    left: 90%;
-    top: 600px;
-    padding: 40px;
-}
-.fa-6{
-    color: white;
-    position: absolute;
-    left: 0%;
-    top: 600px;
-    background:rgb(245, 67, 67)
-}
-
 
 #image{
+    height: 850px;
     width: 1500px;
-    height: 750px;
-    position: absolute;
-    left: 750px;
-    top: 300px;
+    right: 750px;
+    position: fixed;
+    bottom: 350px;
 }
 
 #image2{
+    height: 70px;
     width: 1500px;
-    height: 150px;
-    position: absolute;
-    left: 750px;
-    top: 970px;
+    right: 750px;
+    position: fixed;
+    bottom: 300px;
+}
+
+.fa-1{
+    position: fixed;
+    left: 650px;
+    top: 650px;
+}
+.fa-2{
+    position: fixed;
+    left: 1750px;
+    top: 550px;
+}
+.fa-3{
+    position: fixed;
+    left: 2100px;
+    top: 1000px;
+}
+
+.content a i{
+    color: white;
+    cursor: pointer;
+}
+.fa-4{
+    position: fixed;
+    left: 2850px;
+    top: 710px;
+}
+.fa-5{
+    position: fixed;
+    left: 2850px;
+    top: 750px;
+}
+
+.fa-6{
+    position: fixed;
+    left: 0;
+    top: 850px;
+}
+
+.griplines{
+    position: fixed;
+    left: 0%;
+    top: 600px;
+    
 }
 
 .btn{
-    position: absolute;
-    left: 45%;
-    top: 1150px;
-    outline: none;
+    font-size: 35px;
     font-family: 'Titillium Web', sans-serif;
-    font-size: 30px;
-    padding: 20px 30px;
+    font-weight: bolder;
     border: 0;
-    border-radius: 35px;
-    color: white;
-    background: rgb(48, 46, 46);
-    cursor: pointer;
+    border-radius: 45px;
+    padding: 15px 35px;
+    background: rgb(53, 49, 49);
+    color:white;
+    outline: none;
     transition: all 0.3s linear;
+    position: fixed;
+    left: 1400px;
+    top: 1200px;
+    cursor: pointer;
 }
 
 .btn:hover{
-background: rgb(245, 67, 67);
+    background: rgb(248, 19, 19);
 }
 
-.line {
-    font-size: 30px;
+.lower i{
+    color: white;
+}
+
+.lower p{
     color: white;
     font-family: 'Titillium Web', sans-serif;
-    font-weight: bold;
-    position: absolute;
-    left: 78%;
-    top: 1200px;
-
+    font-size: 25px;
+    font-weight: bolder;
+    position: fixed;
+    left: 82%;
+    top: 92%;
 }
 
-.fa-bottom {
-    top: 1250px;
-    position: absolute;
-    left: 80px;
+.fa-bottom{
     color: white;
+    position: fixed;
+    top: 92%;
+    left: 2%;
+    cursor: pointer;
 }
 
 .sidebar{
-    width: 150px;
-    margin-top: 0;
-    padding-top: 0;
     display: grid;
-    background-image: repeating-linear-gradient( rgb(248, 134, 134), rgb(209, 9, 9));
-    background-size: cover;
-    align-content: center;
-    justify-content: center;
-}
-
-.sidebar a i{
-    cursor:pointer;
-    padding: 20px;
-    height: 100px;
     width: 110px;
-    transition: all 0.3s linear;
+    height: 1400px;
+    background-image: linear-gradient(rgb(255, 115, 115), rgb(209, 31, 31));
+}
+.sidebar a i{
     color: white;
+    cursor: pointer;
+    padding: 41px;
+    transition: all 0.3s linear;
+    align-items: center;
 }
 
-.sidebar a i:hover{
-    background: rgb(58, 57, 57);
+.sidebar a:hover{
+background: rgb(53, 49, 49);;
 }
 
 .fa-bars{
-    background-color: rgb(58, 53, 53);
-    width: fit-content;
+    background:rgb(80, 79, 79);
 }
-
 .fa-share-alt{
-    margin-top: 500px;
+    margin-top: 700px;
 }
