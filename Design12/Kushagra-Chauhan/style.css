@@ -7,216 +7,183 @@
 
 body{
     background-image: radial-gradient(rgb(250, 120, 120), rgb(248, 31, 31));
-    height: 1400px;
     background-repeat: no-repeat;
     display: flex;
+    font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    height: 750px;
+}
+
+.box{
+    /* display: flex; */
+    width: 1600px;
+}
+
+#icon{
+    height: 50px;
+    width: 90px;
+    margin-left: 25px;
 }
 
 .navbar{
     display: flex;
-}
-
-#icon{
-height: 100px;
-width: 180px;
-padding: 40px;
-margin-left: 40px;
+    margin-top: 10px;
 }
 
 .navbar ul{
     display: flex;
     list-style: none;
-    margin-left: 600px;
-    margin-right: 1045px;
+    margin-left: 350px;
 }
 
 .navbar ul li{
-    padding: 20px;
-    margin-top: 30px;
-    margin-left: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
-
-.navbar ul li i{
-    margin-top: 10px;
-}
-
 .navbar ul li a{
     text-decoration: none;
     color: white;
     cursor: pointer;
-    font-size: 40px;
-    font-family: 'Titillium Web', sans-serif;
-    font-weight: bolder;
-    transition: all 0.3s linear;
-    display: flex;
-}
-
-.navbar ul li a:hover{
-    background: rgb(250, 102, 102);
-}
-
-.content{
-    font-family: 'Titillium Web', sans-serif;
-    position: fixed;
-    left: 70%;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .content h3{
-    font-size: 45px;
-    color: rgb(218, 218, 218);
-    font-weight: bolder;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 900px;
+    color: rgb(228, 159, 159);
 }
 .content h1{
-    font-size: 85px;
-    color: white;
+    font-size: 40px;
     font-weight: bolder;
+    padding-left: 900px;
+    color: white;
 }
 .content h2{
-    font-size: 65px;
-    color: rgb(187, 168, 168);
-    font-weight: bolder;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 900px;
+    color: rgb(252, 149, 149);
 }
 
-.shoe{
-    /* display: grid; */
-}
-
-.content i{
+.shoe i{
+    color: rgb(48, 47, 47);
     display: flex;
-    color: rgb(53, 49, 49);
+
 }
 
-.content i p{
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 40px;
-    display: flex;
+.middle i{
+    cursor: pointer;
     color: white;
 }
 
-#image{
-    height: 850px;
-    width: 1500px;
-    right: 750px;
-    position: fixed;
-    bottom: 350px;
+.shoe a{
+    /* display: flex; */
 }
 
-#image2{
-    height: 70px;
-    width: 1500px;
-    right: 750px;
-    position: fixed;
-    bottom: 300px;
+.shoe i p{
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .fa-1{
-    position: fixed;
-    left: 650px;
-    top: 650px;
+    margin-left: 350px;
 }
 .fa-2{
-    position: fixed;
-    left: 1750px;
-    top: 550px;
+    margin-left: 800px;
 }
 .fa-3{
-    position: fixed;
-    left: 2100px;
-    top: 1000px;
+    margin-left: 950px;
 }
 
-.content a i{
-    color: white;
-    cursor: pointer;
-}
 .fa-4{
-    position: fixed;
-    left: 2850px;
-    top: 710px;
+    margin-left: 1400px;
 }
+
 .fa-5{
-    position: fixed;
-    left: 2850px;
-    top: 750px;
+    margin-left: 1400px;
+}
+#image{
+    width: 600px;
+    height: 300px;
+    padding-left: 400px;
 }
 
-.fa-6{
-    position: fixed;
-    left: 0;
-    top: 850px;
-}
-
-.griplines{
-    position: fixed;
-    left: 0%;
-    top: 600px;
-    
-}
-
-.btn{
-    font-size: 35px;
-    font-family: 'Titillium Web', sans-serif;
-    font-weight: bolder;
-    border: 0;
-    border-radius: 45px;
-    padding: 15px 35px;
-    background: rgb(53, 49, 49);
-    color:white;
-    outline: none;
-    transition: all 0.3s linear;
-    position: fixed;
-    left: 1400px;
-    top: 1200px;
-    cursor: pointer;
-}
-
-.btn:hover{
-    background: rgb(248, 19, 19);
+#image2{
+    width: 600px;
+    height: 25px;
+    padding-left: 400px;
 }
 
 .lower i{
     color: white;
+    cursor: pointer;
+    padding-left: 30px;
 }
 
 .lower p{
     color: white;
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 25px;
-    font-weight: bolder;
-    position: fixed;
-    left: 82%;
-    top: 92%;
+    margin-left: 78%;
 }
 
-.fa-bottom{
-    color: white;
-    position: fixed;
-    top: 92%;
-    left: 2%;
+.btn{
+    font-size: 15px;
+    padding: 10px 10px;
     cursor: pointer;
+    color: white;
+    background: rgb(46, 46, 46);
+    outline: none;
+    border-radius: 20px;
+    transition: all 0.3s linear;
+    border: none;
+    margin-left: 580px;
+    margin-top: 20px;
+}
+
+.btn:hover{
+    background: rgb(250, 54, 54);
+}
+
+.side{
+    height: 1600x;
+}
+
+.menu{
+    width: 70px;
+    height: 50px;
+    background: rgb(41, 40, 40);
+}
+.menu a{
+    color: white;
+    padding: 27px;
+    transition: all 0.3s linear;
+}
+
+.menu a:hover{
+    background: white;
+    color: rgb(39, 38, 38);
 }
 
 .sidebar{
     display: grid;
-    width: 110px;
-    height: 1400px;
-    background-image: linear-gradient(rgb(255, 115, 115), rgb(209, 31, 31));
+    background: linear-gradient(rgb(233, 90, 90),red);
+    width: 70px;
 }
-.sidebar a i{
+
+.sidebar a{
     color: white;
-    cursor: pointer;
-    padding: 41px;
+    padding: 20px;
     transition: all 0.3s linear;
-    align-items: center;
+    
 }
 
 .sidebar a:hover{
-background: rgb(53, 49, 49);;
+    background: rgb(32, 32, 32);
 }
 
-.fa-bars{
-    background:rgb(80, 79, 79);
-}
 .fa-share-alt{
-    margin-top: 700px;
+    margin-top: 378px;
 }
