@@ -1,0 +1,190 @@
+body {
+  margin: 0;
+}
+
+.main-container {
+  background-color: #fed700;
+  width: 100vw;
+  height: 100vh;
+}
+
+.nav-container {
+  display: grid;
+  align-items: center;
+  padding: 0 2rem;
+  height: 5rem;
+  grid-template-columns: 7% 63% 30%;
+}
+
+.flex {
+  display: flex;
+}
+
+.nav-1 {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: 15% 70% 15%;
+  align-items: center;
+}
+
+.nav-2 {
+  display: grid;
+  grid-template-columns: 13% 7% 20% 7% 20% 33%;
+  align-items: center;
+}
+
+.nav-button {
+  border-color: black;
+  background-color: #fed700;
+  padding: 0.5rem 1.5rem;
+  font-weight: 700;
+}
+
+.content-container {
+  padding: 0 2rem;
+  display: flex;
+  height: 30vh;
+  align-items: center;
+}
+
+.content-container-1 {
+  display: flex;
+  gap: 0.4rem;
+  flex-direction: column;
+}
+
+.content-container-2 {
+  transform: rotate(-90deg);
+  height: fit-content;
+  margin-top: 35px;
+}
+
+.content-container-3 {
+  text-align: center;
+  width: 60%;
+  font-size: 15rem;
+  font-weight: 800;
+}
+
+.content-container-4 {
+  width: 13%;
+  margin-top: 12rem;
+  align-items: center;
+}
+
+.final-container {
+  position: absolute;
+  bottom: 0;
+  display: grid;
+  grid-template-columns: 2rem 30% 30% 30% 10%;
+  left: 0;
+  height: 35vh;
+  width: 100%;
+  background-color: white;
+}
+
+.fc-1 {
+  background-color: #fed700;
+}
+
+.fc-2 {
+  position: relative;
+}
+
+.fc-2-img {
+  position: absolute;
+  top: -105px;
+  left: 65px;
+}
+
+.fc-2-img-filler {
+  height: 105px;
+}
+
+.fc-2-text {
+  width: 70%;
+  margin: auto;
+  margin-top: 0.5rem;
+}
+
+.fc-2-text-2 {
+  text-decoration: underline;
+}
+
+.fc-2-text-3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fc-2-text-3 h4 {
+  margin: 0;
+}
+
+.fc-3 {
+  position: relative;
+}
+
+.fc-3-img {
+  position: absolute;
+  top: -105px;
+  left: 70px;
+}
+
+.fc-3-img-filler {
+  height: 75px;
+}
+
+.fc-3-text {
+  background-color: black;
+  height: 64%;
+  width: 304px;
+  margin: auto;
+  color: white;
+  padding: 0.5rem;
+}
+
+.fc-3-text-1 {
+  padding-top: 2rem;
+}
+
+.fc-3-text-2 {
+  text-decoration: underline;
+  color: #d41253;
+}
+
+.fc-2-text-3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fc-4 {
+  position: relative;
+}
+
+.fc-4-img {
+  position: absolute;
+  top: -105px;
+  left: 70px;
+}
+
+.fc-4-img-filler {
+    height: 105px;
+  }
+
+.fc-4-text {
+  width: 70%;
+  margin: auto;
+  margin-top: 0.5rem;
+}
+
+.fc-5 {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    margin-top: 2rem;
+}
+
+.fc-5 i {
+    font-size: 2.5rem;
+    
+}
