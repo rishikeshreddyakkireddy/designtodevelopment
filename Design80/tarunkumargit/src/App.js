@@ -1,11 +1,14 @@
 import React from 'react';
 import './App.scss';
 
+// Components
+import Header from './components/Header/Header';
+
 const App = () => {
   return (
-    <div>
-      <h1>Hi Tarun</h1>
-    </div>
+    <section className="landing__page">
+      <Header />
+    </section>
   );
 };
 
