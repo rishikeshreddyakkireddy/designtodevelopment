@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* big boxes */
+.fullWidth{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: #FFF;
+    justify-content: space-between;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    background-color: rgb(85, 85, 85);
+}
+/* small boxes box 1 */
+.logo{
+    font-size: 5vh;
+    font-weight: bolder;
+    padding: 5vh 0 0 7vw;
+    color: rgb(160, 158, 158);
+}
+.lines>hr{
+    width: 2vw;
+    border-top: 5px solid rgb(160, 158, 158);
+    padding: none;
+    margin: 2vh 0 2vh 5vw;
+    border-radius: 5px;
+}
+.info{
+    padding: 5vh 5vw 12vh 7vw;
+}
+.info>ul{
+    list-style-image: url(https://uxwing.com/wp-content/themes/uxwing/download/02-arrow-direction/triangle-right-arrow.svg);
+}
+.info>ul>li{
+    padding: .4vh 0 .4vh 0;
+    color: rgb(160, 158, 158);
+}
+
+/* small boxex box 2 */
+.nav{
+    display: flex;
+    flex-direction: row;
+    height: 15%;
+    /* background-color: burlywood; */
+}
+.products{
+    display: flex;
+    flex-direction: row;
+    height: inherit;
+    width: 75%;
+}
+.product-nav{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding:4% 0 0 20%;
+}
+.product-nav>li{
+    display: block;
+    width: 25%;
+    font-size: 2vh;
+    color: rgb(160, 158, 158);
+    padding: 10%;
+}
+.user{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 25%; 
+    background-color: rgb(160, 158, 158);
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 3vh;
+    color: whitesmoke;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    height: 65%;
+    justify-content: center;
+    padding: 5vh 12vw 7vh 35vw;
+    letter-spacing: 1.5;
+}
+.product>h1{
+    font-size: 5vh;
+    padding-bottom: 4vh;
+    color: rgb(196, 193, 193);
+    font-weight: normal;
+}
+.product>p{
+    padding-bottom: 4vh;
+    padding-right: 4vw;
+    line-height: 1.3;
+    color: rgb(160, 158, 158);
+}
+.btn-price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-price>button{
+    flex: flex-start;
+    width: 37%;
+    height: 5vh;
+    background-color: rgb(85, 85, 85) ;
+    color: rgb(196, 193, 193);
+    border: rgb(182, 104, 104) solid 2px;
+    border-radius: 25px;
+    padding: 2vh 2vw 4vh 2vw;
+}
+.btn-price>h2{
+    padding-right: 20vh;
+    color: rgb(160, 158, 158);
+}
+.details{
+    display: flex;
+    flex-direction: row;
+    height: 20%;
+    background-color: rgb(49, 49, 49);
+    align-items: center;
+    justify-content: space-evenly;
+}
+.hardDetails{
+    display: flex;
+    flex-direction: row;
+    padding: 15vw 10vh;
+    justify-content: space-between;
+    letter-spacing: 2;
+}
+.hardDetails>.icon{
+    font-size: 25px;
+    margin-right: 10px;
+    color: rgb(160, 158, 158);
+}
+.hardDetails>.specs>h3{
+    font-size: 1.5vh;
+    color: rgb(196, 193, 193);
+}
+.hardDetails>.specs>p{
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 10px;
+    color: rgb(160, 158, 158);
+}
+/* camera image */
+.fullWidth>.camera-img{
+    display: block;
+    position: absolute;
+    z-index: 2;
+    top: 20vh;
+    left: 20vw;
+    width: 50vw;
+    height: auto;
+}
