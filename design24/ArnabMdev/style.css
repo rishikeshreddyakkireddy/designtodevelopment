@@ -1,16 +1,17 @@
 html {
-    height: 100%;
+    height: 170%;
 }
 body {
-    height: 100%;
+    /* height: 100%; */
     margin: 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background: radial-gradient(
+     background-repeat: no-repeat;
+    background-attachment: fixed; 
+     background: radial-gradient(
         circle at bottom,
-    rgb(36, 39, 37) 15%,
+    rgb(36, 39, 37) 25%,
     rgba(0, 0, 0, 1) 74%
-  );
+  ); 
+
 }
 
 /* header */
@@ -92,8 +93,84 @@ body {
 }
 
 .hpImg{
-    margin-left: 2rem;
-    width: 39rem;
-    height: 37.4rem;
+    position: relative;
+    z-index: 5;
+    top: 2rem;
+    left:4.5rem ;
+    width: 36rem;
+    height: 35.4rem;
+}
+
+.wrapper{
+    /* overflow-x: hidden;
+    overflow-y: hidden; */
+    position:relative;
+    top: -10rem;
+    right: 0rem;
+    max-width: 60rem;
+    max-height: 45rem;
+}
+
+.circles{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 50%;
+    width: 60rem;
+    height: 60rem;
+    border: solid 0.5px rgba(255, 255, 255, 0.267);
+    overflow: hidden;
+    z-index: -1;
+}
+
+.circles1{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 50%;
+    width: 50rem;
+    left: 5rem;
+    top: 5rem;
+    height: 50rem;
+    border: solid 0.5px rgba(255, 255, 255, 0.267);
+    overflow: hidden;
+    z-index: -2;
+}
+.circles2{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 50%;
+    left: 5rem;
+    top: 5rem;
+    width: 40rem;
+    height: 40rem;
+    border: solid 0.5px rgba(255, 255, 255, 0.267);
+    overflow: hidden;
+    z-index: -3;
+}
+
+.container{
+    display: flex;
+    margin-left: 1rem;
+    margin-top: 0rem;
+}
+
+.footer{
+    display: flex;
+    align-items: flex-start;
+}
+
+.email{ 
+    display: flex;
+    position: relative;
+    left: 80%   ;
+    right: 0;
+    
+    font-size: 1.5rem;
+    color: white;
+    align-items:flex-end;
+}
+.ico{
+    color: white;
+    margin-left: 1rem;
+
 }
 
