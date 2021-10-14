@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+ul {
+  list-style: none;
+  margin-left: 3em;
+}
+ul > li {
+  width: 200px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 10px;
+}
+ul > li:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+.fix {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container {
+  background: url("https://i.pinimg.com/originals/08/1d/9d/081d9ddbe9812e991c1c70660774a71c.jpg")
+    center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  position: relative;
+}
+
+.controll-pannel {
+  width: 20vw;
+  min-height: 100vh;
+  backdrop-filter: blur(11px) saturate(200%);
+  -webkit-backdrop-filter: blur(11px) saturate(200%);
+  background-color: rgba(44, 43, 43, 0.356);
+
+  color: white;
+}
+.visual-pannel {
+  overflow-y: scroll;
+
+  width: 80vw;
+  height: 100vh;
+  backdrop-filter: blur(11px) saturate(200%);
+  -webkit-backdrop-filter: blur(11px) saturate(200%);
+  background-color: rgba(27, 27, 27, 0.6);
+}
+.major-controll {
+  padding-top: 1.7em;
+  width: 100%;
+}
+
+.major-controll > ul > li {
+  font-size: 28px;
+  line-height: 1.4em;
+  font-weight: bolder;
+}
+
+.library {
+  padding-top: 1.5em;
+}
+.library > ul > li {
+  font-size: 15px;
+  line-height: 2em;
+}
+.playlists {
+  padding-top: 1.5em;
+}
+.playlists > ul > li {
+  font-size: 15px;
+  line-height: 2em;
+}
+
+.search-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.search {
+  padding-top: 0.5em;
+  font-size: 32px;
+  margin-left: 2em;
+  color: white;
+}
+.Log {
+  margin-top: 0.7em;
+  width: 50px;
+  height: 50px;
+  margin-right: 2em;
+
+  background: url("https://meetanentrepreneur.lu/wp-content/uploads/2019/08/profil-linkedin.jpg")
+    center center no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+}
+.Listen-now {
+  padding-top: 0.5em;
+  font-size: 56px;
+  letter-spacing: 5px;
+  font-weight: lighter;
+  color: white;
+  margin-left: 1.1em;
+  font-family: "Bebas Neue", cursive;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-element {
+  overflow: hidden;
+  position: relative;
+  width: 300px;
+  height: 350px;
+  margin-top: 3em;
+  margin-left: 2em;
+  border-radius: 20px;
+  background: url("https://images.unsplash.com/photo-1510759704643-849552bf3b66?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80")
+    center center no-repeat;
+  background-size: cover;
+}
+.description {
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(6px) saturate(146%);
+  -webkit-backdrop-filter: blur(6px) saturate(146%);
+  background-color: rgba(141, 140, 140, 0.22);
+}
+.song {
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.artist {
+  color: white;
+}
+.web-player {
+  width: 95vw;
+  height: 4em;
+  position: absolute;
+  z-index: 2;
+  bottom: 7%;
+  display: flex;
+  align-items: center;
+  backdrop-filter: blur(18px) saturate(200%);
+  -webkit-backdrop-filter: blur(18px) saturate(200%);
+  background-color: rgba(255, 255, 255, 0.33);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+}
+.current {
+  display: flex;
+  margin-left: 0.5em;
+}
+.current-artist {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  background: url("./Assets/photo-1521337581100-8ca9a73a5f79.jpg") center center
+    no-repeat;
+  background-size: cover;
+}
+.song-artist {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+  color: white;
+}
+.controllers {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  margin-left:15vw;
+  align-items: center;
+}
+.play {
+
+  width: 30vw;
+  display: flex;
+  justify-content: space-around;
+}
+.progress{
+  width:35vw;
+  height:5px;
+   display: flex;
+ 
+}
+.completed{
+  width:30vw;
+  height:100%;
+  margin-top:10px;
+  border-radius: 2px;
+  background-color:rgb(22, 131, 255);
+}
+.uncompleted{
+  width:10vw;
+  height:100%;
+  margin-top:10px;
+  border-radius: 2px;
+  background-color:rgb(163, 165, 165);
+}
+
+.volume{
+  display: flex;
+  width:20vw;
+  justify-content: space-around;
+  margin-left:10vw;
+}
+
+.intensity{
+  margin-top: 8px;
+  width:15vw;
+  height: 5px;
+ display: flex;
+}
+.used{
+  width:10vw;
+  height: 5px;
+  border-radius: 2px;
+  background-color:rgb(22, 131, 255);
+}
+.unused{
+  width:5vw;
+  height: 5px;
+  border-radius: 2px;
+  background-color:rgb(61, 69, 78);
+}
+.flash-menu{
+  padding-top: 1em;
+  margin-left: 3em;
+  width:40%;
+  display:flex;
+  justify-content: space-evenly;
+}
+.flash-menu .circle{
+  width:15px;
+  height: 15px;
+  border-radius:50%;
+  border:1px solid white;
+}

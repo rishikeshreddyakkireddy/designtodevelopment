@@ -1,0 +1,406 @@
+.container {
+  padding: 0 8rem;
+  margin: 0 auto;
+  background-color: #121212;
+  width: 130rem;
+  // height: 87rem;
+  border-radius: 5rem;
+  letter-spacing: 0.1rem;
+
+  @include media(xlg) {
+    padding: 0 2rem;
+  }
+}
+
+/* HEADER */
+
+.header {
+  padding-top: 6rem;
+  margin-bottom: 3.4rem;
+  @include flex(row, space-between, center, nowrap);
+  // justify-content: space-around;
+
+  // @include media(xlg) {
+  //   justify-content: space-around;
+  // }
+
+  &__nav {
+    @include flex(row, space-between, center, nowrap);
+  }
+
+  @include media(xlg) {
+    margin-top: 2rem;
+
+    .logo {
+      position: fixed;
+      top: 3rem;
+      left: 3rem;
+      z-index: 10;
+    }
+
+    &__nav {
+      // display: none;
+      visibility: hidden;
+      margin-top: -180px;
+    }
+
+    &__nav.active {
+      position: fixed;
+      @include flex(column, center, center, nowrap);
+      top: 0rem;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #000;
+      z-index: 9;
+      margin-top: 0;
+      visibility: visible;
+      transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+
+    &__nav.active ul {
+      @include flex(column, space-between, baseline, nowrap);
+      margin-right: 0;
+    }
+
+    &__nav.active ul li {
+      margin-bottom: 3rem;
+      text-align: left;
+      text-transform: uppercase;
+    }
+  }
+
+  &__nav ul {
+    @include flex(row, center, center, nowrap);
+    font-weight: 400;
+    margin-right: 10rem;
+
+    li {
+      position: relative;
+
+      &:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        opacity: 0;
+        height: 2px;
+        background: #fff;
+        transition: all 0.5s ease-in-out;
+      }
+
+      &:hover:after {
+        width: 100%;
+        opacity: 1;
+      }
+    }
+
+    li:not(:last-child) {
+      margin-right: 4rem;
+    }
+
+    a {
+      color: #fff;
+    }
+  }
+
+  &__search {
+    width: 21.4rem;
+    height: 3.2rem;
+    @include flex(row, center, center, nowrap);
+    position: relative;
+
+    input {
+      width: 100%;
+      height: 100%;
+      padding-left: 0.8rem;
+      border: 2px solid $button-border;
+      border-radius: 0.6rem;
+      color: #fff;
+    }
+
+    input::placeholder {
+      color: $text-secondary;
+      font-size: 1rem;
+    }
+
+    button {
+      font-size: 1.6rem;
+      color: $text-secondary;
+      position: absolute;
+      right: 1rem;
+      cursor: pointer;
+    }
+  }
+
+  .menu-btn {
+    position: fixed;
+    top: 3rem;
+    right: 3rem;
+    width: 3rem;
+    height: 2rem;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+    display: none;
+    z-index: 10;
+
+    @include media(xlg) {
+      @include flex(column, space-between, center, nowrap);
+      // display: flex;
+    }
+
+    &__burger,
+    &__burger--top,
+    &__burger--bottom {
+      width: 100%;
+      height: 2px;
+      background-color: #fff;
+      border-radius: 3px;
+      transition: all 0.5s ease-out;
+    }
+
+    &.active {
+      .menu-btn__burger {
+        transform: translateX(-5px);
+        background: transparent;
+      }
+
+      .menu-btn__burger--top {
+        transform-origin: left;
+        transform: rotate(38deg);
+      }
+
+      .menu-btn__burger--bottom {
+        transform-origin: left;
+        transform: rotate(-398deg);
+      }
+    }
+  }
+}
+
+/* HERO */
+
+.hero {
+  width: 100%;
+  margin-bottom: 2rem;
+  @include flex(row, flex-start, center, nowrap);
+
+  @include media(xlg) {
+    margin-top: 20rem;
+    padding: 0 1.2rem;
+    @include flex(column, center, center, nowrap);
+  }
+
+  &__content {
+    margin-right: 3rem;
+
+    @include media(xlg) {
+      order: 2;
+      margin-bottom: 4rem;
+      margin-right: 0;
+    }
+
+    h2 {
+      font-size: 8.6rem;
+
+      @include media(xlg) {
+        font-size: 5.6rem;
+        margin-bottom: 1rem;
+      }
+
+      @include media(sm) {
+        font-size: 4.6rem;
+      }
+    }
+
+    p {
+      font-size: 1.8rem;
+      font-weight: 500;
+      text-align: right;
+      color: $text-secondary;
+      margin-top: -2rem;
+      margin-bottom: 7.6rem;
+      letter-spacing: 3px;
+
+      @include media(xlg) {
+        font-size: 1.4rem;
+        text-align: center;
+      }
+
+      @include media(sm) {
+        font-size: 1.2rem;
+      }
+    }
+  }
+  &__image {
+    @include media(lg) {
+      width: 40%;
+    }
+    @include media(sm) {
+      width: 30%;
+    }
+  }
+
+  &__cta {
+    @include media(xlg) {
+      order: 1;
+      @include flex(column, center, center, nowrap);
+    }
+
+    padding-bottom: 6rem;
+    a {
+      font-size: 1.4rem;
+      padding: 0.8rem 2.4rem;
+      color: $text-secondary;
+      border: 2px solid $button-border;
+      border-radius: 0.6rem;
+      letter-spacing: 2px;
+      margin-right: 1.2rem;
+
+      @include media(xlg) {
+        margin-bottom: 3rem;
+      }
+    }
+
+    span {
+      font-size: 1.2rem;
+      color: #393939;
+    }
+  }
+}
+
+/* INFO */
+
+.info {
+  padding-bottom: 6rem;
+  @include flex(row, space-between, center, nowrap);
+
+  @include media(xlg) {
+    @include flex(column, space-between, center, nowrap);
+  }
+
+  &__text {
+    font-size: 1.4rem;
+    font-weight: 300;
+    margin-left: 2rem;
+    @include flex(column, center, flex-start, nowrap);
+    position: relative;
+
+    p {
+      border-left: 1px solid #fff;
+      padding-left: 1.4rem;
+      width: 29rem;
+    }
+
+    @include media(xlg) {
+      margin-bottom: 6rem;
+    }
+  }
+
+  &__btns {
+    margin-bottom: 2.2rem;
+    @include flex(row, center, center, nowrap);
+    position: absolute;
+    top: -6rem;
+    left: -3rem;
+
+    &--left,
+    &--right {
+      width: 3.2rem;
+      height: 3.2rem;
+      border-radius: 50%;
+      background-color: #fff;
+      color: #393939;
+      margin-left: 1.4rem;
+      cursor: pointer;
+      @include flex(column, center, center, nowrap);
+    }
+  }
+
+  /* Info Production */
+
+  &__production {
+    @include flex(row, center, flex-start, nowrap);
+    text-align: center;
+
+    @include media(xlg) {
+      margin-bottom: 6rem;
+    }
+
+    &__item {
+      padding: 0 2.2rem;
+
+      &:first-child {
+        border-right: 1px solid $text-secondary;
+      }
+
+      &:last-child {
+        border-left: 1px solid $text-secondary;
+      }
+
+      p {
+        font-size: 1.8rem;
+        font-weight: 200;
+        line-height: 1;
+      }
+
+      span {
+        font-size: 0.6rem;
+        font-weight: 800;
+        color: $text-secondary;
+        display: block;
+      }
+    }
+  }
+  /* Info Price */
+
+  &__price-menu {
+    @include flex(row, center, center, nowrap);
+  }
+
+  &__price {
+    @include flex(row, center, center, nowrap);
+    position: relative;
+    width: 16.2rem;
+
+    &__select {
+      width: 100%;
+      font-size: 2rem;
+      font-weight: 300;
+      padding: 1rem 0 1rem 2.2rem;
+      color: #fff;
+      border: 1px solid $button-border;
+      border-radius: 2rem;
+      letter-spacing: 2px;
+      margin-right: 1.2rem;
+      appearance: none;
+      cursor: pointer;
+
+      option {
+        background-color: #393939;
+      }
+    }
+    label {
+      position: absolute;
+      right: 3.2rem;
+      pointer-events: none;
+      color: $text-secondary;
+    }
+  }
+
+  &__price-desc {
+    p {
+      font-size: 1rem;
+      font-weight: 300;
+      line-height: 1;
+    }
+
+    span {
+      font-size: 1rem;
+      font-weight: 800;
+      color: $text-secondary;
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(240, 239, 233);
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "gr1 gr2 gr3 gr4 gr5 gr6 gr7 gr8"
+      "gr10 gr10 gr10 gr10 gr5 gr6 gr9 gr9"
+      "gr10 gr10 gr10 gr10 gr11 gr12 gr12 gr13"
+      "gr10 gr10 gr10 gr10 gr11 gr12 gr12 gr13"
+      "gr10 gr10 gr10 gr10 gr14 gr15 gr15 gr16"
+      "gr10 gr10 gr10 gr10 gr14 gr15 gr15 gr16"
+      "gr10 gr10 gr10 gr10 gr17 gr18 gr18 gr19"
+      "gr10 gr10 gr10 gr10 gr17 gr18 gr18 gr19"
+      "gr20 gr20 gr20 gr20 gr22 gr18 gr18 gr23"
+      "gr20 gr20 gr20 gr20 gr22 gr18 gr18 gr23";
+  }
+  
+  .gr1 { grid-area: gr1; border: 1px solid black; text-align: center; padding-top: 33px; }
+  
+  .gr2 { grid-area: gr2; border: 1px solid black; text-align: center; padding-top: 33px;}
+  
+  .gr3 { grid-area: gr3; border: 1px solid black; text-align: center; padding-top: 33px;}
+  
+  .gr4 { grid-area: gr4; border: 1px solid black; text-align: center; padding-top: 33px;}
+  
+  .gr5 { grid-area: gr5; border: 1px solid black; }
+  
+  .gr6 { grid-area: gr6; border: 1px solid black; padding-left: 30px; padding-right: 30px; padding-top: 60px;  }
+  
+  .gr7 { grid-area: gr7; border: 1px solid black;text-align: center; padding-top: 33px;}
+  
+  .gr8 { grid-area: gr8; border: 1px solid black; text-align: center; padding-top: 33px;}
+  
+  .gr9 { grid-area: gr9; border: 1px solid black;  text-align: center; padding-top: 35px;}
+  
+  .gr10 { grid-area: gr10; border: 1px solid black; text-align: left; font-size: 90px; padding-left: 120px; padding-right: 120px; padding-top: 120px;}
+  
+  .gr11 { grid-area: gr11; border: 1px solid black; }
+  
+  .gr12 { grid-area: gr12; border: 1px solid black; }
+  
+  .gr13 { grid-area: gr13; border: 1px solid black; }
+  
+  .gr14 { grid-area: gr14; border: 1px solid black; padding-left: 30px; padding-right: 30px; padding-top: 65px;}
+  
+  .gr15 { grid-area: gr15; border: 1px solid black; }
+  
+  .gr16 { grid-area: gr16; border: 1px solid black; }
+  
+  .gr17 { grid-area: gr17; border: 1px solid black; }
+  
+  .gr18 { grid-area: gr18; border: 1px solid black; }
+  
+  .gr19 { grid-area: gr19; border: 1px solid black; padding-left: 45px; padding-top: 65px; padding-right: 35px;}
+  
+  .gr22 { grid-area: gr22; border: 1px solid black; }
+  
+  .gr23 { grid-area: gr23; border: 1px solid black; }
+  
+  .gr20 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 1.5fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "gr20_1 gr20_1"
+      "gr20_2 gr20_3";
+    grid-area: gr20;
+  }
+  
+  .gr20_1 { grid-area: gr20_1; border: 1px solid black; text-align:center; padding-top: 12px;}
+  
+  .gr20_2 { grid-area: gr20_2; border: 1px solid black; font-size: 30px; padding-left: 50px; font-weight: 500; padding-top: 32px;}
+  
+  .gr20_3 { grid-area: gr20_3; border: 1px solid black; padding-left: 50px; padding-top: 30px;}
+  

@@ -1,0 +1,23 @@
+{
+  "name": "designtodevelopment",
+  "version": "1.0.0",
+  "description": "This Will Be Fun :).\r I will provide you the design and you can contribute by building it.",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w Design29/scss/ -o Design29/dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evavic44/designtodevelopment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Evavic44/designtodevelopment/issues"
+  },
+  "homepage": "https://github.com/Evavic44/designtodevelopment#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}

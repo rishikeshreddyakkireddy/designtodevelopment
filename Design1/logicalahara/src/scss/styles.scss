@@ -1,0 +1,47 @@
+@import "variables";
+@import "~bootstrap/scss/bootstrap";
+@import '~bootstrap/scss/bootstrap-utilities';
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+.downloadBtn {
+  background-color: $btnOrange;
+  border: none !important;
+  border-radius: 12px;
+  &:hover {
+    background-color: $btnOrangeHover;
+  }
+}
+
+html,body {
+  background-color: $dark-theme !important;
+  color: white !important;
+}
+
+.text-subtitle {
+  color: $secondaryText;
+}
+
+.text-orange {
+  color: $btnOrange;
+  &:hover {
+    color: $btnOrangeHover;
+  }
+}
+
+.sponsors {
+  @include media-breakpoint-up(md) {
+    margin-top: 6rem !important;
+  }
+}
+
+.badge-earn {
+  background-color: $color-badge !important;
+}
+
+.header {
+  font-size: 0.9rem !important;
+}
+
+.title-sm {
+  font-size: 1.8rem !important;
+}

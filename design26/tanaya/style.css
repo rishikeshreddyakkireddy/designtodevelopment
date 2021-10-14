@@ -1,0 +1,114 @@
+body{
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left:0px;
+    right:0px;
+    top:0px;
+    height: 10vh;
+    background-color: rgb(70, 67, 67);
+}
+
+.nav-header{
+    color: white;
+    position: relative;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: large;
+}
+
+.nav-item{
+
+    margin-left: 2vw;
+    margin-right: 2vw;
+
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    left:0;
+    right:0;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    height: 15vh;
+    background:  rgb(243, 243, 239)
+}
+
+
+
+
+
+.nav-icons{
+    display: flex;
+    justify-content: center;
+    color:white;
+    font-size: large;
+}
+
+.icons{
+    margin-left: 2vw;
+    margin-right: 2vw;
+
+}
+
+.sizes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20vh;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2vh;
+    margin-left:10vw;
+
+}
+
+.table{
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    margin-top: 5vh;
+    grid-gap:10px;
+}
+
+.grid-item{
+    background-color: rgb(245, 245, 240);
+    text-align: center; 
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+
+

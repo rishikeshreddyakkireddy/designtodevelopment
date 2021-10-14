@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="static/dist/style.css" />
+    <title>teact.academy | Home</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
+    </style>
+  </head>
+  <body>
+    <!-- Navbar goes here -->
+    <nav class="bg-white mt-10">
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="flex justify-between">
+          <div>
+            <!-- Website Logo -->
+            <a href="#" class="flex items-center py-4 px-2">
+              <span class="font-bold text-black text-xl">teach.academy</span>
+            </a>
+          </div>
+          <!-- Primary Navbar items -->
+          <div class="hidden md:flex items-center">
+            <div @click.away="open = false" class="relative" x-data="{ open: false }">
+              <button @click="open = !open" class="flex flex-row items-center w-full px-4 py-2 mt-2 text-sm font-semibold text-left bg-transparent md:w-auto md:inline md:mt-0 md:ml-4 hover:text-gray-900">
+                <span>Learning plaform</span>
+                <svg fill="currentColor" viewBox="0 0 20 20" :class="{'rotate-180': open, 'rotate-0': !open}" class="inline w-4 h-4 mt-1 ml-1 transition-transform duration-200 transform md:-mt-1">
+                  <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                </svg>
+              </button>
+              <div
+                x-show="open"
+                x-transition:enter="transition ease-out duration-100"
+                x-transition:enter-start="transform opacity-0 scale-95"
+                x-transition:enter-end="transform opacity-100 scale-100"
+                x-transition:leave="transition ease-in duration-75"
+                x-transition:leave-start="transform opacity-100 scale-100"
+                x-transition:leave-end="transform opacity-0 scale-95"
+                class="absolute right-0 w-full mt-2 origin-top-right shadow-lg md:w-48"
+              >
+                <div class="px-2 py-2 bg-white shadow dark-mode:bg-gray-800">
+                  <a
+                    class="
+                      block
+                      px-4
+                      py-2
+                      mt-2
+                      text-xs
+                      font-semibold
+                      bg-transparent
+                      dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200
+                      md:mt-0
+                      hover:text-gray-900
+                      focus:text-gray-900
+                      hover:bg-gray-200
+                      focus:bg-gray-200 focus:outline-none focus:shadow-outline
+                    "
+                    href="#"
+                    >Student</a
+                  >
+                  <a
+                    class="
+                      block
+                      px-4
+                      py-2
+                      mt-2
+                      text-xs
+                      font-semibold
+                      bg-transparent
+                      dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200
+                      md:mt-0
+                      hover:text-gray-900
+                      focus:text-gray-900
+                      hover:bg-gray-200
+                      focus:bg-gray-200 focus:outline-none focus:shadow-outline
+                    "
+                    href="#"
+                    >Mentor</a
+                  >
+                </div>
+              </div>
+            </div>
+            <a href="" class="py-4 px-2 text-black text-sm font-semibold hover:text-green-500 transition duration-300">Pricing</a>
+            <div @click.away="open = false" class="relative" x-data="{ open: false }">
+              <button @click="open = !open" class="flex flex-row items-center w-full px-4 py-2 mt-2 text-sm font-semibold text-left bg-transparent md:w-auto md:inline md:mt-0 md:ml-4 hover:text-gray-900">
+                <span>Features</span>
+                <svg fill="currentColor" viewBox="0 0 20 20" :class="{'rotate-180': open, 'rotate-0': !open}" class="inline w-4 h-4 mt-1 ml-1 transition-transform duration-200 transform md:-mt-1">
+                  <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                </svg>
+              </button>
+              <div
+                x-show="open"
+                x-transition:enter="transition ease-out duration-100"
+                x-transition:enter-start="transform opacity-0 scale-95"
+                x-transition:enter-end="transform opacity-100 scale-100"
+                x-transition:leave="transition ease-in duration-75"
+                x-transition:leave-start="transform opacity-100 scale-100"
+                x-transition:leave-end="transform opacity-0 scale-95"
+                class="absolute right-0 w-full mt-2 origin-top-right shadow-lg md:w-48"
+              >
+                <div class="px-2 py-2 bg-white shadow dark-mode:bg-gray-800">
+                  <a
+                    class="
+                      block
+                      px-4
+                      py-2
+                      mt-2
+                      text-xs
+                      font-semibold
+                      bg-transparent
+                      dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200
+                      md:mt-0
+                      hover:text-white
+                      focus:text-gray-900
+                      hover:bg-black
+                      focus:bg-gray-200 focus:outline-none focus:shadow-outline
+                    "
+                    href="#"
+                    >Webinar</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Secondary Navbar items -->
+          <div class="hidden md:flex items-center space-x-3">
+            <a href="" class="py-2 px-2 text-black text-sm font-semibold">Sign in</a>
+            <a href="" class="py-3 px-4 text-black text-sm font-semibold bg-transparent border-2 border-black hover:bg-black hover:text-white transition duration-300">Sign up</a>
+          </div>
+          <!-- Mobile menu button -->
+          <div class="md:hidden flex items-center">
+            <button class="outline-none mobile-menu-button">
+              <svg class="w-6 h-6 text-gray-500 hover:text-green-500" x-show="!showMenu" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                <path d="M4 6h16M4 12h16M4 18h16"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- mobile menu -->
+      <div class="hidden mobile-menu">
+        <ul class="">
+          <li class="active"><a href="index.html" class="block text-sm px-2 py-4 text-white bg-green-500 font-semibold">Home</a></li>
+          <li><a href="#services" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Services</a></li>
+          <li><a href="#about" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">About</a></li>
+          <li><a href="#contact" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Contact Us</a></li>
+        </ul>
+      </div>
+      <script>
+        const btn = document.querySelector("button.mobile-menu-button");
+        const menu = document.querySelector(".mobile-menu");
+
+        btn.addEventListener("click", () => {
+          menu.classList.toggle("hidden");
+        });
+      </script>
+    </nav>
+    <!-- Content -->
+    <div class="max-w-5xl mx-auto mt-10">
+      <div class="flex space-x-20">
+        <div class="md:flex-1 space-y-16 mt-10">
+          <h1 class="text-black text-6xl" style="font-family: 'Merriweather', serif">Online <span class="font-bold">classes from the best</span> instructors</h1>
+          <div class="space-y-5 max-w-xs ml-24" style="background: rgb(222, 248, 203); background: radial-gradient(circle at 40% 70%, rgba(222, 248, 203, 1) 0%, rgba(255, 255, 255, 1) 50%)">
+            <span class="font-serif font-semibold">Introduction</span>
+            <p>
+              Get rid of the routine feel from your <br />
+              learning process and replace lame <br />
+              methods with fun and engaging ones.
+            </p>
+          </div>
+          <div class="flex pr-20">
+            <input class="p-4 border-b text-gray-800 border-black bg-white w-2/3 focus:outline-none" placeholder="Put your email here" />
+            <button class="py-2 px-6 text-white text-sm font-semibold bg-black border-2 border-black hover:bg-white hover:text-black transition duration-300 w-1/3">Sign up</button>
+          </div>
+        </div>
+        <div class="md:flex-1">
+          <img src="./images/img.png" width="450px" />
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+  </body>
+</html>

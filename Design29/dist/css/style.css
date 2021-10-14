@@ -1,0 +1,142 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+a {
+  text-decoration: none;
+  color: #d6d8d7; }
+
+ul {
+  list-style: none; }
+
+@media (max-width: 1200px) {
+  .content {
+    display: block;
+    flex-direction: column; }
+    .content .large-text .rotate {
+      display: none; }
+    .content .info {
+      display: none; } }
+
+body {
+  background: #fff;
+  background: url(/Design29/assets/images/bg.jpg) no-repeat center center/cover;
+  box-shadow: inset 10px 50px 500px 2px #242625;
+  color: #d6d8d7;
+  line-height: 1.4;
+  height: 100vh;
+  width: 100vw;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+header {
+  height: 80vh; }
+  header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem 1rem 2rem; }
+  header .container {
+    display: flex;
+    align-items: center;
+    height: 80%; }
+    header .container .light-bulb img {
+      width: 450px;
+      transform: translateY(-50px); }
+    header .container .content {
+      display: flex;
+      align-items: center; }
+      header .container .content .large-text {
+        display: inline;
+        transform: rotate(270deg) translateY(-40px);
+        color: #383b3a;
+        display: flex;
+        margin: 0.7rem; }
+        header .container .content .large-text .rotate {
+          font-size: 5rem;
+          margin: 0 0.4rem;
+          font-weight: 900; }
+      header .container .content .info {
+        transform: translateX(-150px); }
+        header .container .content .info h1 {
+          color: #e2643b;
+          font-weight: 900;
+          font-size: 5rem;
+          border-bottom: 2px solid #383b3a;
+          width: 150px; }
+        header .container .content .info h3 {
+          font-family: "Mulish", "Segoe UI", Tahoma, Geneva, sans-serif;
+          font-weight: 300;
+          font-size: 3rem;
+          padding: 1rem 0; }
+        header .container .content .info p {
+          font-weight: 300; }
+  header .logo img {
+    width: 40px;
+    position: absolute;
+    top: 30px;
+    z-index: 100; }
+  header .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem 1rem 2rem; }
+    header .menu h3 {
+      font-size: 0.95rem;
+      font-weight: 600; }
+    header .menu img {
+      width: 20px;
+      margin-right: 0.5rem; }
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1rem 1rem 2rem;
+  background: rgba(20, 20, 20, 0.5);
+  height: 70px;
+  padding: 0 0 0 2rem; }
+  footer .footerNav {
+    display: flex; }
+    footer .footerNav li {
+      margin: 0 5rem; }
+      footer .footerNav li a {
+        font-size: 0.9rem;
+        font-weight: 600; }
+        footer .footerNav li a:hover {
+          color: #383b3a; }
+  footer .mail,
+  footer .footerNav li {
+    color: #e2643b; }
+  footer .next {
+    background: #e2643b;
+    height: 100%;
+    padding: 1.3rem 1rem 1rem;
+    transition: 0.4s ease-in-out;
+    font-weight: 100; }
+    footer .next:hover {
+      background: #383b3a; }
+
+@media (max-width: 1000px) {
+  footer .footerNav li {
+    margin: 0 2rem; } }
+
+@media (max-width: 768px) {
+  header .container .light-bulb img {
+    width: 400px;
+    transform: translateY(-80px); }
+  footer .footerNav li {
+    margin: 0 1rem; } }
+
+@media (max-width: 600px) {
+  footer .footerNav {
+    display: block; }
+    footer .footerNav li {
+      margin: 0 1rem; } }

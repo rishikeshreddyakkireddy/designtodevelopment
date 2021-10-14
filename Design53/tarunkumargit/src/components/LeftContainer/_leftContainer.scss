@@ -1,0 +1,188 @@
+@import '../../App.scss';
+
+.left_container {
+  background-color: $light_color;
+  width: 70%;
+  @include media('<=760px') {
+    width: 100%;
+  }
+  .container {
+    padding: 0 6vw;
+    // header
+    .left_header {
+      height: 15vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .mug_icon {
+        cursor: pointer;
+        .fas {
+          color: $dark_color;
+          font-size: 1.7rem;
+          @include media('<=760px') {
+            font-size: 1.2rem;
+          }
+        }
+      }
+
+      .menu_list {
+        display: flex;
+        align-items: center;
+        li {
+          font-size: 1rem;
+          font-weight: 600;
+          padding: 0 5.5rem;
+          cursor: pointer;
+          @include media('<=970px') {
+            padding: 0 3.5rem;
+          }
+          @include media('<=760px') {
+            font-size: 0.8rem;
+            padding: 0 2rem;
+          }
+        }
+      }
+    }
+    // text container
+    .intro_text_container {
+      height: 65vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0 3rem;
+      z-index: 5;
+      .intro_header {
+        padding-top: 2.5rem;
+        h3 {
+          font-size: 1.2rem;
+          font-weight: 600;
+        }
+      }
+      .intro_text {
+        font-size: 5.1rem;
+        font-weight: 500;
+        z-index: 5;
+        padding-bottom: 1.5rem;
+      }
+      .intro_desc {
+        width: 50%;
+        color: $dark_color;
+        font-size: 0.9rem;
+        font-weight: 600;
+        line-height: 1.95rem;
+      }
+      @include media('<=SMdesktop') {
+        .intro_header {
+          h3 {
+            font-size: 1rem;
+          }
+        }
+        .intro_text {
+          font-size: 3.7rem;
+          z-index: 5;
+          padding-bottom: 1rem;
+        }
+        .intro_desc {
+          width: 57%;
+          font-size: 0.72rem;
+          line-height: 1.8rem;
+        }
+      }
+      @include media('<=970px') {
+        padding: 0 1.4rem;
+        .intro_header {
+          padding-top: 2.5rem;
+          h3 {
+            font-size: 1rem;
+          }
+        }
+        .intro_text {
+          font-size: 2.7rem;
+          z-index: 5;
+          padding-bottom: 1rem;
+        }
+        .intro_desc {
+          width: 60%;
+        }
+      }
+      @include media('<=760px') {
+        padding: 0 1rem;
+        .intro_header {
+          padding-top: 3.5rem;
+          h3 {
+            font-size: 1rem;
+          }
+        }
+        .intro_text {
+          font-size: 2rem;
+          padding-bottom: 1.5rem;
+        }
+        .intro_desc {
+          width: 100%;
+          color: $dark_color;
+          font-size: 0.8rem;
+          font-weight: 600;
+          line-height: 1.55rem;
+        }
+      }
+    }
+
+    // footer
+    .left_footer {
+      width: 100%;
+      height: 20vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: relative;
+      // numbers
+      .numbers {
+        position: absolute;
+        top: -5px;
+        h4 {
+          font-size: 0.8rem;
+          color: $dark_color;
+          font-weight: 500;
+          span {
+            font-size: 1.9rem;
+            color: #000;
+            font-weight: 400;
+          }
+        }
+
+        @include media('<=760px') {
+          display: none;
+        }
+      }
+
+      // footer links
+      .footer_list {
+        display: flex;
+        align-items: center;
+        li {
+          font-size: 1rem;
+          font-weight: 600;
+          padding: 0 5rem;
+          cursor: pointer;
+          @include media('<=SMdesktop') {
+            padding: 0 3rem;
+          }
+          @include media('<=970px') {
+            font-size: 0.9rem;
+            padding: 0 2rem;
+          }
+        }
+        :first-child {
+          padding-left: 0;
+        }
+        @include media('<=760px') {
+          justify-content: space-between;
+          li {
+            font-size: 0.8rem;
+            padding: 0;
+          }
+        }
+      }
+    }
+  }
+}

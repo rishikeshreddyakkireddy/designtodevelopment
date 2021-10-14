@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto 140px;
+
+    .container1{
+        img{
+            height: 100vh;
+            width: 600px;
+        }
+    }
+
+    .container2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        height: 100vh;
+
+        .header{
+            ul{
+                list-style-type: none;
+                display: flex;
+                margin: 50px;
+
+                li{
+                    margin: 20px;
+
+                    a{
+                        color: black;
+                        text-decoration: none;
+                        font-family: 'Roboto', sans-serif;
+                        font-weight: 600;
+                    }
+
+                    .active{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        background-color: #f1b22e;
+                        border-radius: 100%;
+                        height: 50px;
+                        width: 50px;
+                    }
+                    
+                    .inactive{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        height: 50px;
+                        width: 50px;
+                    }
+                }
+            }
+        }
+
+        .middle-container{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+
+            .title{
+                margin: 0px 0px 0px 60px;
+                font-size: 70px;
+                font-family: 'Scheherazade New', serif;
+                font-weight: bold;
+            }
+
+            .info{
+                display: flex;
+                align-items: flex-start;
+                justify-content: center;
+                flex-direction: row;
+
+                .icons{
+                    margin-left: 30px;
+                    margin-right: 10px;
+                    margin-top: 5px;
+                    i{
+                        padding-bottom: 20px;
+                    }
+                }
+                .sub-info{
+                    margin-left: 20px;
+                    margin-right: 180px;
+                    font-family: 'Poppins', sans-serif;
+                }
+            }
+
+            .free-download{
+                margin-left: 80px;
+                margin-top: 40px;
+                a{
+                    color: #2d455c;
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+
+    .container3{
+
+        .prev{
+            height: 46vh;
+            background-color: #3f5163;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            padding-bottom: 30px;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            img{
+                transform: rotate(180deg);
+                width: 140px;
+            }
+            
+        }
+        .next{
+            height: 46vh;
+            background-color: #f1b22e;
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 30px;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            img{
+                
+                width: 140px;
+            }
+        }
+    }
+}

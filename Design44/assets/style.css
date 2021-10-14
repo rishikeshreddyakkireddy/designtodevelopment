@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+body {
+  background-color: #07c87a;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.view__card {
+  display: flex;
+  width: calc(80%);
+  margin: 8em auto;
+}
+
+.subscription {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  padding: 5em;
+  background-color: #31cc66;
+  width: 45%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.subscription h1:first-child {
+  text-align: center;
+  padding-top: 0.8em;
+}
+
+.subscription_details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  background-color: #214651;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  /* align-items: center; */
+  width: 55%;
+  padding: 5em;
+}
+.login img {
+  width: 12em;
+}
+.pricing{
+    margin: 0.3em 0;
+}
+.pricing > span {
+  font-size: 0.5em;
+  font-weight: 300;
+}
+
+.features {
+  margin-left: -1.3em;
+}
+
+.features > li {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 1.1em;
+}
+.trail{
+    font-weight: 300;
+    margin-bottom: 0.5em;
+}
+
+.signin_text {
+  color: #305763;
+  margin: 2.5em 0 1.2em 0;
+  font-size: 1.4em;
+}
+.signin_text > span:first-child {
+  padding-right: 0.5em;
+}
+.signup {
+  border-left: 1.5px solid #07c87a;
+  padding-left: 1em;
+  color: #fff;
+  
+  font-weight: 700;
+}
+.form-group {
+  margin-bottom: 2em;
+}
+.form-group:last-child {
+    margin-bottom: 1.5em;
+  }
+
+.form-group label {
+  font-weight: 600;
+}
+.form-group input {
+  margin-top: 1em;
+  border: 1px solid #45666d;
+  width: calc(80%);
+  background-color: transparent;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  outline: none;
+}
+.form-group input[type="text"], input[type="password"]{
+    padding: 0.3em 0;
+}
+
+input::placeholder {
+  color: #45666d;
+  font-size: 16px;
+}
+
+.terms{
+    font-size: 15px;
+    color: #45666d;
+}
+
+.terms > span{
+    color: #fff;
+    padding-bottom: 2px;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: #07c87a;
+    text-underline-offset: 5px;
+}
+.btn{
+    text-align: center;
+    margin: 1.5em 0;
+}
+.btn-signup{
+    color: #07c87a;
+    background-color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 0.7em 1.2em;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    font-size: 1em;
+    border-radius: 1.5em;
+}

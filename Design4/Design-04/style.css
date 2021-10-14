@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Ephesis&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #edece7;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header {
+  height: 130px;
+  width: 100%;
+  background-color: #edece7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  border-bottom: 2px solid black;
+}
+
+.header__log {
+  font-family: "Oxygen", sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.header__nav > ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.header__nav > ul > li {
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+.header__btn > button {
+  margin-left: 16px;
+}
+.signin__btn {
+  border: none;
+}
+
+.signup__btn {
+  height: 50px;
+  width: 130px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.signup__btn:hover {
+  height: 50px;
+  width: 130px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  border: 2px solid black;
+  cursor: pointer;
+}
+.landing__page {
+  height: 470px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #edece7;
+}
+
+.landing_txt {
+  height: 470px;
+  width: 40%;
+}
+
+.landing_txt > h1 {
+  margin-top: 100px;
+  margin-left: 100px;
+  font-size: 68px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+.landing_txt > h2 {
+  margin-top: 40px;
+  margin-left: 260px;
+  font-size: 68px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+.landing_txt > h6 {
+  position: relative;
+  font-style: curse;
+  font-family: "Ephesis", cursive;
+  color: #b17745;
+  font-size: 100px;
+  margin-left: 140px;
+  margin-bottom: -10px;
+}
+.landing__pic {
+  height: 470px;
+  width: 30%;
+}
+.landing__pic > img {
+  height: 520px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 60px;
+  margin-top: 10px;
+}
+
+.landing__text2 {
+  flex-direction: column;
+  height: 470px;
+  width: 30%;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.landing__text2 > h5 {
+  margin-top: 20px;
+  margin-left: 160px;
+  margin-top: 80px;
+  line-height: 30px;
+  font-family: sans-serif;
+  font-weight: normal;
+}
+
+.landing__text2 .btn__readme {
+  margin-left: 160px;
+  margin-top: 30px;
+  height: 50px;
+  width: 90px;
+  border: none;
+  border-bottom: 2px solid black;
+  cursor: pointer;
+  background-color: #edece7;
+  font-weight: bold;
+}
+
+.footer {
+  margin-top: 30px;
+  height: 150px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.footer .left > ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.footer .left > ul > li {
+  list-style-type: none;
+  margin-left: 30px;
+
+  font-size: 14px;
+}
+
+.footer .right > button {
+  margin-left: 300px;
+  height: 50px;
+  width: 200px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  border: 2px solid black;
+}

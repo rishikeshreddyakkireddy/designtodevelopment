@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    min-height: 450px;
+    min-width: 960px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+    font-size: 2em;
+    font-weight: 100;
+    margin: 0.3em 0;
+  }
+
+#container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: linear-gradient(180deg,#F2A211,#AE4C11);
+}
+
+#wrapper{
+    height: 80%;
+    width: 70%;
+    min-height: 450px;
+    min-width: 960px;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+}
+
+.left{
+    flex-grow: 2;
+    background: #FFFFFF;  
+    min-width: 460px;
+
+}
+
+.leftItems,.rightItems{
+    height: 70%;
+    width: 70%;
+    display: flex;
+    flex-direction: column; 
+    position: relative;
+    top: 75px;
+    left: 80px;
+    justify-content: space-around;
+}
+
+.leftItems p{
+    color: #52a8ee;
+}
+
+.imgleft img:first-child{
+    position: relative;
+    right: 30px;
+}
+.imgleft{
+    max-width:100%;
+    height:auto;
+}
+
+.imgleft img:last-child{
+    position: relative;
+    left: 50px;
+}
+
+.leftItems h1{
+    color: #4D4D4D;
+}
+
+.inputs input{
+    border-style: none;
+    border-bottom: 1px solid #b8b8b9;
+    width: 250px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    background: transparent;
+}
+
+.diff input{
+    color: white;
+    border-bottom: 1px solid rgb(158, 211, 255);
+}
+
+.diff input::placeholder{
+    color: rgb(181, 222, 255);
+    font-size: 0.75em;
+}
+
+.right{
+    flex-grow: 1;
+    background: #1977D3;
+    min-width: 400px;
+}
+
+.rightItems h1{
+    color: linen;
+}
+.rightItems p{
+    color: rgb(181, 222, 255);
+}
+
+.button{
+    border: 0px none transparent;
+    margin-left: 20px;
+    border-radius: 30px;
+    padding: 8px 40px;
+    cursor: pointer;
+}
+.button::after{
+    content: "\f178";
+    font-family: 'FontAwesome';
+    color: #1977D3;
+}
+
+.footer span{
+    font-size: 0.75em;
+    color: rgb(158, 211, 255);
+}
+
+.footer a{
+    text-decoration: none;
+    font-size: 0.75em;
+    color: rgb(226, 237, 247);
+}
+
+.fa-user-o,.fa-key{
+    color: rgb(181, 222, 255);
+}
+
+.fa-check-circle{
+    color: #31CA74;
+}
+
+i{
+    position: relative;
+    right: 20px;
+}

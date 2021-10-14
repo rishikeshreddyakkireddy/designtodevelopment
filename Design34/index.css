@@ -1,0 +1,94 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+  background-color: #1e212a;
+  color: white;
+}
+
+.headerComponenet {
+  background-color: #1e212a !important;
+}
+
+.row-content {
+  margin-top: 10px;
+}
+.HeaderTypography {
+  font-weight: 900;
+  font-size: 60px;
+}
+
+.form-floating input,
+.form-floating textarea {
+  background-color: transparent;
+  color: white;
+  height: 70px !important;
+  border: 0;
+  border-bottom: 1px solid white;
+  border-radius: 0;
+}
+
+.form-floating textarea {
+  height: 84px !important;
+}
+.form-floating input:focus,
+.form-floating textarea:focus {
+  background-color: transparent;
+  color: white;
+  border: 0;
+}
+
+.submitBtn {
+  border-radius: 85px;
+  width: 286px;
+  padding: 15px;
+  font-weight: 500;
+  background-color: #0059ff;
+}
+
+.infoCol {
+  align-self: center;
+}
+
+.footer {
+  margin-top: 70px;
+}
+
+.footerBtn {
+  color: white;
+  text-decoration: none;
+  opacity: 61%;
+}
+.footerBtn:hover {
+  color: white;
+  opacity: 80%;
+}
+
+.contactSection {
+  background: url("./images/map.svg") no-repeat center;
+  background-size: 70%;
+}
+
+@media screen and (max-width: 991.98px) {
+  .HeaderTypography {
+    font-weight: 400;
+    font-size: 35px;
+  }
+  .submitBtn {
+    border-radius: 85px;
+    width: 190px;
+    padding: 15px;
+    font-weight: 500;
+  }
+  .contactSection {
+    background-size: 100%;
+  }
+}
+
+@media screen and (min-width: 991.98px) {
+  .infoCol div {
+    transform: translate(-100px, 116px);
+    margin: 0 auto;
+    width: 181px;
+  }
+}

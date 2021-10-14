@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Poppins&display=swap');
+
+* {
+    outline: none;
+    box-sizing: border-box;
+  }
+html,body {
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  background-color: rgb(150, 238, 250); 
+  background-image: linear-gradient(to right, rgb(150, 238, 250) , rgb(253, 224, 248)); background-size: cover; background-position: center;
+  display: flex; flex-direction: column;
+  justify-content: center; align-items: center;
+  padding: 3em 0em; margin: 0;
+  width: 100%; height: 100%;
+}
+#index{
+    margin-left: 50px; font-size: 2.5rem; letter-spacing: 2px; color: rgb(2, 57, 61); 
+    font-family: 'Luckiest Guy', cursive;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%; font-family: 'Poppins', sans-serif;
+    border-bottom: 1.5 px solid rgb(146, 37, 37);
+}
+  .NavigationMenu > a {
+    padding: 6px 8px; margin-left: 15px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  a:hover{
+    font-weight: bolder; 
+    color: rgb(34, 32, 32); border: 2px white; border-radius: 25px; background: rgb(255, 255, 228);
+  }
+  #sign{
+      margin-left: 80px;
+  }
+  #request{
+      margin-right: 50px; margin-left: 20px;
+      border: 2px black; border-radius: 25px; background: black;
+      padding: 13px;
+      color: aliceblue;
+  }
+  #request:hover{
+    background: rgb(247, 246, 246); color: rgb(15, 144, 250);
+  }
+  .HeroSection {
+    background-color: rgb(255 255 255/ 31%);
+    border: 10px solid rgb(255 255 255/ 31%); border-radius: 20px; box-shadow: -5px 5px 8px 4px rgb(113, 112, 114);
+    margin: 50px;
+    width: 75%;
+    display: flex; flex-wrap: wrap; align-items: center; justify-content: space-evenly;
+  }
+  .HeroSectionDetails > h3 {
+    text-align: center;
+    font-size: 4rem; margin-top: 10%; margin-left: 20%; margin-right: 20%; margin-bottom: 0%;
+  }
+  .HeroSectionDetails > h2{
+    text-align: center;
+    font-size: 1.5rem; margin-top: 30px; margin-left: 20%; margin-right: 20%;
+  }
+  .btn{
+    border: 2px black; border-radius: 25px; background: rgb(255, 253, 228); display: flex;
+    align-items: center; font-size: 1rem;
+    width: 150px;
+    padding: 13px; margin-top: 60px; margin-bottom: 80px;
+    color: black; 
+    cursor: pointer;
+  }
+  .btn:hover{
+    width: 200px;
+    font-weight: bold; font-size: 1.3rem ;
+    background: rgba(218, 252, 215, 0.911);
+  }
+#container{
+    margin-top: 30px;
+}
+#services{
+    display: flex;
+    flex-direction: row;      
+}
+#services .box{
+    border: 1px solid rgb(241, 236, 236);
+    padding: 30px;
+    margin: 10px 20px;
+    width: 23vw;
+    border-radius: 28px;
+    margin-bottom: 20px;
+}
+#services .box:hover{
+  width: 26vw;
+  box-shadow: 4px 4px 7px 4px #888888;
+  cursor: pointer;
+}
+#services .box >h2,p{
+    margin-top: 0px;
+    text-align: center;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.h-primary{
+    font-size: 3.8rem;
+    padding: 30px;
+}
+#heading{
+    margin-top: 0px; margin-left: 10px;
+    text-align: center; font-size: 1.5rem;
+    font-family: 'Baloo Bhai 2', cursive; font-weight: bold;
+}
+.center{
+    margin-top: 20px;
+}
+#in{
+    border: 2px white; background: none; border-radius: 15px;
+    padding: 10px; padding-right: 3px; 
+    font-family: 'Baloo Bhai 2', cursive; font-weight: 600; font-size: 1.1rem;
+    cursor: pointer;
+}

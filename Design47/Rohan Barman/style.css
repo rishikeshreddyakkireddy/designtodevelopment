@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700;900&display=swap');
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+body{
+    background-color: #EF3E2A;
+    min-height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    margin: 25px 65px;
+    margin-bottom: 0;
+    background-color: #EF3E2A;
+}
+
+
+.navBar{
+    margin-right: auto;
+}
+
+.nav-links {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 5px 8px;
+    margin-right: 15px;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.brand{
+    font-weight: 900;
+    font-size: 25px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.where{
+   width: 750px;
+}
+
+.container{
+    position: sticky;
+    top: 100%;
+}
+
+.main-img{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.scroll-indicator{
+    float: left;
+    position: relative;
+    top: 100px;
+    left: 30px;
+}
+
+.scroll-indicator i{
+    margin-top: 25px;
+}
+
+.text-div{
+    float: right;
+    width: 280px;
+    position: relative;
+    top: 180px;
+    right: 30px;
+    margin: 0;
+}
+
+.underline{
+    display: inline-block;
+    position: relative;
+}
+
+.underline::after{
+    height: 2.5px;
+    background-color: #fff;
+    display: block;
+    content: '';
+    width: 500%;
+    margin: 5px auto;
+    margin-top: 5px;
+}
+
+.social-icons{
+    position: relative;
+    top: 76vh;
+    left: 20px;
+    font-size: 20px;
+}
+
+.social-icons i{
+    margin-right: 10px;
+}
+
+.read-more{
+    background-color: #EF3E2A;
+    color: #000;
+    font-weight: bold;
+    border: none;
+}
+
+.search{
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.fa-bars{
+    font-size: 30px;
+}
+
+.text-div h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+span{
+    font-size: 30px;
+    font-weight: bold;
+}
