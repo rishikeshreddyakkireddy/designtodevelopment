@@ -17,6 +17,10 @@ body{
     position: relative;
 }
 
+.container{
+    height: 100vh;
+}
+
 #header{
     position: sticky;
     display: flex;
@@ -29,7 +33,7 @@ body{
 }
 
 .brand{
-    width: 150px;
+    width: 120px;
 }
 
 .header_links{
@@ -39,7 +43,7 @@ body{
 }
 
 .header_link{
-    font-size: 20px;
+    font-size: 15px;
     letter-spacing: 2px;
     padding: 5px 0;
     margin: 0 20px;
@@ -76,12 +80,12 @@ body{
 #player{
     position: absolute;
     bottom: 0;
-    padding: 7px 35px;
+    padding: 5px 30px;
     display: flex;
     justify-content: space-between;
     align-content: center;
     background-color: #282828;
-    width: 100%;
+    width: 99%;
     color: #fff;
     z-index: 10;
 }
@@ -168,14 +172,14 @@ body{
 #r_played{
     position: absolute;
     right: 0;
-    top: 90px;
+    top: 93px;
     background-image: linear-gradient(to bottom,#0A0A0A,#242424);
     display: flex;
     justify-content: center;
     align-content: center;
     flex-direction: column;
-    padding: 0 20px;
-    width: 350px;
+    padding: 0 25px;
+    width: 320px;
     z-index: 5;
 }
 
@@ -239,8 +243,8 @@ body{
 }
 
 .highlights_img{
+    width:73%;
     height: 250px;
-    width: 75%;
 }
 
 .highlights i{
@@ -256,7 +260,7 @@ body{
 }
 
 .right{
-    right: 28%;
+    right: 30%;
 }
 
 .left{
@@ -269,7 +273,7 @@ body{
     width: 73%;
     color: #fff;
     font-size: 18px;
-    padding: 5px 85px;
+    padding: 5px 25px;
 }
 
 .top_left{
@@ -277,7 +281,7 @@ body{
 }
 
 .bottom_box{
-    padding: 0 85px;
+    padding: 0 25px;
     display: flex;
 }
 
@@ -286,7 +290,7 @@ body{
     border-radius: 20px;
     padding: 20px 18px 14px 18px;
     background-color: #282828;
-    margin: 0 30px;
+    margin: 0 10px;
 }
 
 .b_img{
