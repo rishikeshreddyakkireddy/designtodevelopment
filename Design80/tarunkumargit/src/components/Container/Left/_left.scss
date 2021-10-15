@@ -1,0 +1,244 @@
+@import '../../../App.scss';
+
+.container__row__col1 {
+  width: 50%;
+  position: relative;
+  @include media('<=800px') {
+    width: 95%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  h3 {
+    margin-top: 2.5rem;
+    font-family: 'Druk Cyr';
+    font-weight: 200;
+    font-size: 1.5rem;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    span {
+      font-family: 'Druk Cyr';
+      font-weight: 400;
+      color: $light_font;
+      margin-right: 1rem;
+    }
+    @include media('<=1500px') {
+      font-size: 1.1rem;
+      margin-top: 1.5rem;
+    }
+  }
+  .big_text {
+    font-family: 'Druk Cyr Super';
+    font-size: 19rem;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    position: relative;
+    line-height: 17rem;
+    user-select: none;
+    pointer-events: none;
+    .bg__circle {
+      position: absolute;
+      top: 50%;
+      left: 100%;
+      transform: translate(-50%, -50%);
+      width: 580px;
+      height: 580px;
+      border-radius: 50%;
+      background-color: $dark_bg;
+      z-index: -1;
+    }
+    img {
+      position: absolute;
+      top: 60%;
+      left: 100%;
+      transform: translate(-50%, -45%);
+      height: 90vh;
+      z-index: 10000;
+      user-select: none;
+      pointer-events: none;
+    }
+    @include media('>=1900px') {
+      font-size: 30rem;
+      letter-spacing: 1rem;
+      line-height: 25rem;
+      .bg__circle {
+        top: 70%;
+        width: 950px;
+        height: 950px;
+      }
+      img {
+        top: 75%;
+        transform: translate(-50%, -45%);
+        height: 90vh;
+      }
+    }
+
+    @include media('<=1500px') {
+      font-size: 14rem;
+      letter-spacing: 13px;
+      line-height: 12rem;
+      .bg__circle {
+        top: 70%;
+        width: 400px;
+        height: 400px;
+      }
+      img {
+        top: 70%;
+      }
+    }
+    @include media('<=1200px') {
+      font-size: 13rem;
+      letter-spacing: 3px;
+    }
+
+    @include media('<=800px') {
+      font-size: 5rem;
+      letter-spacing: 1px;
+      line-height: 6rem;
+      .bg__circle {
+        top: 70%;
+        left: 70%;
+        width: 200px;
+        height: 200px;
+      }
+      img {
+        top: 80%;
+        left: 70%;
+        transform: translate(-50%, -45%);
+        height: 50vh;
+      }
+    }
+  }
+  .subheading {
+    margin: 1.7rem 0;
+    h2 {
+      color: $dark_font;
+      font-weight: normal;
+      font-size: 1.3rem;
+      font-weight: 500;
+    }
+    :last-child {
+      margin-top: 0.7rem;
+    }
+    @include media('>=1900px') {
+      margin-top: 3rem;
+      h2 {
+        font-size: 2rem;
+      }
+    }
+    @include media('<=1500px') {
+      margin: 1rem 0;
+      h2 {
+        font-size: 1rem;
+      }
+    }
+    @include media('<=800px') {
+      margin: 0.5rem 0;
+      h2 {
+        font-size: 0.7rem;
+      }
+    }
+  }
+  .shop_btns {
+    display: flex;
+    align-items: center;
+    @include media('>=1900px') {
+      margin-top: 3rem;
+    }
+    @include media('<=800px') {
+      display: none;
+    }
+    .shop {
+      text-transform: uppercase;
+      font-size: 0.7rem;
+      font-weight: 600;
+      width: 170px;
+      height: 50px;
+      background-color: #d66d59;
+      color: #fff;
+      border: none;
+      outline: none;
+      padding-right: 25px;
+      clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);
+      cursor: pointer;
+      position: relative;
+      z-index: 2;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      @include media('>=1900px') {
+        font-size: 1.5rem;
+        width: 270px;
+        height: 90px;
+        margin-right: 10px;
+      }
+      @include media('<=1200px') {
+        width: 100px;
+        margin-right: 10px;
+        h6 {
+          font-size: 0.6rem;
+        }
+      }
+      &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: $black;
+        width: 93%;
+        height: 100%;
+        clip-path: polygon(0 0, 100% 0, 73% 100%, 0% 100%);
+        z-index: -1;
+        @include media('<=1200px') {
+          width: 90%;
+        }
+      }
+    }
+
+    .info {
+      text-transform: uppercase;
+      background-color: #bfbbb4;
+      border: none;
+      outline: none;
+      padding: 1rem 2rem;
+      transform: skew(-40deg);
+      cursor: pointer;
+      position: relative;
+      z-index: 2;
+      h6 {
+        font-size: 0.7rem;
+        font-weight: 600;
+        color: #fff;
+        transform: skew(40deg);
+      }
+
+      @include media('>=1900px') {
+        padding: 2rem 4rem;
+        h6 {
+          font-size: 1.5rem;
+        }
+      }
+
+      @include media('<=1200px') {
+        transform: skew(-25deg);
+        padding: 1rem 1.5rem;
+        h6 {
+          font-size: 0.6rem;
+          transform: skew(25deg);
+        }
+      }
+      &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 7.5%;
+        border: 1px solid $dark_font;
+        background-color: #d8d4ce;
+        width: 85%;
+        height: 95%;
+        z-index: -1;
+      }
+    }
+  }
+}

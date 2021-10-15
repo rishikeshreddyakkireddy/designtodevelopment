@@ -68,4 +68,7 @@ $dark_font: #5b5c5c;
   position: relative;
   z-index: 0;
   overflow: hidden;
+  @include media('<=800px') {
+    height: auto;
+  }
 }

@@ -7,10 +7,16 @@
   position: relative;
   width: 100%;
   height: 10%;
+  @include media('<=800px') {
+    height: 70px;
+  }
   h5 {
     font-size: 1rem;
     font-weight: 900;
     cursor: pointer;
+    @include media('<=800px') {
+      font-size: 0.7rem;
+    }
   }
 
   &__left {
@@ -34,6 +40,16 @@
           border-bottom: 4px solid $light_font;
         }
       }
+      @include media('<=800px') {
+        margin-right: 1rem;
+        .lines {
+          margin-right: 0.5rem;
+          .line1,
+          .line2 {
+            width: 12px;
+          }
+        }
+      }
     }
     &__search {
       display: flex;
@@ -44,6 +60,10 @@
         color: $light_font;
         margin-right: 1rem;
         cursor: pointer;
+        @include media('<=800px') {
+          font-size: 0.7rem;
+          margin-right: 0.5rem;
+        }
       }
       input {
         border: none;
@@ -52,11 +72,18 @@
         font-size: 1rem;
         font-weight: 800;
         color: $black;
+        @include media('<=800px') {
+          font-size: 0.7rem;
+          width: 35%;
+        }
       }
       input::placeholder {
         font-size: 1rem;
         font-weight: 800;
         color: $black;
+        @include media('<=800px') {
+          font-size: 0.7rem;
+        }
       }
     }
   }
@@ -102,6 +129,9 @@
         margin-right: 2rem;
       }
     }
+    @include media('<=800px') {
+      display: none;
+    }
   }
 
   &__right {
@@ -112,6 +142,9 @@
       align-items: center;
       margin-right: 2rem;
       cursor: pointer;
+      @include media('<=800px') {
+        margin-right: 1rem;
+      }
     }
     &__login {
       display: flex;
@@ -124,6 +157,10 @@
       color: $light_font;
       margin-left: 1rem;
       cursor: pointer;
+      @include media('<=800px') {
+        font-size: 0.7rem;
+        margin-left: 0.5rem;
+      }
     }
   }
 }
