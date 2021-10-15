@@ -1,0 +1,56 @@
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .top-left {
+    position: absolute;
+    top: 88px;
+    left: 700px;
+  }
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: white;
+    color: white;
+    height: 200px;
+  }
+  .c1{
+    width:20%;
+    text-align: center;
+    padding-left: 90px;
+    padding-top: 55px;
+  }
+  .column1
+  {
+    float: left;
+    width: 20%;
+    padding: 5px;
+    height:200px;
+  
+  }
+  .column2
+  {
+    float: left;
+    width: 7%;
+    padding: 5px;
+    height:200px;
+  }
+  .column3
+  {
+    float: left;
+    width: 70.88%;
+    padding: 5px;
+    height:200px;
+  }
+  .floating {
+    float: left;
+    width: 33.33%;
+  }
