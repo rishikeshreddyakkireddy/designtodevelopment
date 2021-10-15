@@ -16,7 +16,7 @@ const Header = () => {
             <h5>Menu</h5>
           </div>
           <div className="navbar__left__search">
-            <i class="ri-search-line"></i>
+            <i className="ri-search-line"></i>
             <input type="text" placeholder="Search" />
           </div>
         </nav>
@@ -42,11 +42,11 @@ const Header = () => {
         <nav className="navbar__right">
           <div className="navbar__right__cart">
             <h5>Cart</h5>
-            <i class="ri-shopping-cart-line"></i>
+            <i className="ri-shopping-cart-line"></i>
           </div>
           <div className="navbar__right__login">
             <h5>Login</h5>
-            <i class="ri-user-3-line"></i>
+            <i className="ri-user-3-line"></i>
           </div>
         </nav>
       </header>
