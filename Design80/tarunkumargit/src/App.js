@@ -5,14 +5,15 @@ import './App.scss';
 import Header from './components/Header/Header';
 import List from './components/List/List';
 import Container from './components/Container/Container';
+import Footer from './components/Footer/Footer';
 
 const App = () => {
   return (
     <section className="landing__page">
-      {/* <div className="landing__page__bg__circle"></div> */}
       <Header />
       <List />
       <Container />
+      <Footer />
     </section>
   );
 };
