@@ -23,6 +23,10 @@
           color: $light_font;
           margin-right: 1rem;
         }
+        @include media('<=1500px') {
+          font-size: 1.1rem;
+          margin-top: 1.5rem;
+        }
       }
       .big_text {
         font-family: 'Druk Cyr Super';
@@ -70,6 +74,20 @@
             height: 90vh;
           }
         }
+
+        @include media('<=1500px') {
+          font-size: 14rem;
+          letter-spacing: 13px;
+          line-height: 12rem;
+          .bg__circle {
+            top: 70%;
+            width: 400px;
+            height: 400px;
+          }
+          img {
+            top: 70%;
+          }
+        }
       }
       .subheading {
         margin: 1.7rem 0;
@@ -86,6 +104,12 @@
           margin-top: 3rem;
           h2 {
             font-size: 2rem;
+          }
+        }
+        @include media('<=1500px') {
+          margin: 1rem 0;
+          h2 {
+            font-size: 1rem;
           }
         }
       }
@@ -186,6 +210,10 @@
           color: $light_font;
           margin-left: 1rem;
         }
+        @include media('<=1500px') {
+          font-size: 1.1rem;
+          margin-top: 1.5rem;
+        }
       }
       .big_text {
         font-family: 'Druk Cyr';
@@ -230,6 +258,13 @@
             height: 400px;
           }
         }
+        @include media('<=1500px') {
+          font-size: 7rem;
+          line-height: 5.5rem;
+          img {
+            height: 150px;
+          }
+        }
       }
       .subheading {
         margin: 1.7rem 0;
@@ -244,6 +279,12 @@
           margin-top: 3rem;
           h2 {
             font-size: 1.5rem;
+          }
+        }
+        @include media('<=1500px') {
+          margin: 1rem 0;
+          h2 {
+            font-size: 0.7rem;
           }
         }
       }

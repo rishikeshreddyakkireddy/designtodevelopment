@@ -12,6 +12,9 @@
     @include media('>=1900px') {
       font-size: 2.2rem;
     }
+    @include media('<=1500px') {
+      font-size: 1.2rem;
+    }
   }
   .dots {
     display: flex;
