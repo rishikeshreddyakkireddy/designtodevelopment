@@ -1,0 +1,74 @@
+//--> Customs Font Family
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@font-face {
+  font-family: 'Druk Cyr';
+  src: local('Druk Cyr Medium'), local('Druk-Cyr-Medium'),
+    url('./assets/fonts/DrukCyr-Medium/DrukCyr-Medium.woff2') format('woff2'),
+    url('./assets/fonts/DrukCyr-Medium/DrukCyr-Medium.woff') format('woff');
+
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Druk Cyr Super';
+  src: local('Druk Cyr Super'), local('Druk-Cyr-Super'),
+    url('./assets/fonts/DrukCyr-Super/DrukCyr-Super.woff2') format('woff2'),
+    url('./assets/fonts/DrukCyr-Super/DrukCyr-Super.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Scss files
+@import './breakpoints';
+
+// --> Resets
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a,
+button,
+textarea,
+input {
+  outline: none;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+*,
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+//--> Color scheme
+$light_bg: #d8d4ce;
+$dark_bg: #f1e7d8;
+$black: #080c10;
+$light_font: #b9b6b0;
+$dark_font: #5b5c5c;
+
+// App Styles
+
+.landing__page {
+  width: 100vw;
+  height: 100vh;
+  background-color: $light_bg;
+  padding: 0 5vw;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  @include media('<=800px') {
+    height: auto;
+  }
+}

@@ -1,0 +1,31 @@
+@import '../../App.scss';
+
+.landing__page__list {
+  width: 100%;
+  height: 15%;
+  h3 {
+    font-family: 'Druk Cyr';
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: $light_font;
+    text-transform: uppercase;
+    @include media('>=1900px') {
+      font-size: 2.2rem;
+    }
+    @include media('<=1500px') {
+      font-size: 1.2rem;
+    }
+  }
+  .dots {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+    .dot {
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background-color: $light_font;
+      margin-right: 5px;
+    }
+  }
+}

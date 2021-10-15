@@ -1,0 +1,13 @@
+@import '../../App.scss';
+
+.container {
+  width: 100%;
+  min-height: 65%;
+  &__row {
+    display: flex;
+    height: 100%;
+    @include media('<=800px') {
+      flex-direction: column-reverse;
+    }
+  }
+}
