@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+*{
+  margin :0;
+  padding :0;
+}
+body{
+  background: linear-gradient(90deg, #1E5148 -2.15%, #8DB376 105.24%);
+  
+}
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
+}
+.nav-links{
+  display: flex;
+  flex-basis: 25vw;
+  justify-content: space-around;
+}
+.logo{
+  flex-basis:4vw;
+  color: white;
+<<<<<<< HEAD
+  margin-left:20px;
+=======
+>>>>>>> e67776434c8a94138d5b7cd3768d5235c11775f0
+}
+.nav-left{
+  display: flex;
+  flex-basis:40vw ;
+  justify-content: space-between;
+}
+a{
+  text-decoration: none;
+  color:white;
+}
+.nav-links li{
+  color:white;
+}
+li:hover{
+  color:yellow;
+}
+a:hover{
+  color:yellow;
+}
+.nav-list{
+  display:flex;
+  justify-content: space-between;
+}
+.side-links{
+  display: flex;
+  flex-basis: 10vw;
+<<<<<<< HEAD
+  justify-content: space-around;
+=======
+  justify-content: space-between;
+>>>>>>> e67776434c8a94138d5b7cd3768d5235c11775f0
+}
+.side-list{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.hamburger{
+  background:  #1E5148;
+  margin-left: 30px;
+  border-radius: 3%;
+  width:10rem;
+  height: 5em;
+  align-content: center;
+  margin-top: 0;
+}
+.hamburger div{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 3px 0;
+    margin-left: 70px;
+}
+/*main*/
+.main-container{
+  display:flex;
+}
+.main-left{
+  flex-basis: 33.33%;
+  color: white;
+  margin-left:30px;
+  margin-top: 30px;
+}
+.main-right{
+  flex-basis: 66.66%;
+  display: flex;
+  justify-content: flex-end;
+  height: 70vh;
+}
+.img-div{
+  background: linear-gradient(90deg, #D0EBC2 0%, #9EC486 76.6%);
+  border-radius: 100px 0px 0px 0px;
+  display: flex;
+  flex-basis: 60%;
+  justify-content: flex-start;
+  height: 105%;
+}
+.cactus{
+  height: 100%;
+  margin-top: -66px;
+  margin-left: -110px;
+<<<<<<< HEAD
+  pointer-events: none;
+=======
+>>>>>>> e67776434c8a94138d5b7cd3768d5235c11775f0
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  background:  #1E5148;
+  border-radius: 25px 0px 0px 0px;
+  color: white;
+  margin-left: 3rem;
+  border-radius: 3rem 3rem 0 0;
+  display: flex;
+  width:100%;
+}
+.img-footer{
+  flex-basis: 10%;
+  border-radius: 0 0 0 8rem;
+}
+.footer-mid{
+  flex-basis: 40%;
+  display: flex;
+  justify-content: center;
+}
+.contact{
+  background: linear-gradient(90deg, #D0EBC2 0%, #9EC486 76.6%);
+  flex-basis: 38%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.contact i{
+  margin-top:20px;
+}
+<<<<<<< HEAD
+.search{
+  margin-top:15px;
+}
+=======
+>>>>>>> e67776434c8a94138d5b7cd3768d5235c11775f0
