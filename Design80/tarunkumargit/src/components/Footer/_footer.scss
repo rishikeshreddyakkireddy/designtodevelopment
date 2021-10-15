@@ -9,6 +9,9 @@
     color: $light_font;
     font-size: 1rem;
     margin-right: 0.6rem;
+    @include media('>=1900px') {
+      font-size: 2rem;
+    }
   }
   &__left {
     display: flex;
@@ -17,6 +20,10 @@
       width: 50px;
       border-bottom: 2px solid $light_font;
       position: relative;
+      @include media('>=1900px') {
+        width: 100px;
+        border-bottom: 4px solid $light_font;
+      }
       &:before {
         content: '';
         position: absolute;
@@ -24,6 +31,10 @@
         left: 0;
         width: 25px;
         border-bottom: 2px solid #d66d59;
+        @include media('>=1900px') {
+          width: 50px;
+          border-bottom: 4px solid #d66d59;
+        }
       }
     }
   }
@@ -33,6 +44,9 @@
     i {
       color: $light_font;
       font-size: 1.5rem;
+      @include media('>=1900px') {
+        font-size: 2.5rem;
+      }
     }
   }
 }

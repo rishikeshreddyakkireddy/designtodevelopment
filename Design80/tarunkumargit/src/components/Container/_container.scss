@@ -55,6 +55,21 @@
           user-select: none;
           pointer-events: none;
         }
+        @include media('>=1900px') {
+          font-size: 30rem;
+          letter-spacing: 1rem;
+          line-height: 25rem;
+          .bg__circle {
+            top: 70%;
+            width: 950px;
+            height: 950px;
+          }
+          img {
+            top: 75%;
+            transform: translate(-50%, -45%);
+            height: 90vh;
+          }
+        }
       }
       .subheading {
         margin: 1.7rem 0;
@@ -67,10 +82,19 @@
         :last-child {
           margin-top: 0.7rem;
         }
+        @include media('>=1900px') {
+          margin-top: 3rem;
+          h2 {
+            font-size: 2rem;
+          }
+        }
       }
       .shop_btns {
         display: flex;
         align-items: center;
+        @include media('>=1900px') {
+          margin-top: 3rem;
+        }
         .shop {
           text-transform: uppercase;
           font-size: 0.7rem;
@@ -89,6 +113,12 @@
           display: flex;
           align-items: center;
           justify-content: center;
+          @include media('>=1900px') {
+            font-size: 1.5rem;
+            width: 270px;
+            height: 90px;
+            margin-right: 10px;
+          }
           &:before {
             content: '';
             position: absolute;
@@ -118,6 +148,12 @@
             font-weight: 600;
             color: #fff;
             transform: skew(40deg);
+          }
+          @include media('>=1900px') {
+            padding: 2rem 4rem;
+            h6 {
+              font-size: 1.5rem;
+            }
           }
           &:after {
             content: '';
@@ -183,6 +219,17 @@
           user-select: none;
           pointer-events: none;
         }
+        @include media('>=1900px') {
+          font-size: 15rem;
+          line-height: 12rem;
+          .circle {
+            width: 220px;
+            height: 220px;
+          }
+          img {
+            height: 400px;
+          }
+        }
       }
       .subheading {
         margin: 1.7rem 0;
@@ -193,11 +240,20 @@
           font-weight: 500;
           padding-bottom: 0.4rem;
         }
+        @include media('>=1900px') {
+          margin-top: 3rem;
+          h2 {
+            font-size: 1.5rem;
+          }
+        }
       }
       .slider_btns {
         display: flex;
         align-items: center;
         justify-content: flex-end;
+        @include media('>=1900px') {
+          margin-top: 3rem;
+        }
         .left {
           padding: 0.7rem;
           color: #fff;
@@ -205,6 +261,10 @@
           border-radius: 50%;
           margin-right: 1rem;
           cursor: pointer;
+          @include media('>=1900px') {
+            padding: 1.1rem;
+            font-size: 1.8rem;
+          }
         }
         .right {
           padding: 0.7rem;
@@ -213,6 +273,10 @@
           border: 1px solid $light_font;
           background-color: $light_font;
           cursor: pointer;
+          @include media('>=1900px') {
+            padding: 1.1rem;
+            font-size: 1.8rem;
+          }
         }
       }
     }

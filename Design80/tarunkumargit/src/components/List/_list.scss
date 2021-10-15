@@ -9,6 +9,9 @@
     font-size: 1.5rem;
     color: $light_font;
     text-transform: uppercase;
+    @include media('>=1900px') {
+      font-size: 2.2rem;
+    }
   }
   .dots {
     display: flex;
