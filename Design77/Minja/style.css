@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+}
+body {
+	line-height: 1.2;
+	color: #0d0c22;
+	height: 100vh;
+}
+h1 {
+	font-size: 46px;
+	font-weight: 700;
+	letter-spacing: 1.4px;
+}
+h2, h3{
+	font-weight: 700;
+}
+hr {
+	border: 1px solid #eceded;
+	margin: 12px 0;
+}
+a {
+	text-decoration: none;
+	color: #0d0c22;
+}
+form {
+	padding-top: 26px;
+}
+small {
+	color: #5ab4a4;
+	font-size:10px;
+	font-weight: 700;
+	letter-spacing: 3px;
+	padding: 0 8px;
+}
+#nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: #eceded;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 8px 14px;
+}
+#logo {
+	width: 64px;
+	height: 64px;
+}
+#hero {
+	position: absolute;
+	top: 25.5%;
+	left: 50%;
+	transform: translate(-50%);
+	width: 70%;
+	max-width: 70%;
+}
+#delivery,  #return {
+	display: flex;
+	align-items: center;
+	justify-content:space-between;
+}
+#btn {
+	padding: 20px 0;
+	width: 100%;
+	border: none;
+	background: #000;
+	color: #fff;
+	letter-spacing: 4px;
+	margin: 15% 0 0 0;
+	cursor: pointer;
+}
+#circle {
+	background: rgb(158,221,212);
+	background: linear-gradient(90deg, rgba(158,221,212,1) 0%, rgba(166,225,215,1) 56%, rgba(199,237,231,1) 100%);
+	margin: 0 auto;
+	width: 100%;
+	max-width: 100%;
+	height: 200px;
+	border-top-left-radius: 510px;
+	border-top-right-radius: 510px;
+}
+#size , #quantity {
+	font-size: 14px;
+	padding: 14px 24px;
+	opacity: 80%;
+	border: 1px solid #eceded;
+}
+#size:focus , #quantity:focus {
+	outline: none
+}
+#size{
+	padding-right: 25%;
+	margin-right: 8px;
+}
+.nav-list {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.nav-list * {
+	padding: 0 4px;
+}
+.top {
+	background-color: #eceded;
+	padding-top: 45%;
+	padding-left: 14px;
+    padding-right: 14px;
+}
+.fox-description {
+	font-weight: 300;
+	line-height: 1.5;
+	opacity: 60%;
+	font-size: 12px;
+	padding: 0 6px;
+}
+.bottom {
+	display: block;
+	padding-top: 50%;
+	padding-left: 14px;
+    padding-right: 14px;
+}
+.fox-price {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+.fox-price-image {
+	width: 100px;
+	height: 100px;
+	margin-right: 10px;
+}
+.fox-price-details {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.fox-price-slider {
+	display: flex;
+	flex-direction: column;
+}
+.arrow {
+	font-size: 36px;
+	position: relative;
+	font-weight: 300;
+}
+.divider {
+	position: absolute;
+	margin-top: -24px;
+	margin-left: -18px;
+	font-size: 50px;
+	color: #eceded;
+	font-weight: 300;
+	padding: 0 8px;
+}
+.arrow-left {
+	color: #eceded;
+}
+.fox-jersey-description {
+	font-size: 10px;
+	opacity: 60%;
+	line-height: 1.5;
+}
+.fox-360 {
+	position: absolute;
+	margin-top: -40%;
+}
+.pharrell {
+	font-size: 10px;
+	padding-bottom: 8px;
+	opacity: 60%;
+}
+.nav-menu{
+	position: relative;
+	cursor: pointer;
+}
+.nav-menu-content {
+	display: none;
+	position: absolute;
+	left: -10px;
+}
+.nav-menu:hover .nav-menu-content {
+	display: block;
+}
+.nav-menu-content a {
+	font-size:16px;
+	color:#0d0c22;
+	text-decoration: none;
+	display: block;
+	padding: 8px 0;
+}
+.nav-menu-content svg {
+	margin: 0 8px;
+}
+
+/* Media Queries */
+@media only screen and (min-width: 500px) and (max-width: 924px) {
+	#circle {
+		height: 300px;
+		width: 95%;
+	}
+	.nav-menu:hover .nav-menu-content {
+		display: flex;
+	}
+}
+
+@media only screen and (min-width: 925px) and (max-width: 1200px) {
+	
+	.top {
+		padding-top: 40%;
+	}
+	.bottom {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding-top:0;
+	}
+	
+	.fox-360 {
+		position: relative;
+		top: 65%;
+		left: -30%;
+	}
+	#circle {
+		height: 300px;
+		width: 60%;
+	}
+	#hero {
+		width: 50%;
+		top: 10%;
+		left: 50%;
+	}
+	#size {
+		padding-right: 20%;
+	}
+	.nav-menu-content {
+		display: flex;
+		align-items: baseline;
+		top: 0;
+		left: -500%;
+	}
+	.nav-menu-content a {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0 45px 0 0;
+	}
+	.nav-list a {
+		padding: 0 28px;
+	}
+	.bottom {
+		padding-top: 10%;
+		display: flex;
+		align-items: center;
+		justify-content:space-between;
+	}
+	.fox-price {
+		padding-top: 50px;
+	}
+	.nav-menu:hover .nav-menu-content {
+		display: flex;
+	}
+
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1500px) {
+	.top {
+		padding-top: 30%;
+	}
+	.bottom {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding-top:0;
+	}
+	.fox-360 {
+		position: relative;
+		top: 65%;
+		left: -30%;
+	}
+	#circle {
+		height: 370px;
+		width: 60%;
+	}
+	#hero {
+		top: 0%;
+		left: 50%;
+		width: 43%;
+		max-width:43%;
+	}
+	#size {
+		padding-right: 20%;
+	}
+	.nav-menu-content {
+		display: flex;
+		align-items: baseline;
+		top: 0;
+		left: -500%;
+	}
+	.nav-menu-content a {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0 45px 0 0;
+	}
+	.nav-list a {
+		padding: 0 28px;
+	}
+	.bottom {
+		padding-top: 10%;
+		display: flex;
+		align-items: center;
+		justify-content:space-between;
+	}
+	.fox-price {
+		padding-top: 50px;
+	}
+	.nav-menu:hover .nav-menu-content {
+		display: flex;
+	}
+}
+
+@media only screen and (min-width: 1501px) {
+	#circle {
+		height: 500px;
+		width: 60%;
+	}
+	.top {
+		padding-top: 40%;
+	}
+	.bottom {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding-top:0;
+	}
+	.fox-360 {
+		position: relative;
+		top: 77%;
+		left: -30%;
+	}
+	#hero {
+		top:10%;
+		left: 50%;
+		width: 43%;
+	}
+	#size {
+		padding-right: 20%;
+	}
+	.fox-price {
+		padding-top: 50px;
+	}
+	.nav-menu-content {
+		display: flex;
+		align-items: baseline;
+		top: 0;
+		left: -500%;
+	}
+	.nav-menu-content a {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0 45px 0 0;
+	}
+	.nav-list a {
+		padding: 0 28px;
+	}
+	.nav-menu:hover .nav-menu-content {
+		display: flex;
+	}
+	
+}
