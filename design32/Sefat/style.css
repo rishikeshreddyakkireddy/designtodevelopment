@@ -1,0 +1,182 @@
+body{
+    background-color: white;
+}
+
+#nav {
+text-align:center;
+
+}
+#nav ul {
+display:inline-block;
+list-style:none; 
+}
+* html #nav ul { 
+display:inline;
+}
+*+html #nav ul { 
+display:inline;
+}
+#nav li {
+display:inline;
+
+}
+#nav a {
+font-family: Arial Black;
+float:left;
+color: black;
+text-decoration:none; 
+padding:0 30px; 
+}
+#nav a.active{
+	color: blue;
+}
+#nav a:hover{
+	color: blue;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.container img{
+	height: 550px;width: 1340px;
+	object-fit: cover;
+
+}
+.left {
+  position: absolute;
+  top: 208px;
+  left: 16px;
+}
+.left .btn{
+	display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: -30px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.left .btn:hover{
+ color: crimson;
+    background: none;
+}
+
+
+
+
+
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+   margin-right: -40%;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: crimson;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+ 
+  background-color: black;
+}
+.column {
+  float: left;
+
+  width: 25%;
+  padding: 10px;
+  height: 400px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+input[type=text]{
+    width:40%;
+    border:2px solid white;
+    background-color: #e5e4e2;
+    border-radius:4px;
+    margin:8px 0;
+    outline:none;
+    padding:18px;
+    box-sizing:border-box;
+    transition:.3s;
+  }
+  
+  input[type=text]:focus{
+    border-color:dodgerBlue;
+    box-shadow:0 0 8px 0 dodgerBlue;
+  }
+
+
+
+#footer-sec {
+text-align:center;
+
+}
+#footer-sec ul {
+display:inline-block;
+list-style:none; 
+}
+* html #footer-sec ul { 
+display:inline;
+}
+*+html #footer-sec ul { 
+display:inline;
+}
+#footer-sec li {
+display:inline;
+
+}
+#footer-sec a {
+font-family: Calibri;
+float:left;
+color: grey;
+text-decoration:none; 
+padding:0 30px; 
+}
+#footer-sec a.active{
+	color: blue;
+}
+#footer-sec a:hover{
+	color: blue;
+}
+.fa {
+  padding: -10px;
+  font-size: 30px;
+  width: 50px;
+  color: grey;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+
+
