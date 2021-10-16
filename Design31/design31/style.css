@@ -1,0 +1,123 @@
+body {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(233.52deg, #E7FA51 62.88%, #FFFFFF 91.08%);
+}
+
+.topnav {
+    overflow: hidden;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.logo {
+    float: left;
+    width: 6%;
+    margin-right: 30px;
+    margin-top: -15px;
+}
+
+.topnav a {
+    float: left;
+    color: #00000091;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+.topnav a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.left {
+    color: black;
+    font-size: 7rem;
+    width: 50%;
+    margin-left: 135px;
+    margin-top: 75px;
+    line-height: 1;
+}
+
+.email {
+    padding-top: 12px;
+    padding-left: 15px;
+    padding-bottom: 9px;
+    margin-top: 3%;
+    margin-left: 10%;
+    border: none;
+    font-size: 15px;
+    padding-left: 15px;
+    outline: none;
+    box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.btn {
+    background-color: black;
+    color: yellow;
+    border: none;
+    height: 38px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: -1%;
+    font-size: 19px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: white;
+    box-shadow: 3px 3px 3px #6e6e6e;
+}
+
+.cards {
+    position: absolute;
+    width: 20rem;
+    height: 31rem;
+    background: #FFFFFF;
+    border-radius: 25px;
+    box-shadow: -4px 8px 4px rgba(0, 0, 0, 0.25);
+    background: #ebebeb;
+}
+
+.cards h1 {
+    font-size: 23px;
+    position: absolute;
+    top: 31px;
+    left: 90px;
+}
+
+.cards p {
+    font-size: 20px;
+}
+
+.cBottom {
+    position: absolute;
+    bottom: 0;
+    background: #292826;
+    border-radius: 0 0 25px 25px;
+    color: #484847;
+    width: 100%;
+    height: 25%;
+}
+
+.footer {
+    background: #21201E;
+    position: absolute;
+    width: 102%;
+    height: 29%;
+    top: 47rem;
+    left: -10px;
+}
+
+.footer img {
+    width: 8%;
+    padding-top: 16px;
+}
