@@ -1,0 +1,524 @@
+@font-face {
+    font-family: Gotham-bold;
+    src: url('../fonts/GothamBold.ttf');
+  }
+
+  @font-face {
+    font-family: Gotham-bold-italic;
+    src: url('../fonts/GothamBoldItalic.ttf');
+  }
+
+  @font-face {
+    font-family: Gotham-book;
+    src: url('../fonts/GothamBook.ttf');
+  }
+  
+  @font-face {
+    font-family: Gotham-book-italic;
+    src: url('../fonts/GothamBookItalic.ttf');
+  }
+
+  @font-face {
+    font-family: Gotham-light;
+    src: url('../fonts/GothamLight.ttf');
+  }
+
+  @font-face {
+    font-family: Gotham-light-italic;
+    src: url('../fonts/GothamLightItalic.ttf');
+  }
+
+  @font-face {
+    font-family: Gotham-medium;
+    src: url('../fonts/GothamMedium.ttf');
+  }
+
+  @font-face {
+    font-family: Gotham-medium-italic;
+    src: url('../fonts/GothamMediumItalic.ttf');
+  }
+
+
+body{
+    width:100vw !important;
+    overflow-x: hidden !important;
+
+
+    --para-font-size: 0.9rem;
+    --para-font-size-small: 0.9rem;
+
+    --header-font-size: 2.5rem;
+    --header-font-size-mobile: 2rem;
+
+    --subheader-font-size: 1.5rem;
+    --subheader-font-size-mobile: 1.2rem;
+
+}
+
+.navbar{
+    padding: 2rem 8rem 1rem 8rem !important;
+    background-color: transparent !important;
+}
+
+.tesla-logo {
+    width: 14rem;
+}
+
+.nav-link{
+    text-transform: uppercase !important;
+    font-size: 1.1rem !important;
+    letter-spacing: -1px !important;
+    font-family: Gotham-book;
+    color: rgb(177, 177, 177) !important;
+    margin-right: 1rem !important;
+}
+
+.nav-link:hover{
+    color: white!important;
+}
+
+.nav-link .active{
+    color: #fff !important;
+}
+
+/* Hero-area */
+.hero-area{
+    height: 100% !important;
+    margin-bottom: -5rem !important;
+    position: relative !important;
+
+    background-image: url(../images/tesla_bg_logo.svg);
+    background-image: url(../images/tesla_bg_logo.svg), linear-gradient(180.02deg, #4C4E62 0.02%, rgba(82, 84, 106, 0.530803) 104.82%, rgba(89, 91, 115, 0) 106.39%, rgba(97, 100, 125, 0) 106.4%) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.hero-info{
+    margin-top: 5rem !important;
+}
+
+.hero-header{
+    color: white !important;
+    font-family: Gotham-medium;
+    letter-spacing: -2px !important;
+}
+
+.hero-para{
+    margin-top: 1rem;
+    color: white !important;
+    font-family: Gotham-light;
+    font-size: var(--para-font-size) !important;
+}
+
+.box-btn{
+    margin-top: 1rem !important;
+    background-color: transparent !important;
+    color: white;
+    font-family: Gotham-medium;
+    font-size: var(--subheader-font-size) !important;
+    border: solid 4px white !important;
+    padding: 0.4rem 1.5rem !important;
+    transition: all 0.4s ease;
+    text-transform: uppercase;
+}
+
+.box-btn:hover{
+    background-color: white !important;
+    color: #4C4E62 !important;
+}
+
+.car-img{
+    width: 100vw;
+    position: relative;
+    height: auto;
+    z-index: 15 !important;
+}
+
+.circle-area{
+    position: absolute !important;
+    left: 4rem !important;
+    top: 43% !important;
+}
+
+.border-circle{
+    border: #fff 2px solid;
+    border-radius: 50% !important;
+    width: 1.4rem !important;
+    height: 1.4rem !important;
+    margin-left: -0.2rem;
+}
+
+.circle{
+    border-radius: 50% !important;
+    width: 1rem !important;
+    height: 1rem !important;
+    background-color: #a2a3b1;
+    margin: 1rem 0rem;
+}
+
+.vertical_dotted_line
+{
+    border-left: 6px dotted #a2a3b1;
+    border-top: 40px solid #a2a3b1;
+    height: 100px;
+    position: absolute;
+    right: 35%;
+    z-index: 9 !important;
+} 
+
+.vertical_dotted_line_1
+{
+    border-left: 6px dotted #a2a3b1;
+    border-top: 40px solid #a2a3b1;
+    height: 180px;
+    position: absolute;
+    top:0rem;
+    left: 65%;
+    z-index: 999 !important;
+} 
+
+.vertical_dotted_line_2
+{
+    border-left: 6px dotted #a2a3b1;
+    border-top: 40px solid #a2a3b1;
+    height: 150px;
+    position: absolute;
+    top:2rem;
+    left: 45%;
+    z-index: 999 !important;
+}
+
+.vertical_dotted_line_3
+{
+    border-left: 6px dotted #a2a3b1;
+    border-top: 40px solid #a2a3b1;
+    height: 200px;
+    position: absolute;
+    top:-1rem;
+    left: 35%;
+    z-index: 999 !important;
+}
+
+.horizontal_dotted_line
+{
+    border-top: 6px dotted #a2a3b1;
+    /* border-top: 40px solid #a2a3b1; */
+    width: 30vw;
+    position: absolute;
+    top:8rem;
+    left: 68%;
+    z-index: 999 !important;
+}
+
+.horizontal_dotted_line_1
+{
+    border-top: 6px dotted #a2a3b1;
+    /* border-top: 40px solid #a2a3b1; */
+    width: 30vw;
+    position: absolute;
+    top:6.5rem;
+    left: -50%;
+    z-index: 999 !important;
+}
+
+
+
+/* Short des area */
+.short-des-area{
+    position: relative !important;
+    z-index: 14 !important;
+    margin-top: -10rem !important;
+}
+
+.short-des-col-1, .short-des-col-2, .short-des-col-3{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+
+    padding-top: 10rem !important;
+    padding-bottom: 5rem !important;
+
+    color: white !important;
+}
+
+
+.short-des-col-1{
+    background-color: #30313E !important;
+    z-index: -1 !important;
+}
+.short-des-col-2{
+    background-color: #23242E !important;
+    z-index: -1 !important;
+}
+.short-des-col-3    {
+    background-color: #30313E !important;
+    z-index: -1 !important;
+}
+
+.short-des-header{
+    font-family: Gotham-light;
+    font-size: 7rem !important;
+}
+
+.short-des-para{
+    text-transform: uppercase !important;
+}
+
+.short-des-header-sec{
+    font-family: Gotham-light !important;
+    font-size: 3rem !important;
+}
+
+.flex-card{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+/* des area  */
+.left-des-col{
+    background-color: #62647D !important;
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-content: center;
+    padding: 3rem 5rem 3rem 8rem!important;
+}
+
+.right-des-col{
+    background-color: #AEB0C0 !important;
+}
+
+.row-2 .left-des-col{
+    background-color: #30313E !important;
+    padding: 0rem 12rem 3rem 5rem!important;
+}
+
+.row-2 .right-des-col{
+    background-color: #30313E !important;
+}
+
+.des-img{
+    width: 100% !important;
+}
+
+
+
+/* cta section */
+.cta-area{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0rem !important;
+}
+
+.cta-btn{
+    text-transform: uppercase !important;
+    font-family: Gotham-medium;
+    background-color: #23242E;
+    font-size: 1.5rem;
+    letter-spacing: -3px !important;
+    color: white;
+    padding: 0.8rem 2rem !important;
+    width: 26rem !important;
+    border-radius: 6px !important;
+}
+
+.cta-para{
+    margin-top: 1rem !important;
+    font-size: var(--para-font-size);
+    color: #62647D;
+    font-family: Gotham-medium-italic;
+}
+
+/* footer area  */
+.footer-area{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 0rem !important;
+    background-color: #62647D;
+}
+
+.tesla-icon{
+    width: 4rem !important;
+}
+
+@media only screen and (max-width:768px){
+    body{
+        width: 100vw !important;
+        overflow-x: hidden !important;
+    }
+    .navbar{
+        padding: 1rem 2rem 1rem 2rem !important;
+        background-color: #535568 !important;
+    }
+    .tesla-logo {
+        width: 7rem;
+    }
+
+    .hero-area{
+        height: 100vh !important;
+        margin-bottom: 0rem !important;
+        position: relative !important;
+    }
+
+    .vertical_dotted_line,.vertical_dotted_line_1,.vertical_dotted_line_2,.vertical_dotted_line_3,.horizontal_dotted_line,.horizontal_dotted_line_1{
+        display: none !important;
+    }
+
+    .box-btn{
+        margin-top: 1rem !important;
+        background-color: transparent !important;
+        color: white;
+        font-family: Gotham-medium;
+        font-size: var(--subheader-font-size-mobile) !important;
+        border: solid 2px white !important;
+        padding: 0.4rem 1.5rem !important;
+        transition: all 0.4s ease;
+        text-transform: uppercase;
+    }
+
+    .car-img{
+        width: 100%;
+        position: relative;
+        height: auto;
+        z-index: 98 !important;
+        margin-top: 5rem !important;
+    }
+    
+    .circle-area{
+        display: none;
+    }
+
+    .short-des-area{
+        position: relative !important;
+        z-index: 14 !important;
+    }
+
+    .short-des-col-1, .short-des-col-2, .short-des-col-3{
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important;
+    }
+
+    .left-des-col{
+        padding: 3rem!important;
+    }
+
+    .row-2 .left-des-col{
+        padding: 3rem!important;
+    }
+
+    .des-img{
+        width: 100vw !important;
+    }
+
+    .cta-btn{
+        text-transform: uppercase !important;
+        font-family: Gotham-medium;
+        background-color: #23242E;
+        font-size: 1rem;
+        letter-spacing: 0px !important;
+        color: white;
+        padding: 0.8rem 2rem !important;
+        width: 20rem !important;
+        border-radius: 6px !important;
+    }
+    .cta-para{
+        text-align: center !important;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    body{
+        width: 100vw !important;
+        overflow-x: hidden !important;
+    }
+    .navbar{
+        padding: 1rem 2rem 1rem 2rem !important;
+        background-color: #535568 !important;
+    }
+    .tesla-logo {
+        width: 7rem;
+    }
+
+    .hero-area{
+        height: 100vh !important;
+        margin-bottom: 0rem !important;
+        position: relative !important;
+    }
+
+    .vertical_dotted_line,.vertical_dotted_line_1,.vertical_dotted_line_2,.vertical_dotted_line_3,.horizontal_dotted_line,.horizontal_dotted_line_1{
+        display: none !important;
+    }
+
+    .box-btn{
+        margin-top: 1rem !important;
+        background-color: transparent !important;
+        color: white;
+        font-family: Gotham-medium;
+        font-size: var(--subheader-font-size-mobile) !important;
+        border: solid 2px white !important;
+        padding: 0.4rem 1.5rem !important;
+        transition: all 0.4s ease;
+        text-transform: uppercase;
+    }
+
+    .car-img{
+        margin-top: 15rem;
+        width: 100%;
+        position: relative;
+        height: auto;
+        z-index: 98 !important;
+        /* margin-top: 5rem !important; */
+    }
+    
+    .circle-area{
+        display: none;
+    }
+
+    .short-des-area{
+        position: relative !important;
+        z-index: 14 !important;
+        
+    }
+
+    .short-des-col-1, .short-des-col-2, .short-des-col-3{
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important;
+    }
+
+    .left-des-col{
+        padding: 3rem!important;
+    }
+
+    .row-2 .left-des-col{
+        padding: 3rem!important;
+    }
+
+    .des-img{
+        width: 100vw !important;
+    }
+
+    .cta-btn{
+        text-transform: uppercase !important;
+        font-family: Gotham-medium;
+        background-color: #23242E;
+        font-size: 1rem;
+        letter-spacing: 0px !important;
+        color: white;
+        padding: 0.8rem 2rem !important;
+        width: 20rem !important;
+        border-radius: 6px !important;
+    }
+    .cta-para{
+        text-align: center !important;
+    }
+}
