@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    background-image: radial-gradient(farthest-corner at 50% 0%, #433D3D 2%, black);
+    overflow: hidden;
+    color: white;
+}
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  
+    -moz-osx-font-smoothing: grayscale;
+
+    font-feature-settings: 'liga';
+}
+.topMiddle{
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 15px;
+    color: #D4BB88;
+    padding-top: 15px;
+}
+.logoText{
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 24px;
+    text-align: left;
+    color: #D4BB88;
+    padding-left: 15px;
+    position: relative;
+    top: 10px;
+}
+.nav{
+    background-color: #404041;
+    color:#D4BB88;
+    text-align: center;
+}
+.icon{
+    padding: 15px 0;
+}
+.loc{
+    padding: 25px 0;
+}
+.bag{
+    padding-top: 20px;
+}
+.guitarImg{
+    width: 100%;
+    position: relative;
+    bottom: 125px;
+}
+.expandIcon{
+    position: absolute;
+    top: 14px;
+    padding-left: 5px;
+}
+.backIcon{
+    position: absolute;
+    top:54%;
+    padding-left:40px;
+}
+.forwardIcon{
+    position: absolute;
+    top:54%;
+    left: 95%;
+}
+.Headtext{
+    position: absolute;
+    right: 30%;
+    top: 20%;
+}
+.text1{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+    color: #D4BB88;
+    margin-bottom:0;
+}
+.text2{
+    font-family: 'Assistant', sans-serif;
+    font-size: 43px;
+    font-weight: 300;
+}
+.Bodytext{
+    position: absolute;
+    right: 20%;
+    bottom: 11%;
+}
+.text3{
+    font-family: 'Assistant', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom:0;
+}
+.text4{
+    font-family: 'Assistant', sans-serif;
+    font-size: 13px;
+    font-weight: 200;
+    opacity:0.5;
+    margin-top: 2px;
+}
+.circle{
+    height: 15px;
+    padding-right: 7px;
+}
+.moreIcon{
+    position: relative;
+    top:8px;
+    left: 1px;
+}
+.bottomText{
+    color: #3E2F2B;
+    position: absolute;
+    right: 39.5%;
+    bottom: 5%;
+    background-color: #D5BC88;
+    border-radius: 100px;
+    padding: 0 10px;
+    font-size: 12px;
+    font-weight: bold;
+    height: 40px;
+}
+.shareIcon{
+    position: absolute;
+    bottom:5%;
+    left: 95%;
+    color:#D4BB88;
+}
