@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap');
 :root {
   --main-bg: #e7e7e7;
   --card-bg: #ffffff;
@@ -24,7 +25,7 @@ body {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .main-bg {
@@ -87,7 +88,7 @@ body {
   background-color: var(--primary-bg);
   padding: 0.5rem 3rem 0.5rem 2rem;
   border-radius: 1.5rem 0 0 1.5rem;
-  font-size: 1.1rem;
+  font-size: 0.6rem;
   font-weight: bold;
   text-transform: uppercase;
   cursor: pointer;
@@ -124,6 +125,9 @@ body {
   border-radius: 100%;
   transform: translateX(-50%);
 }
+.search , .user{
+  margin-top: -8px;
+}
 
 .search {
   background-color: var(--search-bg);
@@ -154,31 +158,63 @@ body {
 }
 
 .user img {
-  width: 3rem;
-  height: 3rem;
+  width: 2.2rem;
+  height: 2.2rem;
   border-radius: 100%;
   object-fit: cover;
 }
 
+.user b{
+  font-size: 0.6rem;
+  margin-bottom:  -5px;
+}
+.sign-out{
+  margin-top: -10px;
+}
 .user small {
+  font-size: 0.5rem;
   color: var(--user-gray);
+  
 }
 
+.head{
+  font-size: 0.7rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.head1{
+  font-size: 1rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 .deadline {
   background-color: var(--secondary-bg);
   color: var(--primary-accent);
-  padding: 0.5rem 1rem;
+  padding: 0.6rem 0.8rem;
   border-radius: 0.5rem;
+  text-align: center;
+  
+}
+.float{
+  float: left;
 }
 
+.product{
+  font-weight:900;
+}
 .caroussel {
   display: none;
+}
+.btn1{
+  padding: 0.5rem 0.6rem 0.5rem 0.5rem;
+}
+.btn2{
+  padding: 0.5rem 0.5rem 0.5rem 0.6rem;
 }
 
 .caroussel button {
   border: 0;
-  background-color: var(--main-bg);
-  padding: 0.5rem;
+  background-color:#f0f0f0;
   border-radius: 0.5rem;
   cursor: pointer;
 }
@@ -188,11 +224,22 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 1rem;
-  padding: 0.5rem 0.5rem 2rem 0.5rem;
-  border-radius: 0.5rem;
+  margin: auto 0.8rem;
+  padding: 0.3rem 0.3rem 1rem 0.3rem;
+  border-radius: 0.3rem;
   box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.1);
   flex-basis: 4rem;
   min-width: 0;
+}
+.table img{
+  width: 70px;
+  height: 40px;
+}
+
+.topic{
+  font-size: 0.7rem;
+  font-weight: 700;
+  margin-top: -10px;
 }
 
 .caroussel__item.active {
@@ -205,18 +252,19 @@ body {
   align-items: center;
   justify-content: center;
   flex-grow: 1;
-  padding: 1rem;
+  padding:0.8rem 0.9rem 0.8rem 0.9rem;
   background-color: var(--card-bg);
 }
 
 .table-container {
   grid-column: span 2;
+  grid-row: span 4;
   overflow-y: auto;
   max-height: 100%;
 }
 
 .table {
-  margin-top: 3rem;
+  margin-top: 1.5rem;
   border-spacing: 0;
   width: 100%;
 }
@@ -227,12 +275,13 @@ body {
 
 .table th {
   text-align: start;
+  font-size: 0.65rem;
+  padding: 0.5rem 0.5rem;
+  font-weight: 700;
 }
-
-.table th {
-  padding: 0.5rem 0.25rem;
+.table td{
+  font-size: 0.6rem;
 }
-
 .table thead tr {
   position: sticky;
   top: 0;
@@ -255,17 +304,17 @@ body {
 }
 
 .paginator {
-  margin-top: 1rem;
   grid-column: span 2;
   display: flex;
   justify-content: center;
+  margin-left:-20px ;
 }
 
 .paginator button {
   border: 0;
   background-color: transparent;
   cursor: pointer;
-  font-size: 1rem;
+  font-size: 0.7rem;
   padding: 0.5rem;
 }
 
@@ -274,9 +323,12 @@ body {
 }
 
 .paginator .fa {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
+.checkbox{
+
+}
 .checkbox input {
   appearance: none;
   height: 0;
@@ -286,7 +338,7 @@ body {
 }
 
 .checkbox span {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .checkbox span:before {

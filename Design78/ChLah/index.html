@@ -17,47 +17,53 @@
 <body>
     <div class="main-bg">
         <div class="card">
+
+            <!-- Navbar -->
             <div class="card__nav">
                 <h4 class="card__title">Silpo</h4>
 
                 <ul>
                     <li class="active">
-                        <i class="fa fa-home"></i>
+                        <img src="https://img.icons8.com/ios-filled/26/ffffff/home.png"/>
                     </li>
                     <li>
-                        <i class="fa fa-envelope-o"></i>
+                        <img src="https://img.icons8.com/material-outlined/28/000000/new-post.png"/>
                     </li>
                     <li>
-                        <i class="fa fa-clock-o"></i>
+                        <img src="https://img.icons8.com/material-outlined/28/000000/clock--v1.png"/>
                     </li>
                     <li>
-                        <i class="fa fa-calendar-o"></i>
+                        <img src="https://img.icons8.com/material-outlined/28/000000/calendar.png"/>
                     </li>
                 </ul>
 
-                <i class="fa fa-sign-out"></i>
+                <img class="sign-out" src="https://img.icons8.com/ios-glyphs/30/000000/logout-rounded--v1.png"/>
             </div>
+
             <div class="card__body">
+                <!-- Part1 -->
                 <div class="search">
                     <i class="fa fa-search"></i>
-                    <input type="text" placeholder="Search">
+                    <input type="text" placeholder="Search" value="Cheese">
                 </div>
                 <div class="user">
                     <div>
-                        <b>Amanda Taylor</b><br />
+                        <b>Amanda Taylor</b><br>
                         <small>Manager</small>
                     </div>
                     <img src="https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1167&q=80"
                         alt="user image">
                 </div>
-
-                <h2>Products</h2>
-                <div class="deadline">
+                
+                <!-- Part2 -->
+                <h2 class="head1 product ">Products</h2>
+                <div class="deadline head">
                     Deadline: 09/09/2019
                 </div>
 
+                <!-- Part3 -->
                 <div class="caroussel">
-                    <button>
+                    <button class="btn1">
                         <i class="fa fa-chevron-left"></i>
                     </button>
 
@@ -65,68 +71,69 @@
                         <div class="avatar">
                             <i class="fa fa-cutlery"></i>
                         </div>
-                        <span>All</span>
+                        <span class="topic">All</span>
                     </div>
 
                     <div class="caroussel__item">
                         <div class="avatar">
                             <i class="fa fa-cutlery"></i>
                         </div>
-                        <span>Groats</span>
+                        <span class="topic">Groats</span>
                     </div>
 
                     <div class="caroussel__item">
                         <div class="avatar">
                             <i class="fa fa-cutlery"></i>
                         </div>
-                        <span>Cans</span>
+                        <span class="topic">Cans</span>
                     </div>
 
                     <div class="caroussel__item">
                         <div class="avatar">
                             <i class="fa fa-cutlery"></i>
                         </div>
-                        <span>Frozen</span>
+                        <span class="topic">Frozen</span>
                     </div>
 
                     <div class="caroussel__item">
                         <div class="avatar">
                             <i class="fa fa-cutlery"></i>
                         </div>
-                        <span>Eggs</span>
+                        <span class="topic">Eggs</span>
                     </div>
 
                     <div class="caroussel__item">
                         <div class="avatar">
                             <i class="fa fa-cutlery"></i>
                         </div>
-                        <span>Sweets</span>
+                        <span class="topic">Sweets</span>
                     </div>
 
                     <div class="caroussel__item">
                         <div class="avatar">
                             <i class="fa fa-glass"></i>
                         </div>
-                        <span>Drinks</span>
+                        <span class="topic">Drinks</span>
                     </div>
 
                     <div class="caroussel__item">
                         <div class="avatar">
                             <i class="fa fa-cutlery"></i>
                         </div>
-                        <span>Spices</span>
+                        <span class="topic">Spices</span>
                     </div>
 
-                    <button>
+                    <button class="btn2">
                         <i class="fa fa-chevron-right"></i>
                     </button>
                 </div>
 
+                <!-- Part4 -->
                 <div class="table-container">
                     <table class="table">
                         <thead>
                             <tr>
-                                <th>Product Picture</th>
+                                <th> Product Picture</th>
                                 <th>Product Name</th>
                                 <th>Address</th>
                                 <th>Delivery Date</th>
@@ -228,8 +235,8 @@
                         </tbody>
                     </table>
                 </div>
-
-
+                
+                <!-- Bottom Navigation -->
                 <div class="paginator">
                     <button disabled>
                         <i class="fa fa-long-arrow-left"></i>
@@ -244,11 +251,13 @@
                     </button>
                 </div>
 
+                <!-- Call To Action Button  -->
                 <div class="card__actions">
                     <button>
                         Order now
                     </button>
                 </div>
+                
             </div>
         </div>
     </div>
