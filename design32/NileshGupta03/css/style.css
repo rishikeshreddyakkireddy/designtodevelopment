@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+}
+
+#hero {
+  background-color: #bcbcbc;
+  height: 100vh;
+  width: 100%;
+  padding: 50px 100px;
+  position: relative;
+  z-index: 1;
+}
+
+#header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.logo i {
+  margin-left: 30px;
+}
+
+.header_links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_link {
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 0 35px;
+}
+
+.search {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.search i {
+  margin-left: 35px;
+  font-size: 20px;
+}
+
+.main_img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80%;
+  position: relative;
+}
+
+.main_img::before,
+.main_img::after {
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 200px;
+  background-color: #000;
+}
+
+.main_img::before {
+  left: 5%;
+}
+
+.main_img:after {
+  right: 5%;
+}
+
+.l_arrow {
+  color: #eec2a8;
+}
+
+.arrow {
+  padding: 5px 10px;
+  background-color: #000;
+  border-radius: 100%;
+}
+
+.r_arrow {
+  color: #494949;
+}
+
+#footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.left {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.middle {
+  margin-left: 55px;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  line-height: 35px;
+}
+
+.middle span {
+  font-size: 18px;
+}
+
+.right {
+  display: flex;
+  font-size: 12px;
+  text-transform: capitalize;
+  font-weight: 700;
+  justify-content: space-between;
+  align-items: center;
+  width: 100px;
+}
+
+.left_circle {
+  background-color: #f3c7ac;
+  top: -25%;
+  left: -58%;
+}
+
+.right_circle {
+  background-color: #484848;
+  top: -25%;
+  right: -58%;
+}
+
+.circle {
+  position: absolute;
+  height: 150vh;
+  width: 100%;
+  border-radius: 100%;
+  z-index: -1;
+}
