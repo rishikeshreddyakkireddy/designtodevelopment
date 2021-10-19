@@ -1,0 +1,161 @@
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/355b59d0fb.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="title">
+        <h4 class="heading1">
+          MUSTANG <br />
+          HISTORY
+        </h4>
+        <div id="container">
+          <span id="left">
+            <i class="fas fa-chevron-left"></i>
+          </span>
+          <span id="number0"> 1969 </span>
+          <span id="number1"> 1970 </span>
+          <span id="number2"> 1971 </span>
+          <span id="number3"> 1972 </span>
+          <span id="number4"> 1973 </span>
+          <span id="right">
+            <i class="fas fa-chevron-right"></i>
+          </span>
+        </div>
+        <div class="menu">
+          <span>
+            <i class="fas fa-bars"></i>
+          </span>
+        </div>
+
+        <script src="http://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script type="text/javascript">
+          $("#left").click(function () {
+            number0 = $("#number0");
+            number1 = $("#number1");
+            number2 = $("#number2");
+            number3 = $("#number3");
+            number4 = $("#number4");
+            number0.html(parseInt(number0.html()) - 1);
+            number1.html(parseInt(number1.html()) - 1);
+            number2.html(parseInt(number2.html()) - 1);
+            number3.html(parseInt(number3.html()) - 1);
+            number4.html(parseInt(number4.html()) - 1);
+          });
+          $("#right").click(function () {
+            number0 = $("#number0");
+            number1 = $("#number1");
+            number2 = $("#number2");
+            number3 = $("#number3");
+            number4 = $("#number4");
+            number0.html(parseInt(number0.html()) + 1);
+            number1.html(parseInt(number1.html()) + 1);
+            number2.html(parseInt(number2.html()) + 1);
+            number3.html(parseInt(number3.html()) + 1);
+            number4.html(parseInt(number4.html()) + 1);
+          });
+        </script>
+      </div>
+      <div class="row second">
+        <div class="col rotate">
+          <p class="rotated-text">TRUE AMERICAN MUSCLE ICON</p>
+        </div>
+        <div class="search">
+          <span><i class="fas fa-search"></i></span>
+        </div>
+      </div>
+
+      <div class="middle">
+        <div class="col-1 dots">
+          <ul>
+            <li><i class="far fa-dot-circle"></i></li>
+            <li><i class="fas fa-circle"></i></li>
+            <li><i class="fas fa-circle"></i></li>
+            <li><i class="fas fa-circle"></i></li>
+          </ul>
+        </div>
+        <div class="col-6">
+          <img src="./images/img.png" alt="Yellow Mustang 1970" />
+        </div>
+        <div class="col-4 middle2">
+          <div>
+            <h3>TRANS-AM LEYEND</h3>
+          </div>
+          <div>
+            <h3 class="brand1">BOSS 302</h3>
+          </div>
+          <br/><br/>
+          <div class="text">
+            <p>
+              In 1970 driven by Parnelli Jones, <br />
+              pulled off a win and took the SCCA <br />
+              Trans-Am Championship.
+            </p>
+          </div>
+          <div>
+            <input type="button" class="button" value="Read More"/>
+          </div>
+        </div>
+        <div class="arrows">
+        </div>
+        </div>
+      </div>
+      <div class="row share">
+        <div class="col-1">
+          <span><i class="fas fa-share-alt"></i></span>
+        </div>
+      </div>
+      <div class="row bottom">
+        <div class="col-10">
+          <div class="footer">
+            <div>
+              <h6>ENGINE</h6>
+              <h4>302 CUD OHV V8</h4>
+            </div>
+            <div class="vl"></div>
+            <div>
+              <h6>POWER</h6>
+              <h4>290 HP</h4>
+            </div>
+            <div class="vl"></div>
+            <div>
+              <h6>0-67 MPH</h6>
+              <h4>6.7 SEC</h4>
+            </div>
+            <div class="vl"></div>
+            <div>
+              <h6>1/4 MILE</h6>
+              <h4>14 SEC</h4>
+            </div>
+            <div class="vl"></div>
+            <div>
+              <h6>BASE PRICE</h6>
+              <h4>$3,720</h4>
+            </div>
+            <div>
+              <img src="./images/img2.jpg" class="footer-img" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row corner">
+        <div class="col-1">
+          <span><i class="fas fa-chevron-down"></i></span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
