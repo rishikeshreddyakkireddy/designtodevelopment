@@ -1,0 +1,88 @@
+.landing-page {
+  background-image: url("./bg-final.jpg");
+  background-size:100% 100%;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  margin: 0px;
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+}
+.nav-bar {
+  padding-top: 5%;
+  padding-left: 15.5%;
+}
+.nav-lang {
+  margin-left: 5%;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+.nav-link {
+  padding-right: 7%;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+}
+.more {
+  border: none;
+  background: none;
+  padding-bottom: 0;
+}
+.search{
+    margin-top: -7px;
+    margin-left: -60px;
+}
+
+.search-icon {
+  border: none;
+  background: none;
+  padding-bottom: 0;
+  width: 40px;
+  height: 30px;
+}
+.float{
+    float: left;
+}
+
+.head {
+  font-size: 5em;
+  margin: 0%;
+}
+.heading {
+  width: 20%;
+  color: white;
+  padding-top: 10%;
+  padding-left: 15.5%;
+}
+.desc {
+  color: #ffffff9f;
+  font-size: 1.8em;
+}
+.solution {
+  width: 320px;
+  height: 65px;
+  border: none;
+  background-image: url("./button.jpg");
+  color: white;
+  box-shadow: 0px 20px 20px #ffd300;
+}
+.secondary {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+span {
+  margin-right: 60px;
+  font-size: 1.25rem;
+  font-family: "Inter", sans-serif;
+}
+.number {
+  font-size: 2rem;
+  font-family: inherit;
+}
+.links{
+    margin-left: 700px;
+    width: 800px;
+}
