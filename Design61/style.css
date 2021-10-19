@@ -1,7 +1,6 @@
 .landing-page {
   background-image: url("./bg-final.jpg");
-  background-size: 1920px 1050px;
-  height: 1050px;
+  background-size:100% 100%;
   margin: 0px;
   padding: 0px;
 }
@@ -11,8 +10,21 @@ body {
   color: white;
 }
 .nav-bar {
-  padding-top: 70px;
-  padding-left: 300px;
+  padding-top: 5%;
+  padding-left: 15.5%;
+}
+.nav-lang {
+  margin-left: 5%;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+.nav-link {
+  padding-right: 7%;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  cursor: pointer;
 }
 .more {
   border: none;
@@ -23,12 +35,7 @@ body {
     margin-top: -7px;
     margin-left: -60px;
 }
-.nav-lang {
-  margin-left: 40px;
-  font-size: 0.8em;
-  letter-spacing: 1px;
-  font-weight: 700;
-}
+
 .search-icon {
   border: none;
   background: none;
@@ -39,21 +46,16 @@ body {
 .float{
     float: left;
 }
-.nav-link {
-  margin-right: 130px;
-  font-size: 1rem;
-  font-weight: bold;
-  letter-spacing: 1.5px;
-}
+
 .head {
   font-size: 5em;
-  margin: 0px;
+  margin: 0%;
 }
 .heading {
-  width: 500px;
+  width: 20%;
   color: white;
-  padding-top: 200px;
-  padding-left: 300px;
+  padding-top: 10%;
+  padding-left: 15.5%;
 }
 .desc {
   color: #ffffff9f;
