@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo&display=swap");
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.navbar {
+  height: 80px;
+  background-color: transparent;
+}
+
+.navbar .navbar-brand {
+  font-size: 30px;
+  font-weight: 900;
+  font-family: "Play", sans-serif;
+  font-style: italic;
+}
+
+.navbar .icons .fa {
+  color: #a2a3a8;
+  font-size: 18px;
+  margin-right: 80px;
+  margin-top: 5px;
+}
+
+.navbar .hamburgerMenu {
+  background-color: #28bb58;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.navbar .hamburgerMenu .fa {
+  font-size: 18px;
+  margin-top: 5px;
+  color: #fff;
+}
+
+.heroSec{
+    height: 100vh;
+}
+
+.headerRow img {
+  position: absolute;
+}
+
+.leftElements {
+  margin-top: 270px;
+  font-family: "Exo", sans-serif;
+}
+
+.leftElements h3 {
+  color: #fff;
+  font-size: 50px;
+  margin-top: 60px;
+  margin-left: 100px;
+  letter-spacing: 4px;
+}
+
+.leftElements h4 {
+  color: #28bb58;
+  font-weight: 600;
+  font-size: 30px;
+  margin-left: 100px;
+}
+
+.leftElements h5 {
+  color: #a2a3a8;
+  font-size: 30px;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.dropdown .btn,
+.btn:hover,
+.btn:active,
+.btn:focus {
+  margin-left: 100px;
+  margin-top: 10px;
+  background-color: transparent !important;
+  border-color: #28bb58 !important;
+  border-radius: 50px;
+  width: 150px;
+  box-shadow: none !important;
+  outline: none;
+}
+
+.leftElements .bar {
+  background-color: #28bb58;
+  position: absolute;
+  height: 220px;
+  width: 3px;
+  border-radius: 10px;
+}
+
+.leftElements .bar .barButton {
+  background-color: #a2a3a8;
+  width: 15px;
+  height: 15px;
+  border-radius: 3px;
+  margin-left: -5px;
+}
+
+.leftElements .bar p {
+  color: #a2a3a8;
+  font-size: 25px;
+  padding-left: 20px;
+  padding-bottom: 50px;
+  position: absolute;
+}
+
+.leftElements .bottomButton {
+  display: inline-block;
+  position: fixed;
+  left: 0;
+  background-color: #28bb58;
+  width: 300px;
+  height: 80px;
+  bottom: 0;
+}
+
+.leftElements .bottomButton .insideText .fa {
+  margin-right: 20px;
+}
+
+.leftElements .bottomButton .insideText {
+  padding-top: 20px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.rightElements {
+  margin-top: 330px;
+}
+
+.rightElements .fa {
+  color: #a2a3a8;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.rightElements .socialBottom {
+  display: inline-block;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin-right: 15px;
+}
+
+.rightElements .socialBottom {
+  font-family: "Play", sans-serif;
+  color: #a2a3a8;
+  font-weight: 600;
+}
+
+.rightElements .socialBottom .fa {
+  margin-bottom: 50px;
+}
+
+.rightElements .socialBottom .facebook {
+  margin-left: 80px;
+}
+
+
