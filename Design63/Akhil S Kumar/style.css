@@ -1,0 +1,201 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+.navbar {
+  height: 80px;
+  background-color: transparent;
+}
+
+.navbar .navbar-brand{
+  margin-left: 60px;
+}
+
+.navbar .nav-item{
+  color: #fff;
+  margin-right: 60px;
+}
+
+.navbar .nav-item .active{
+  border-bottom: 1px solid #F56060;
+}
+
+.heroSec{
+    height: 100%;
+}
+
+.headerImg img {
+  position: absolute;
+}
+
+.leftElements{
+  color: #fff;
+  padding-left: 80px;
+  margin-top: 50px;
+}
+
+.leftElements .name{
+  font-size: 60px;
+  letter-spacing: 3px;
+}
+
+.leftElements .achievements li{
+  display: inline-block;
+  margin-right: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.leftElements .line {
+  height: 1px;
+  width: 50px;
+  background-color: #fff;
+}
+
+.leftElements .desc{
+  margin-top: 10px;
+}
+
+.leftElements .buttons{
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.leftElements .buttons .btn, 
+.leftElements .buttons .btn:hover,
+.leftElements .buttons .btn:active,
+.leftElements .buttons .btn:focus{
+  border-radius: 30px;
+  margin-right: 50px;
+  border-color: transparent !important;
+  box-shadow: none !important;
+  outline: none;
+}
+
+.leftElements .buttons .fa{
+  margin-right: 20px;
+}
+
+.leftElements .buttons .btn1{
+  background-color: #F56060 !important;
+}
+
+.leftElements .buttons .btn2{
+  background-color: #2D2D2D !important;
+}
+
+.leftElements .subscribeBottom{
+  position: fixed;
+  bottom: 0px;
+}
+
+.leftElements .subscribeBottom p{
+  color: #A8A8A8;
+  font-size: small;
+}
+
+.leftElements .subscribeBottom input, input:hover,
+.input:active,
+.input:focus{
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  border-radius: 0px;
+  border-bottom: 1px solid #fff;
+  box-shadow: none !important;
+  padding-left: 0px;
+  padding-top: 0px;
+}
+
+.leftElements .subscribeBottom input::placeholder{
+  color: #fff;
+  font-size: 15px;
+}
+
+.leftElements .subscribeBottom .form-group li{
+  display: inline-block;
+}
+
+.leftElements .subscribeBottom .btn,
+.leftElements .subscribeBottom .btn:hover,
+.leftElements .subscribeBottom .btn:active,
+.leftElements .subscribeBottom .btn:focus{
+  background-color: transparent !important;
+  border: none;
+  border-radius: 0px;
+  border-bottom: 1px solid #fff;
+  box-shadow: none !important;
+  outline: none;
+  margin-left: 0px;
+  font-size: 13px;
+  color: #A9A9A9;
+  padding-bottom: 14px;
+  margin-left: -5px;
+  padding-right: 0px;
+}
+
+.rightElements{
+  margin-top: 50px;
+  padding-right: 80px;
+}
+
+.rightElements .head{
+  color: #878787;
+}
+
+.rightElements .underline{
+  background-color: #fff;
+  height: 1px;
+  width: 50px;
+  float: right;
+}
+
+.rightElements .table{
+  margin-top: 10px;
+  width: 250px;
+  float: right;
+  margin-right: -50px;
+}
+
+.rightElements .underline2{
+  border-bottom: 1px solid #fff;
+}
+
+.rightElements .table .left{
+  text-align: left;
+  padding-left: 0px;
+}
+
+.rightElements .table .right{
+  text-align: right;
+}
+
+.rightElements .table td{
+  padding-right: 0px;
+}
+
+.rightElements .table .type1{
+  color: #858585;
+}
+
+.rightElements .table .type2{
+  color: #fff;
+}
+
+.rightElements .aboutBottom{
+  position: fixed;
+  bottom: 0px;
+  right: 80px;
+  text-align: left !important;
+}
+
+.rightElements .aboutBottom li{
+  display: inline-block;
+  margin-left: 60px;
+  color: #fff;
+}
+
+.rightElements .aboutBottom li .head{
+  color: #858585;
+  font-size: small;
+}
