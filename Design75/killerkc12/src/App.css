@@ -1,0 +1,301 @@
+.app {
+  /* position: absolute; */
+  /* overflow: hidden; */
+  /* height: 100vh; */
+  /* width: 100vw; */
+}
+
+.one {
+  /* position: relative; */
+  display: flex;
+}
+
+.one > .left {
+  height: 170vh;
+  width: 80vw;
+  background-color: #1A1A1A;
+}
+
+.one > .right {
+  height: 170vh;
+  width: 20vw;
+  background-color: #F43C22;
+}
+
+.two {
+  position: absolute;
+  background-color: #2C3039;
+  /* height: 80%; */
+  width: 90%;
+  padding-bottom: 10%;
+  top: 100px;
+  left: 5%;
+}
+
+.top {
+  display: flex;
+  padding-top: 30px;
+}
+
+.top__left {
+  flex: 0.1;
+  padding-left: 30px;
+}
+
+.top__left > img {
+  height: 60px;
+  width: 60px;
+}
+
+.top__left > p {
+  position: absolute;
+  color: #fff;
+  font-weight: bold;
+  top: 70px;
+  left: 30px;
+}
+
+.top__center {
+  flex: 0.8;
+  display: flex;
+  justify-content: right;
+  padding-right: 150px;
+}
+
+.top__center > .running {
+  color: #fff;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.line {
+  background-color: #A74330;
+  height: 4px;
+  width: 100%;
+}
+
+.top__right {
+  flex: 0.1;
+}
+
+.cart {
+  display: flex;
+  background-color: #FB3606;
+  height: 30px;
+  width: 45px;
+}
+
+.cart > .cart__logo {
+  color: #fff;
+  height: 25px;
+  width: 25px;
+  margin-left: 5px;
+}
+
+.cart__top > p {
+  position: absolute;
+  top: -7px;
+  left: 35px;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.cart__bottom > p {
+  color: #fff;
+}
+
+.cart__top {
+  position: relative;
+  display: flex;
+}
+
+.front__card {
+  position: absolute;
+  top: 150px;
+  left: 20%;
+  height: 700px;
+  width: 30%;
+  background-color: #F93600;
+}
+
+.front__card > P {
+  padding: 30px;
+  color: #fff;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.shoe__image {
+  position: absolute;
+  top: 380px;
+  left: 13%;
+  width: 48%;
+}
+
+.front__card__bottom > p {
+  position: absolute;
+  bottom: 0;
+  padding: 30px;
+  color: #fff;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.back__card {
+  display: flex;
+  background-color: #29282D;
+  margin-top: 200px;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 500px;
+}
+
+.back__card__left {
+  flex: 0.5;
+  padding: 30px;
+}
+
+.share {
+  display: block;
+}
+
+.social__icons {
+  margin-top: 10px;
+  margin-left: 15px;
+  border-radius: 50px;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.social__icon {
+  /* padding-left: 3px; */
+}
+
+.share > p {
+  color: #fff;
+  font-weight: bold;
+}
+
+
+.back__card__right {
+  flex: 0.5;
+  padding: 30px;
+  padding-left: 50px;
+  text-align: left;
+  color: #fff;
+}
+
+.back__card__right > .header {
+  font-size: 200%;
+  font-weight: 700;
+}
+
+.back__card__right > p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.back__card__right > button {
+  background-color: transparent;
+  color: #fff;
+  font-weight: bold;
+  border: 3px solid #fff;
+  padding: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.add__to__cart {
+  position: absolute;
+  align-content: center;
+  right: 100px;
+  top: 70%;
+}
+
+.add__to__cart > button {
+  background-color: #FD3502;
+  color: #fff;
+  padding: 10px;
+  font-weight: bold;
+  border: none;
+}
+
+.right__arrow {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+
+/* for tablet  */
+
+@media only screen and (max-width:768px) {
+  .one > .left {
+    height: 210vh;
+    width: 60vw;
+    background-color: #1A1A1A;
+  }
+  
+  .one > .right {
+    height: 210vh;
+    width: 60vw;
+    background-color: #F43C22;
+  }
+
+  .back__card {
+    display: block;
+    background-color: #29282D;
+    margin-top: 200px;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 500px;
+  }
+
+  .back__card__right {
+    flex: 0.5;
+    padding: 10px;
+    padding-left: 50px;
+    text-align: left;
+    color: #fff;
+  }
+
+  .top {
+    display: block;
+  }
+
+  .top__center {
+    padding-left: 350px;
+    margin-top: -80px;
+  }
+
+  .top__right {
+    flex: 0.1;
+    padding-left: 300px;
+  }
+
+  .back__card {
+    display: block;
+    height: 1000px;
+  }
+
+ .back__card__right {
+   margin-top: 300px;
+ }
+
+ .front__card {
+   margin-left: 30px;
+   width: 250px;
+   height: 600px;
+ }
+
+ .shoe__image {
+   width: 350px;
+ }
+
+ .add__to__cart {
+  right: 10px;
+  top: 90%;
+ }
+}
