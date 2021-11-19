@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "gh-pages": "^3.2.3",
+    "react-icons": "^4.3.1"
+  }
+}
